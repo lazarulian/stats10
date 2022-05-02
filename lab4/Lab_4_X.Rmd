@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ```library(tidyverse)```
 ---
 title: "Lab 4"
@@ -374,7 +379,7 @@ graph
 ```
 
 The graph look very similar to the one above because the only difference would be in the how all of the data is scaled. 
-The correlation coefficient is the same.
+The correlation coefficient is the same because the data is the same just scaled differently. 
 
 &nbsp;
 
@@ -386,6 +391,46 @@ The correlation coefficient is the same.
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
 
+xdf <- read_tsv("/Users/apurvashah/Documents/GitHub/stats10/lab4/NHL_20202021_teamGame.tsv", col_names = TRUE)
+head(xdf)
+
+x <- data.frame(Team = xdf$goals, avg = xdf$assists)
+head(x)
+
+xmeanPR <- mean(x$Team)
+xmeanPR
+
+xmeanPnts <- mean(x$avg)
+xmeanPnts
+
+
+##### sample standard deviation of rating
+xsdPR <- sd(x$Team)
+xsdPR
+
+##### sample standard deviation of total points
+xsdPnts <- sd(x$avg)
+xsdPnts
+
+n <- nrow(xdf)
+n
+
+###### sample covariance
+xcov <- sum((x$Team - xmeanPR) * (x$avg - xmeanPnts) ) / (n - 1)
+xcov
+
+
+###### sample correlation
+xcorr <- xcov / (xsdPR * xsdPnts)
+xcorr
+
+###### sample regression line slope
+xb1 <- xcorr * xsdPnts / xsdPR
+xb1
+
+###### sample regression line y-intercept
+xb0 <- xmeanPnts - xb1 * xmeanPR
+xb0
 
 
 ```
@@ -395,6 +440,8 @@ The correlation coefficient is the same.
 
 4 --- With NHL team-game data, can we argue that increasing assists causes more goals?
 
+Although when looking at the data, we can see that when there are more assists, there generally more goals, since we did not conduct and experiment and did not use random assignment we cannot assume causality here. We can say that there is a correlation. 
+
 
 
 &nbsp;
@@ -403,6 +450,8 @@ The correlation coefficient is the same.
 5 --- Back to the NFL data, can we say that improving passer rating causes more points to be scored?  
 
 Note that 4 and 5 are intended to test your reasoning.  These questions may not be as simple as they appear.
+
+Although we might see a trend that teams with better passer ratings cause more points to be scored we cannot say that this causes more points to be scored because we did not conduct a true experiment to test this. We cannot assume causality and at most can say that there might be a correlation between these two.
 
 
 
