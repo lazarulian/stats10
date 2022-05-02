@@ -1,0 +1,410 @@
+```library(tidyverse)```
+---
+title: "Lab 4"
+author:  Apurva Shah 705595011
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+
+&nbsp;&nbsp;
+
+# Examples
+
+Requires library xtable.
+
+
+&nbsp;&nbsp;
+
+
+
+
+## NFL 2021 Season Total Team Offense
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+#### note ``` (3 backticks)
+##### R code goes in here.  Set code chunk environment options above
+
+## We have an Excel file
+library(gdata)
+
+## Read in our data
+xdf <- read.xls("NFL_offense_passing_2021.xlsx", sheet=1, header=TRUE)
+
+head(xdf, n=6)
+
+```
+
+Rate: passer rating (NFL QB rating)
+
+This data set was made by processing data obtained from NFL.com
+
+&nbsp;&nbsp;
+
+Let’s create the distribution of total season team points. totalPoints appears to be numerical; an integer.
+What does R think?
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+class(xdf[ , "totalPoints"])
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='Distribution of Total Team Points'}
+
+### the par() function allows us to set parameters of subsequent graphic.
+### here we set cex parameter, which controls the relative size of assets like title font 
+par(cex=0.65)
+hist(xdf[ , "totalPoints"], main="Total Team Points, NFL 2021 Season")
+
+```
+
+
+
+&nbsp;&nbsp;
+
+Let’s create the distribution of season game average QB rating.  Rate appears to be numerical.
+What does R think?
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+class(xdf[ , "Rate"])
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='Distribution of Average Team Passer Rating'}
+
+par(cex=0.65)
+hist(xdf[ , "Rate"], main="Team Game Avg Passer Rating, NFL 2021 Season")
+
+```
+
+&nbsp;&nbsp;
+
+
+### Bivariate Association.
+
+&nbsp;&nbsp;
+
+By far the most popular way to graphically convey the bivariate relationship between two numeric attributes is the scatterplot.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='Scatterplot of total points scored vs QB rating, NFL 2021 regular season'}
+
+par(cex=0.65)
+plot(
+  xdf[ , "Rate"], 
+  xdf[ , "totalPoints"], 
+  xlab="Game Avg QB Rating",
+  ylab="Total Points Scored",
+  main="Points Scored vs QB Rating, NFL 2021 Regular Season"
+  )
+
+```
+
+
+&nbsp;&nbsp;
+
+Let's make this a little prettier.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='Scatterplot of total points scored vs QB rating, NFL 2021 regular season'}
+
+par(cex=0.65)
+plot(
+  xdf[ , "Rate"], 
+  xdf[ , "totalPoints"], 
+  xlab="Game Avg QB Rating",
+  ylab="Total Points Scored",
+  pch=19,
+  cex=2,
+  col="#99339999",
+  main="Points Scored vs QB Rating, NFL 2021 Regular Season"
+  )
+
+```
+
+&nbsp;&nbsp;
+
+Let's calculate some important univariate statistics.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xmeanPR <- mean(xdf[ , "Rate"])
+xmeanPR
+
+xmeanPnts <- mean(xdf[ , "totalPoints"])
+xmeanPnts
+
+
+##### sample standard deviation of rating
+xsdPR <- sd(xdf[ , "Rate"])
+xsdPR
+
+##### sample standard deviation of total points
+xsdPnts <- sd(xdf[ , "totalPoints"])
+xsdPnts
+
+```
+
+&nbsp;&nbsp;
+
+Now let's perform a detailed calculation of some important bivariate statistics.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+### sample size
+n <- nrow(xdf)
+n
+
+###### sample covariance
+xcov <- sum( (xdf[ , "Rate"] - xmeanPR) * (xdf[ , "totalPoints"] - xmeanPnts) ) / (n - 1)
+xcov
+
+
+###### sample correlation
+xcorr <- xcov / (xsdPR * xsdPnts)
+xcorr
+
+###### sample regression line slope
+xb1 <- xcorr * xsdPnts / xsdPR
+xb1
+
+###### sample regression line y-intercept
+xb0 <- xmeanPnts - xb1 * xmeanPR
+xb0
+
+```
+
+&nbsp;&nbsp;
+
+Let's drop our LS line into our scatterplot.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=4.5, fig.height=3.5, fig.cap='Scatterplot of points scored vs QB rating, NFL 2021 regular season with LS solution'}
+
+par(cex=0.63)
+plot(
+  xdf[ , "Rate"], 
+  xdf[ , "totalPoints"], 
+  xlab="Game Avg QB Rating",
+  ylab="Total Points Scored",
+  pch=19,
+  cex=2,
+  col="#99339999",
+  main="NFL 2021 Reg Season: Points Scored vs QB Rating, w/LS solution"
+  )
+
+abline(a=xb0, b=xb1, lwd=3, col="#AA00AA99")
+
+```
+
+
+&nbsp;&nbsp;
+
+### Context
+
+Let's verbally put things into context:
+
+Considering the 2021 NFL season, looking at team totals . . .
+
+We have a total of `r nrow(xdf)` teams.
+
+The average total team points scored over the season is `r round(xmeanPnts, 2)` points.
+
+The average of the game average team passer rating over the season is `r round(xmeanPR, 2)` rating points.
+
+The covariance between total team points scored and game average passer rating is `r round(xcov, 2)`.
+
+Pearson's correlation between total team points scored and game average passer rating is `r round(xcorr, 4)`.
+
+If we fit an SLR (simple linear regression) line to total team points over game-average team passer rating, we obtain a slope of `r round(xb1, 3)` and a y-intercept of `r round(xb0, 3)`. 
+
+One interpretation of this trend would be that a 10 unit increase in passer rating is associated with a `r round(xb1*10, 3)` units increase --- on average --- in total team points scored over the season.
+
+&nbsp;&nbsp;
+
+### All at Once
+
+\textbf{R} includes a high-level function that performs all the regression calculations.
+
+The lm() function.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+x <- xdf[ , "Rate"]
+y <- xdf[ , "totalPoints"]
+
+xlm <- lm(y ~ x)
+
+summary(xlm)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+
+1 --- Does our NFL team data represent “stacked” data? Why or why not?
+
+The NFL team data does not represent stacked data because the rows are independent from each other and the data does not form a stack that is dependent on what is before it.
+
+2 --- Each team played 17 regular season games.  Calculate the average points scored per game for each team.  Create a scatterplot showing avg team points versus avg passer ratings with the least squares line ...
+
+> 2a --- Does this plot visually look similar to its counterpart using season total points above? ...
+
+> 2b --- Is the Pearson's correlation coefficient the same or different?  Why?
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show', fig.width=10,fig.height=5}
+library(xtable)
+library(tidyverse)
+library(readxl)
+library(ggthemes)
+
+xdf <- read_excel("/Users/apurvashah/Documents/GitHub/stats10/lab4/NFL_offense_passing_2021.xlsx", sheet=1, col_names = TRUE, skip = 1)
+head(xdf, n=6)
+
+x <- data.frame(Team = xdf$Rate, avg = xdf$totalPoints)
+head(x)
+x$avg = round(x$avg/17, 2)
+
+# head(x)
+
+xmeanPR <- mean(x$Team)
+xmeanPR
+
+xmeanPnts <- mean(x$avg)
+xmeanPnts
+
+
+##### sample standard deviation of rating
+xsdPR <- sd(x$Team)
+xsdPR
+
+##### sample standard deviation of total points
+xsdPnts <- sd(x$avg)
+xsdPnts
+
+n <- nrow(xdf)
+n
+
+###### sample covariance
+xcov <- sum((x$Team - xmeanPR) * (x$avg - xmeanPnts) ) / (n - 1)
+xcov
+
+
+###### sample correlation
+xcorr <- xcov / (xsdPR * xsdPnts)
+xcorr
+
+###### sample regression line slope
+xb1 <- xcorr * xsdPnts / xsdPR
+xb1
+
+###### sample regression line y-intercept
+xb0 <- xmeanPnts - xb1 * xmeanPR
+xb0
+
+graph <- ggplot(data = x,  aes(Team, avg)) + geom_point(size = 1, color = "blue") + 
+  labs(title = "NFL 2021: Average Points Scored / Game vs. QB Passer Rating",
+       x = "Team Passer Rating", y = "Average Points Scored / Game") + theme_stata() +
+  geom_abline(slope=xb1, intercept=xb0, color = "maroon")
+
+graph
+
+
+
+```
+
+The graph look very similar to the one above because the only difference would be in the how all of the data is scaled. 
+The correlation coefficient is the same.
+
+&nbsp;
+
+
+
+3 --- Read in the NHL team-game data, and examine the relationship between assists and goals (for the regression part, goals are the outcome, assists are the predictor, i.e., regress goals on assists).
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+
+```
+
+&nbsp;
+
+
+4 --- With NHL team-game data, can we argue that increasing assists causes more goals?
+
+
+
+&nbsp;
+
+
+5 --- Back to the NFL data, can we say that improving passer rating causes more points to be scored?  
+
+Note that 4 and 5 are intended to test your reasoning.  These questions may not be as simple as they appear.
+
+
+
+
+
