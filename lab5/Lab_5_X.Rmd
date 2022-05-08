@@ -1,0 +1,327 @@
+
+
+---
+title: "Lab 5"
+author:  Your Name and UID go here
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+
+&nbsp;&nbsp;
+
+# Examples
+
+Requires library xtable.
+
+
+&nbsp;&nbsp;
+
+
+
+
+## MLB 2021 Season Team-Game Data
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+## Read in our data
+xdf <- read.csv("MLB_team_2021.csv", header=TRUE)
+
+head(xdf, n=6)
+
+```
+
+&nbsp;&nbsp;
+
+These included data sets were made by processing data obtained from MLB.
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=5.5, fig.height=3.0, fig.cap='Distribution Team Runs scored by game.'}
+
+xbrks <- seq(-0.5, max(xdf[ , "bat_runs"])+0.5, by=1)
+par(cex=0.65)
+hist(xdf[ , "bat_runs"], breaks=xbrks, main="Team-Game Runs Scored, MLB 2021 Season")
+
+```
+
+&nbsp;&nbsp;
+
+Let's re-code runs scored (integer) into a two-level factor (a categorical attribute with two categories), "high" and "low".
+
+If a team scores 5 or more runs, we'll call it "high"
+
+&nbsp;&nbsp;
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xbruns <- xdf[ , "bat_runs"]
+
+xcat_bruns <- c("low", "high")[ as.integer(xbruns >= 5) + 1 ]
+
+xtbl <- table(xcat_bruns)[ c("low", "high") ]
+xtbl
+
+```
+
+
+&nbsp;&nbsp;
+
+Do the same thing for game-team runs allowed:
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xpruns <- xdf[ , "pitch_runs"]
+
+xcat_pruns <- c("low", "high")[ as.integer(xpruns >= 5) + 1 ]
+
+xtbl2 <- table(xcat_pruns)[ c("low", "high") ]
+xtbl2
+
+```
+
+Of course, the distributions match.
+
+&nbsp;&nbsp;
+
+Back to offense.  Let's convert our frequency table into a proportions table.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xtbl_cellprops <- xtbl / sum(xtbl)
+
+xtbl_cellprops
+
+```
+
+
+&nbsp;&nbsp;
+
+Make a bar chart:
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=2.5, fig.height=3.0, fig.cap='Distribution of Low or High Offensive Output.'}
+
+par(cex=0.65)
+barplot(xtbl_cellprops, main="Dist. of Low or High Offensive Output")
+
+```
+
+
+Let's call the occurrence (event) that a team has high offensive output "A"
+
+And let's call the occurrence (event) that a team allows low opponent offense "B"
+
+$\mathsf{prop}[A] = `r round(xtbl_cellprops['high'], 5)`$
+
+$\mathsf{prop}[B] = `r round( (xtbl2/sum(xtbl2))['low'], 5)`$
+
+
+
+&nbsp;&nbsp;
+
+
+Let's calculate $\mathsf{prop}[A \cap B]$ and $\mathsf{prop}[A | B]$.
+
+This will take some careful sub-setting in \texttt{R}.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+totalAandB <- sum( xcat_bruns == "high" & xcat_pruns == "low" )
+totalAandB
+
+propAandB <- totalAandB / length(xcat_bruns)
+propAandB
+
+#####
+
+xmaskB <- xcat_pruns == "low"
+
+xcat_bruns_givenB <- xcat_bruns[ xmaskB ]
+
+propAgivenB <- sum( xcat_bruns_givenB == "high" ) / length(xcat_bruns_givenB)
+propAgivenB
+
+```
+
+
+$\mathsf{prop}[A \cap B] = `r round(propAandB, 5)`$
+
+$\mathsf{prop}[A | B] = `r round( propAgivenB, 5)`$
+
+
+&nbsp;&nbsp;
+
+### Game-Level Independence Between Offensive & Defensive Performance
+
+There is intuitive appeal that for most, if not all sports, at the game level, offensive and defensive performance are correlated.
+
+To many fans, the success of the offense will be contagious and elevate the resolve and performance of the defense. And vice versa.
+
+This question, that is, the dependence between game-level offensive and defensive performance is of considerable interest in sports analytics --- especially handicapping.  Yet this question, at least for baseball, is yet mostly unresolved.
+
+Recall that if (and only if) event $A$ and event $B$ are independent, then $\mathsf{Pr}[A \cap B] = \mathsf{Pr}[A] \cdot \mathsf{Pr}[ B]$
+
+Empirically, within a data set, occurrence $A$ and occurrence $B$ are independent (uncorrelated) if and only if $\mathsf{prop}[A \cap B] = \mathsf{prop}[A] \cdot \mathsf{prop}[ B]$
+
+Within our 2021 MLB season team-game level data, we see that the joint occurrence of strong offense and strong defense is `r round(propAandB, 5)`.
+
+The product of the two respective marginal proportions is `r round(xtbl_cellprops['high'], 5)` times `r round( (xtbl2/sum(xtbl2))['low'], 5)` equals 
+`r round(xtbl_cellprops['high'] * (xtbl2/sum(xtbl2))['low'], 5)`.
+
+We can see that the joint proportion is slightly greater than the product of the two marginal proportions. This, by the way, tells us the two are positively correlated.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xindicatorA <- c("low"=0, "high"=1)[ xcat_bruns ]
+
+xindicatorB <- c("low"=1, "high"=0)[ xcat_pruns ]
+
+cor(xindicatorA, xindicatorB)
+
+```
+
+
+&nbsp;&nbsp;
+
+
+Of course our data is a subset of actual baseball games played; it is an infinitesimal subset of all possible baseball games that could be played.
+
+We can use empirical probabilities to test whether this very small positive effect reveals a genuine pattern within "all" baseball games, or might just be the result of chance.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+nn <- 2000 ### number of experiments
+
+xsim_joint_prob <- numeric(nn)
+
+for(i in 1:nn) {
+  
+  xsim_bruns <- sample(xcat_bruns) #### randomly shuffle team-game runs scored
+  
+  xsim_joint_prob[i] <- sum( xcat_pruns == "low"  &  xsim_bruns == "high" ) / length(xcat_bruns)
+  
+}
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=5.0, fig.height=3.0, fig.cap='2000 Simulations. Proportions of joint occurrence of Strong Offense & Defense under the assumption of independence.  The blue line segment marks our actual observation.'}
+
+par(cex=0.65)
+hist(xsim_joint_prob, main="Simulated Joint Proportions of Strong Offense & Defense")
+abline(v=propAandB, lwd=2, col="009900")
+
+```
+
+
+
+
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+
+1 --- Does our MLB team-game data represent “stacked” data? Why or why not?
+
+2 --- Read in the NHL data and create a new numeric variable shots allowed.  Now, re-code team shots into a 2-level categorical attribute.  A value of 33 or more is 'high', otherwise, 'low'.  Do the same thing for shots allowed.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+##### here's a head start. Un-comment the following lines
+#nhldf <- read.table("NHL_20202021_teamGame.tsv", sep="\t", header=TRUE)
+#head(nhldf, n=6)
+#mean(nhldf[ , "shots"])
+#N <- nrow(nhldf)
+#cross_ndx <- 1:N + rep( c(1, -1), N/2 )
+
+#xshots_allowed <- nhldf[ cross_ndx, "shots"]
+#mean(xshots_allowed)
+
+```
+
+
+
+3 --- Call high shots occurrence C, and low shots allowed occurrence D. Calculate the following:
+
+a: Proportion of C
+
+b: Proportion of D
+
+c: Proportion of C and D
+
+d: Proportion of C given D
+
+e: Confirm that the proportion of C given D times the proportion of D equals the proportion of C and D.
+
+f: Write these results in-line and in context, and make sure to comment on the independence/dependence of C and D.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+your text `r ` your text `r ` ...
+
+&nbsp;
+
+4 --- Repeat 2 and 3 above for penalty minutes.  Define high as 8 or more.  Call team high penalty minutes occurrence G, and low opponent penalty minutes occurrence H.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+your text `r ` your text `r ` ...
+
+&nbsp;
+
+Extra Credit:
+
+5 --- Examine our simulation in the above Examples Section --- in particular, the code sample(xcat_bruns).  Explain in two or three sentences why this simulation assumes independence.
+
+
+
+
+
+
+
+
