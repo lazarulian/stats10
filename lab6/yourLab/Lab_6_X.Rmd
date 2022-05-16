@@ -1,0 +1,409 @@
+
+
+---
+title: "Lab 6"
+author:  Your Name and UID go here
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+
+&nbsp;&nbsp;
+
+Note that included data sets were made by processing data obtained from MLB and the NHL.
+
+&nbsp;&nbsp;
+
+
+
+# Examples
+
+
+&nbsp;&nbsp;
+
+
+## Binomial Model
+
+
+Imagine a baseball team, call them the Chattanooga P-Values. This upcoming season, this imaginary team will play 40 home games, and, for each home game, will have the same probability of winning, 70%.
+
+The binomial distribution can be used here to model the number of season home game wins.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+xdomain <- I(0:40)
+
+hg_win_prop <- dbinom(xdomain, size=40, prob=0.70)
+hg_win_prop
+
+
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=5.5, fig.height=3.0, fig.cap='Distribution of Home Game Wins.'}
+
+par(mfrow=c(1,1), lend=1, cex=0.65)
+plot(xdomain, hg_win_prop, type="h", lwd=3, 
+     xlab="Number of Home Game Wins", ylab="Probability")
+
+```
+
+
+&nbsp;&nbsp;
+
+
+The expectation by definition of binomial PMF is $n \cdot p = `r 40 * 0.70`$
+
+
+Using the general definition for the expectation of a PMF, $\sum_i X_i \cdot \Pr[X_i]=$ `r sum( xdomain * hg_win_prop )`.
+
+Same answer.
+
+&nbsp;&nbsp;
+
+What's the probability team will win 30 or more home games?
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+sum( dbinom(I(30:40), size=40, prob=0.70) )
+```
+
+&nbsp;&nbsp;
+
+Using the cumulative R function:
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+1 - pbinom(29, size=40, prob=0.70)
+```
+
+&nbsp;&nbsp;
+
+What's the probability team will lose half or more of their home games?
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+sum( dbinom(I(0:20), size=40, prob=0.70) )
+```
+
+
+&nbsp;&nbsp;
+
+Using the cumulative R function
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+pbinom(20, size=40, prob=0.70)
+```
+
+&nbsp;&nbsp;
+
+
+## Normal Model
+
+The normal, or Gaussian probability distribution is a PDF --- its domain is over the continuum of the real numbers.
+
+A normal distribution is uniquely defined by two parameters, the mean (the expectation) and the standard deviation (or the variance).
+
+We'll use a path to show density.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=5.5, fig.height=3.0, fig.cap='Normal model, mean 0, sd 1.'}
+
+xdom <- seq(-4, 4, length=500)
+
+xdensity <- dnorm(xdom, 0, 1)
+
+par(mfrow=c(1,1), lend=1, cex=0.60)
+plot(xdom, xdensity, type="l", lwd=2, 
+     xlab="X", ylab="Density", main="Standard Normal Density")
+
+```
+&nbsp;&nbsp;
+
+## The Normal Approximation to The Binomial Model
+
+The normal model is rather unique as it is the limiting distribution of many estimators, along with other distributions.
+
+The normal model can be used to model the binomial model.
+
+Let's illustrate an example.
+
+If X is normally distributed, the probability that X will be one or more standard deviation greater than the mean is 
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+1 - pnorm(1, 0, 1)
+```
+
+&nbsp;&nbsp;
+
+For increasing binomial sample size (i.e., number of trials), were going to calculate the probability of each respective binomial random variable being more than one standard deviation from the mean.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+p_success <- 0.5
+
+xtrialsTry <- seq(5, 2000, by=5)
+
+pout_vec <- numeric(length(xtrialsTry))
+
+for(i in 1:length(xtrialsTry)) {
+  xthis_numTrials <- xtrialsTry[ i ]
+  xthis_mean <- p_success * xthis_numTrials
+  xthis_sd <- sqrt( (1 - p_success) * p_success * xthis_numTrials )
+  xdom <- I(0:xthis_numTrials)
+  
+  xdom_prob <- xdom[ xdom > (xthis_mean + 1 * xthis_sd) ]
+  pout_vec[ i ] <- sum(dbinom(xdom_prob, size=xthis_numTrials, prob=p_success))
+  
+}
+
+```
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=7.5, fig.height=3.0, fig.cap='Binomial probability that number of successes will be greater than 1 standard deviation above the mean for increasing number of binomial trials.  Grean line shows probability under normal distribution'}
+
+par(mfrow=c(1,1), lend=1, cex=0.60)
+plot(xtrialsTry, pout_vec, type="l", lwd=1, 
+     xlab="Sample size", ylab="Probability X > mu + 1*sd", 
+     main="Normal Approximation of Binomial Model, Example")
+
+abline(h=1 - pnorm(1, 0, 1), lwd=2, col="#22BB5577")
+
+```
+
+
+
+&nbsp;&nbsp;
+
+To make the convergence more pronounced:
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+p_success <- 0.5
+
+xtrialsTry <- 1 * 2^(I(2:15))
+
+pout_vec <- numeric(length(xtrialsTry))
+
+for(i in 1:length(xtrialsTry)) {
+  xthis_numTrials <- xtrialsTry[ i ]
+  xthis_mean <- p_success * xthis_numTrials
+  xthis_sd <- sqrt( (1 - p_success) * p_success * xthis_numTrials )
+  xdom <- I(0:xthis_numTrials)
+  
+  xdom_prob <- xdom[ xdom > (xthis_mean + 1 * xthis_sd) ]
+  pout_vec[ i ] <- sum(dbinom(xdom_prob, size=xthis_numTrials, prob=p_success))
+  
+}
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=7.5, fig.height=3.0, fig.cap='Binomial probability that number of successes will be greater than 1 standard deviation above the mean for increasing number of binomial trials.  Grean line shows probability under normal distribution'}
+
+par(mfrow=c(1,1), lend=1, cex=0.60)
+plot(xtrialsTry, pout_vec, type="l", lwd=1, 
+     xlab="Sample size", ylab="Probability X > mu + 1*sd", 
+     main="Normal Approximation of Binomial Model, Example")
+
+abline(h=1 - pnorm(1, 0, 1), lwd=2, col="#22BB5577")
+
+```
+
+&nbsp;&nbsp;
+
+
+
+
+
+&nbsp;&nbsp;
+
+
+
+\newpage
+
+
+## MLB 2021 Season --- Are Some Teams Actually Better than Others?
+
+&nbsp;&nbsp;
+
+Suppose a friend says they've been to many MLB games, and they believe that there's no difference between the teams, the outcome of the game is pure chance, and that the probability the home team will win is always 50%.
+
+The experiment that follows uses empiric probabilities, and requires some creative thinking.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+## Read in our data
+xdf <- read.csv("MLB_team_2021.csv", header=TRUE)
+head(xdf, n=6)
+```
+
+&nbsp;&nbsp;
+
+
+Let's look at the distribution of total home game wins for each of the thirty MLB teams.
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=4.0, fig.height=3.0, fig.cap='Total Home Games Wins'}
+
+WorL <- xdf[ , "bat_runs"] > xdf[ , "pitch_runs"]
+
+xdf_HT <- xdf[ xdf[ , "VorH"] == "H", ]
+dim(xdf_HT)
+
+xWinTH <- WorL[ xdf[ , "VorH"] == "H" ]
+
+xagg <- aggregate(xWinTH, by=list(xdf_HT[ , "team"]), sum)
+
+xnumberHGwins <- xagg$x
+
+xbrks <- seq(21.5, 65.5, by=4)
+xbrks
+par(cex=0.65)
+hist(xnumberHGwins, breaks=xbrks, main="Total Home Game Wins for Each Team over MLB 2021 Season")
+
+```
+
+&nbsp;&nbsp;
+
+If all teams are actually the same, we would not expect to see much variation in the number of home game wins between the 30 teams.
+
+What is the observed standard deviation for the 2021 Season?
+
+It is `r sd(xnumberHGwins)`.
+
+
+&nbsp;&nbsp;
+
+So, let's use the binomial model to simulate our friend's claim.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+set.seed(777)
+
+nn <- 5000 ### number of simulations
+
+#xsim_range <- integer(nn)
+#xsim_max <- integer(nn)
+xsim_sd <- integer(nn)
+#xsim_IQR <- integer(nn)
+
+for(j in 1:nn) {
+     
+    xsim_Win <- rbinom(length(xWinTH), 1, prob=1/2)
+ 
+    xagg_sim <- aggregate(xsim_Win, by=list(xdf_HT[ , "team"]), sum)
+    #xsim_range[j] <- max(xagg_sim[ , "x"]) - min(xagg_sim[ , "x"])
+    #xsim_max[j] <- max(xagg_sim[ , "x"])
+    xsim_sd[j] <- sd(xagg_sim[ , "x"])
+    #xsim_IQR[j] <- IQR(xagg_sim[ , "x"])
+}
+
+```
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=5.0, fig.height=3.0, fig.cap='Simulation: Histogram of standard deviation of total home games won assuming our friend is correct'}
+
+par(mfrow=c(1,1), cex=0.65)
+
+hist(xsim_sd, xlim=c(2, 9))
+abline(v=sd(xnumberHGwins), lwd=2, col="#33AA33")
+sum(xsim_sd >= sd(xagg[ , "x"])) / nn
+
+```
+
+\clearpage
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+
+1 --- Suppose the Chattanooga P-Values play only 30 home games.  Keeping the probability of win at 70%, what is the probability they will lose half or more of their home games?  How does this compare with the example we looked at above where they play 40 home games?  Comment on the difference.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+2 --- Consider the example where we illustrated the binomial probabilities converging to that produced by the normal distribution.  Run this experiment yourself, except change the following:  Have the binomial probability of success be only 10% (instead of the 50% we used above), and also look at the probability our respective random variable will be more than 2 standard deviations above the mean.  Comment on your results.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+
+3 --- Interpret the simulated MLB results from the above Examples Section.
+
+4 --- Perform the same analysis we looked at with the MLB data with the NHL data.  Are the results more or less convincing?  Why?
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+### here's a head start for you
+xdf <- read.table( "NHL_20202021_game.tsv", sep="\t", header=TRUE )
+tail(xdf)
+dim(xdf)
+
+N <- nrow(xdf)
+
+WorL <- xdf[ , "HTfinal"] > xdf[ , "VTfinal"]
+
+sum(xdf[ , "HTfinal"] == xdf[ , "VTfinal"]) ### no ties
+
+xagg <- aggregate(WorL, by=list(xdf[ , "HT"]), sum)
+
+sd(xagg[ ,"x"])
+```
+
+
+
+
+
+
+
+
