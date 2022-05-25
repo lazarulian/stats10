@@ -1,0 +1,707 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\title{Lab 7}
+\author{Your Name and UID go here}
+\date{2022-05-22}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Lab 7},
+  pdfauthor={Your Name and UID go here},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\fontsize{10}{11}
+
+~~
+
+\begin{verbatim}
+## Date last run: 2022-05-22
+\end{verbatim}
+
+\begin{verbatim}
+## Hello World!
+\end{verbatim}
+
+~~
+
+\hypertarget{examples}{%
+\section{Examples}\label{examples}}
+
+Requires library xtable.
+
+~~
+
+\hypertarget{nwsl-2017-2021-season-team-game-data}{%
+\subsection{NWSL 2017-2021 Season Team-Game
+Data}\label{nwsl-2017-2021-season-team-game-data}}
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\# Read in our data}
+\NormalTok{xdf }\OtherTok{\textless{}{-}} \FunctionTok{read.table}\NormalTok{(}\StringTok{"NWSL\_gameTeam.tsv"}\NormalTok{, }\AttributeTok{sep=}\StringTok{"}\SpecialCharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\AttributeTok{header=}\ConstantTok{TRUE}\NormalTok{)}
+
+\FunctionTok{head}\NormalTok{(xdf, }\AttributeTok{n=}\DecValTok{6}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   season     date                     gameLeague                   team HT_VT Min Gls Ast
+## 1   2017 20170415 National Women's Soccer League      Washington Spirit    HT 990   0   0
+## 2   2017 20170415 National Women's Soccer League North Carolina Courage    VT 990   1   1
+## 3   2017 20170415 National Women's Soccer League     Portland Thorns FC    HT 990   2   1
+## 4   2017 20170415 National Women's Soccer League          Orlando Pride    VT 991   0   0
+## 5   2017 20170415 National Women's Soccer League           Houston Dash    HT 990   2   2
+## 6   2017 20170415 National Women's Soccer League      Chicago Red Stars    VT 990   0   0
+##   PK PKatt CrdY CrdR
+## 1  0     0    2    0
+## 2  0     0    0    0
+## 3  1     1    0    0
+## 4  0     0    0    0
+## 5  0     0    1    0
+## 6  0     0    1    0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\#\# table(xdf[ , "team"])}
+\end{Highlighting}
+\end{Shaded}
+
+~~
+
+This data set was made by processing data obtained from FBREF.com
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{xbrks }\OtherTok{\textless{}{-}} \FunctionTok{seq}\NormalTok{(}\SpecialCharTok{{-}}\FloatTok{0.5}\NormalTok{, }\FunctionTok{max}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{])}\SpecialCharTok{+}\FloatTok{0.5}\NormalTok{, }\AttributeTok{by=}\DecValTok{1}\NormalTok{)}
+\FunctionTok{par}\NormalTok{(}\AttributeTok{cex=}\FloatTok{0.65}\NormalTok{)}
+\FunctionTok{hist}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{], }\AttributeTok{breaks=}\NormalTok{xbrks, }\AttributeTok{main=}\StringTok{"Team{-}Game Goals Scored, NWSL 2017{-}2021 Season"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+\centering
+\includegraphics{Lab_7_X_files/figure-latex/unnamed-chunk-2-1.pdf}
+\caption{Distribution Team Goals scored by game.}
+\end{figure}
+
+~~
+
+Let's also create a frequency table.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(xtable)}
+\FunctionTok{options}\NormalTok{(}\AttributeTok{xtable.comment =} \ConstantTok{FALSE}\NormalTok{)}
+
+\NormalTok{xtbl }\OtherTok{\textless{}{-}} \FunctionTok{table}\NormalTok{(}\StringTok{"goals"}\OtherTok{=}\NormalTok{xdf[ , }\StringTok{"Gls"}\NormalTok{])}
+\NormalTok{xtbl }\OtherTok{\textless{}{-}} \FunctionTok{as.data.frame}\NormalTok{(xtbl)}
+\FunctionTok{print}\NormalTok{(}\FunctionTok{xtable}\NormalTok{(xtbl, }\AttributeTok{caption=}\StringTok{"NWSL game{-}team goals scored."}\NormalTok{), }\AttributeTok{include.rownames=}\ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lr}
+  \hline
+goals & Freq \\ 
+  \hline
+0 & 312 \\ 
+  1 & 390 \\ 
+  2 & 212 \\ 
+  3 &  92 \\ 
+  4 &  38 \\ 
+  5 &  11 \\ 
+  6 &   3 \\ 
+   \hline
+\end{tabular}
+\caption{NWSL game-team goals scored.} 
+\end{table}
+
+~~
+
+Calculate some summaries.
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{xvarnames }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"Gls"}\NormalTok{, }\StringTok{"Ast"}\NormalTok{, }\StringTok{"PK"}\NormalTok{, }\StringTok{"PKatt"}\NormalTok{, }\StringTok{"CrdY"}\NormalTok{, }\StringTok{"CrdR"}\NormalTok{)}
+
+\NormalTok{xmins }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, min)}
+
+\NormalTok{xmeans }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, mean)}
+
+\NormalTok{xmedians }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, median)}
+
+\NormalTok{xsds }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, sd)}
+
+\NormalTok{xIQRs }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, IQR)}
+
+\NormalTok{xmaxs }\OtherTok{\textless{}{-}} \FunctionTok{apply}\NormalTok{(xdf[ , xvarnames], }\DecValTok{2}\NormalTok{, max)}
+
+\NormalTok{xsummaries }\OtherTok{\textless{}{-}} \FunctionTok{rbind}\NormalTok{(xmins, xmeans, xmedians, xsds, xIQRs, xmaxs)}
+
+\FunctionTok{rownames}\NormalTok{(xsummaries) }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"min"}\NormalTok{, }\StringTok{"mean"}\NormalTok{, }\StringTok{"median"}\NormalTok{, }\StringTok{"sd"}\NormalTok{, }\StringTok{"IQR"}\NormalTok{, }\StringTok{"max"}\NormalTok{)}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{xtable}\NormalTok{(xsummaries, }\AttributeTok{caption=}\StringTok{"NWSL game{-}team summary statistics."}\NormalTok{), }\AttributeTok{include.rownames=}\ConstantTok{TRUE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrrr}
+  \hline
+ & Gls & Ast & PK & PKatt & CrdY & CrdR \\ 
+  \hline
+min & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  mean & 1.24 & 0.85 & 0.08 & 0.12 & 1.05 & 0.03 \\ 
+  median & 1.00 & 1.00 & 0.00 & 0.00 & 1.00 & 0.00 \\ 
+  sd & 1.16 & 0.98 & 0.29 & 0.35 & 0.96 & 0.19 \\ 
+  IQR & 2.00 & 1.00 & 0.00 & 0.00 & 2.00 & 0.00 \\ 
+  max & 6.00 & 6.00 & 2.00 & 2.00 & 5.00 & 2.00 \\ 
+   \hline
+\end{tabular}
+\caption{NWSL game-team summary statistics.} 
+\end{table}
+
+~~
+
+Let's take a look at average game-team goals by season
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{xagg }\OtherTok{\textless{}{-}} \FunctionTok{aggregate}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{], }\AttributeTok{by=}\FunctionTok{list}\NormalTok{(xdf[ , }\StringTok{"season"}\NormalTok{]), mean)}
+
+\FunctionTok{colnames}\NormalTok{(xagg) }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"Season"}\NormalTok{, }\StringTok{"Goals"}\NormalTok{)}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{xtable}\NormalTok{(xagg, }\AttributeTok{caption=}\StringTok{"NWSL avg game{-}team goals scored by season."}\NormalTok{), }\AttributeTok{include.rownames=}\ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+  \hline
+Season & Goals \\ 
+  \hline
+2017 & 1.39 \\ 
+  2018 & 1.27 \\ 
+  2019 & 1.26 \\ 
+  2020 & 1.18 \\ 
+  2021 & 1.10 \\ 
+   \hline
+\end{tabular}
+\caption{NWSL avg game-team goals scored by season.} 
+\end{table}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#x \textless{}{-} as.factor(xagg[ , "Season"])}
+\NormalTok{x }\OtherTok{\textless{}{-}}\NormalTok{ xagg[ , }\StringTok{"Season"}\NormalTok{]}
+\NormalTok{y }\OtherTok{\textless{}{-}}\NormalTok{ xagg[ , }\StringTok{"Goals"}\NormalTok{]}
+\FunctionTok{par}\NormalTok{(}\AttributeTok{cex=}\FloatTok{0.65}\NormalTok{)}
+\FunctionTok{plot}\NormalTok{(x, y, }\AttributeTok{type=}\StringTok{"l"}\NormalTok{, }\AttributeTok{col=}\StringTok{"\#3355BB"}\NormalTok{, }\AttributeTok{main=}\StringTok{"Avg Team{-}Game Goals Scored by NWSL Season"}\NormalTok{, }
+     \AttributeTok{xaxt=}\StringTok{"n"}\NormalTok{, }\AttributeTok{xlab=}\StringTok{"Season"}\NormalTok{, }\AttributeTok{ylab=}\StringTok{"Avg Team{-}Game Goals"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{2}\NormalTok{)}
+\FunctionTok{axis}\NormalTok{(}\DecValTok{1}\NormalTok{, }\FunctionTok{c}\NormalTok{(}\DecValTok{2017}\NormalTok{, }\DecValTok{2018}\NormalTok{, }\DecValTok{2019}\NormalTok{, }\DecValTok{2020}\NormalTok{, }\DecValTok{2021}\NormalTok{), }\FunctionTok{c}\NormalTok{(}\StringTok{"2017"}\NormalTok{, }\StringTok{"2018"}\NormalTok{, }\StringTok{"2019"}\NormalTok{, }\StringTok{"2020"}\NormalTok{, }\StringTok{"2021"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+\centering
+\includegraphics{Lab_7_X_files/figure-latex/unnamed-chunk-6-1.pdf}
+\caption{NWSL Avg Team-Game Goals by Season.}
+\end{figure}
+
+~~
+
+\hypertarget{simple-random-sampling}{%
+\subsubsection{Simple Random Sampling}\label{simple-random-sampling}}
+
+~~
+
+This is an illustration.
+
+We are going to draw 200,000 random samples of size \(n=16\), with
+replacement, from our NWSL team-game data, and for each simulation
+calculate the sample average. We'll then use a histogram to graphically
+convey this empirical sampling distribution.
+
+By the way, when we sample with replacement we are defining our
+population as being comprised of an infinite collection of copies of our
+data.
+
+We are simulating unbiased sampling --- in particular, simple random
+sampling.
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{set.seed}\NormalTok{(}\DecValTok{777}\NormalTok{)}
+
+\NormalTok{nn }\OtherTok{\textless{}{-}} \DecValTok{200000}
+
+\NormalTok{N }\OtherTok{\textless{}{-}} \DecValTok{16}
+
+\NormalTok{xavg\_vec }\OtherTok{\textless{}{-}} \FunctionTok{numeric}\NormalTok{(nn)}
+
+\ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{length}\NormalTok{(xavg\_vec)) \{}
+\NormalTok{    xavg\_vec[i] }\OtherTok{\textless{}{-}} \FunctionTok{mean}\NormalTok{( }\FunctionTok{sample}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{], }\AttributeTok{size=}\NormalTok{N, }\AttributeTok{replace=}\ConstantTok{TRUE}\NormalTok{) )}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{par}\NormalTok{(}\AttributeTok{cex=}\FloatTok{0.65}\NormalTok{)}
+\FunctionTok{hist}\NormalTok{(xavg\_vec, }\AttributeTok{main=}\StringTok{"Empiric Sampling Dist. NWSL Team{-}Game Goals, n=16"}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xavg\_vec), }\AttributeTok{col=}\StringTok{"\#33BB33AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{7}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{]), }\AttributeTok{col=}\StringTok{"\#BB3333AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+\centering
+\includegraphics{Lab_7_X_files/figure-latex/esd1-1.pdf}
+\caption{Empirical Sampling Distribution of mean Team-Game goals from
+NWSL, sample size of 16. The red line marks the true population
+parameter mean team-game goals; the green, the mean of all the simulated
+sample means.}
+\end{figure}
+
+~~
+
+The fact that the red and green lines in Figure @ref(fig:esd1) closely
+mark the same value tell us that the population mean and the average of
+the sample means closely agree. The suggestion is that the method of
+sampling (the sample() function in \textbf{R}), is unbiased.
+
+~~
+
+\hypertarget{deliberately-biased-sampling}{%
+\subsubsection{Deliberately Biased
+Sampling}\label{deliberately-biased-sampling}}
+
+~~
+
+We can deliberately illustrate bias by explicitly not drawing samples
+with impartiality. For example, we can draw team-game goals only from
+the 2017 season.
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{set.seed}\NormalTok{(}\DecValTok{777}\NormalTok{)}
+
+\NormalTok{nn }\OtherTok{\textless{}{-}} \DecValTok{200000}
+
+\NormalTok{N }\OtherTok{\textless{}{-}} \DecValTok{16}
+
+\NormalTok{xavg\_vec }\OtherTok{\textless{}{-}} \FunctionTok{numeric}\NormalTok{(nn)}
+
+\NormalTok{xbiasmask }\OtherTok{\textless{}{-}}\NormalTok{ xdf[ , }\StringTok{"season"}\NormalTok{] }\SpecialCharTok{\%in\%} \StringTok{"2017"}
+\CommentTok{\#xbiasmask \textless{}{-} xdf[ , "team"] \%in\% "Washington Spirit"}
+
+\ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{length}\NormalTok{(xavg\_vec)) \{}
+\NormalTok{    xavg\_vec[i] }\OtherTok{\textless{}{-}} \FunctionTok{mean}\NormalTok{( }\FunctionTok{sample}\NormalTok{(xdf[ xbiasmask, }\StringTok{"Gls"}\NormalTok{], }\AttributeTok{size=}\NormalTok{N, }\AttributeTok{replace=}\ConstantTok{TRUE}\NormalTok{) )}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{par}\NormalTok{(}\AttributeTok{cex=}\FloatTok{0.65}\NormalTok{)}
+\FunctionTok{hist}\NormalTok{(xavg\_vec, }\AttributeTok{main=}\StringTok{"Biased Empiric Sampling Dist. NWSL Team{-}Game Goals, n=16"}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xavg\_vec), }\AttributeTok{col=}\StringTok{"\#33BB33AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{7}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{]), }\AttributeTok{col=}\StringTok{"\#BB3333AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+\centering
+\includegraphics{Lab_7_X_files/figure-latex/esd2-1.pdf}
+\caption{Empirical Sampling Distribution of mean Team-Game goals from
+NWSL, sample size of 16, where sample was drawn only from 2017 season.
+The red line marks the true population parameter mean team-game goals;
+the green, the mean of all the simulated sample means.}
+\end{figure}
+
+~~
+
+The fact that the red and green lines in Figure @ref(fig:esd2) do not
+mark the same value tell us that the population mean and the average of
+the sample means are different. The suggestion is that the method of
+sampling (only drawing from one season) is \textbf{biased}.
+
+\newpage
+
+\hypertarget{confidence-interval-for-population-proportion}{%
+\subsection{Confidence Interval for Population
+Proportion}\label{confidence-interval-for-population-proportion}}
+
+~~
+
+\hypertarget{super-bowl-coin-tosses}{%
+\subsubsection{Super Bowl Coin Tosses}\label{super-bowl-coin-tosses}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\# Read in our data}
+\NormalTok{sbdf }\OtherTok{\textless{}{-}} \FunctionTok{read.table}\NormalTok{(}\StringTok{"SuperBowl\_coinTosses.tsv"}\NormalTok{, }\AttributeTok{sep=}\StringTok{"}\SpecialCharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\AttributeTok{header=}\ConstantTok{TRUE}\NormalTok{)}
+
+\FunctionTok{head}\NormalTok{(sbdf, }\AttributeTok{n=}\DecValTok{6}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   SuperBowl             Matchup CoinToss Coin.TossWinner GameWinner
+## 1         1   Chiefs vs Packers    Heads         Packers    Packers
+## 2         2  Packers vs Raiders    Tails         Raiders    Packers
+## 3         3       Colts vs Jets    Heads            Jets       Jets
+## 4         4   Vikings vs Chiefs    Tails         Vikings     Chiefs
+## 5         5    Colts vs Cowboys    Tails         Cowboys      Colts
+## 6         6 Cowboys vs Dolphins    Heads        Dolphins    Cowboys
+##   CoinTossWinnerEqualGameWinner.
+## 1                            Yes
+## 2                             No
+## 3                            Yes
+## 4                             No
+## 5                             No
+## 6                             No
+\end{verbatim}
+
+~~
+
+This data set was obtained from
+\url{https://www.sportsbettingdime.com/guides/resources/super-bowl-coin-toss-history/}
+
+~~
+
+Imagine that these 56 observations were randomly realized from an
+infinite population of Super Bowl coin tosses.
+
+Let's create a 68\% Confidence Interval for the true, unknown population
+parameter proportion of Heads.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{n }\OtherTok{\textless{}{-}} \FunctionTok{nrow}\NormalTok{(sbdf)}
+
+\NormalTok{xheads }\OtherTok{\textless{}{-}} \FunctionTok{as.integer}\NormalTok{(sbdf[, }\StringTok{"CoinToss"}\NormalTok{] }\SpecialCharTok{\%in\%} \StringTok{"Heads"}\NormalTok{)}
+
+\NormalTok{phat }\OtherTok{\textless{}{-}} \FunctionTok{mean}\NormalTok{(xheads)}
+\NormalTok{phat}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.4821429
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\#\# OR}
+
+\NormalTok{phat }\OtherTok{\textless{}{-}} \FunctionTok{sum}\NormalTok{(xheads) }\SpecialCharTok{/} \FunctionTok{length}\NormalTok{(xheads)}
+\NormalTok{phat}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.4821429
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{var\_phat }\OtherTok{\textless{}{-}}\NormalTok{ phat }\SpecialCharTok{*}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ phat)}
+\NormalTok{var\_phat}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.2496811
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{est\_SE }\OtherTok{\textless{}{-}} \FunctionTok{sqrt}\NormalTok{(var\_phat }\SpecialCharTok{/}\NormalTok{ n)}
+\NormalTok{est\_SE}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.06677269
+\end{verbatim}
+
+~~
+
+We need to calculate our estimated margin of error from our confidence
+level.
+
+We're using the normal approximation. We know from the empiric rule that
+\(-1 < Z < 1\) chops out about the middle 68\% of the normal
+distribution.
+
+We can also have \textbf{R} do this for us.
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z\_low }\OtherTok{\textless{}{-}} \FunctionTok{qnorm}\NormalTok{( (}\DecValTok{1} \SpecialCharTok{{-}} \FloatTok{0.68}\NormalTok{) }\SpecialCharTok{/} \DecValTok{2}\NormalTok{ )}
+\NormalTok{z\_low}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] -0.9944579
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z\_high }\OtherTok{\textless{}{-}} \FunctionTok{qnorm}\NormalTok{( }\FloatTok{0.68} \SpecialCharTok{+}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}} \FloatTok{0.68}\NormalTok{) }\SpecialCharTok{/} \DecValTok{2}\NormalTok{ )}
+\NormalTok{z\_high}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.9944579
+\end{verbatim}
+
+~~
+
+Let's just use \(z_{L} = -1\) and \(z_{H} = 1\)
+
+~~
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z\_low }\OtherTok{\textless{}{-}} \SpecialCharTok{{-}}\DecValTok{1}
+\NormalTok{z\_high }\OtherTok{\textless{}{-}} \DecValTok{1}
+
+\NormalTok{CI\_low }\OtherTok{\textless{}{-}}\NormalTok{ phat }\SpecialCharTok{+}\NormalTok{ z\_low }\SpecialCharTok{*}\NormalTok{ est\_SE}
+
+\NormalTok{CI\_high }\OtherTok{\textless{}{-}}\NormalTok{ phat }\SpecialCharTok{+}\NormalTok{ z\_high }\SpecialCharTok{*}\NormalTok{ est\_SE}
+\end{Highlighting}
+\end{Shaded}
+
+~~
+
+We are 68\% confident that the true proportion of heads within this
+imaginary, infinite population of Super Bowl coin tosses is between
+0.4154 and 0.5489.
+
+\newpage
+
+\hypertarget{your-work}{%
+\section{Your Work}\label{your-work}}
+
+Make sure to edit the ``author'' information in the YAML header near the
+top to include your name and UID.
+
+Complete/answer the following.
+
+1 --- Consider Figure @ref(fig:esd2). Repeat the process we used to
+illustrate biased sampling, except instead of drawing only from one
+season, draw your sample from all seasons but only rows where the team
+is ``Washington Spirit''. Comment on your findings.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{set.seed}\NormalTok{(}\DecValTok{777}\NormalTok{)}
+\NormalTok{nn }\OtherTok{\textless{}{-}} \DecValTok{200000}
+\NormalTok{N }\OtherTok{\textless{}{-}} \DecValTok{16}
+\NormalTok{xavg\_vec }\OtherTok{\textless{}{-}} \FunctionTok{numeric}\NormalTok{(nn)}
+\NormalTok{xbiasmask }\OtherTok{\textless{}{-}}\NormalTok{ xdf[ , }\StringTok{"team"}\NormalTok{] }\SpecialCharTok{\%in\%} \StringTok{"Washington Spirit"}
+\ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{length}\NormalTok{(xavg\_vec)) \{}
+\NormalTok{xavg\_vec[i] }\OtherTok{\textless{}{-}} \FunctionTok{mean}\NormalTok{( }\FunctionTok{sample}\NormalTok{(xdf[ xbiasmask, }\StringTok{"Gls"}\NormalTok{], }\AttributeTok{size=}\NormalTok{N, }\AttributeTok{replace=}\ConstantTok{TRUE}\NormalTok{) )}
+\NormalTok{\}}
+
+\FunctionTok{par}\NormalTok{(}\AttributeTok{cex=}\FloatTok{0.65}\NormalTok{)}
+\FunctionTok{hist}\NormalTok{(xavg\_vec, }\AttributeTok{main=}\StringTok{"Biased Empiric Sampling Dist. NWSL Team{-}Game Goals, n=16"}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xavg\_vec), }\AttributeTok{col=}\StringTok{"\#33BB33AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{7}\NormalTok{)}
+\FunctionTok{abline}\NormalTok{(}\AttributeTok{v=}\FunctionTok{mean}\NormalTok{(xdf[ , }\StringTok{"Gls"}\NormalTok{]), }\AttributeTok{col=}\StringTok{"\#BB3333AA"}\NormalTok{, }\AttributeTok{lwd=}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Lab_7_X_files/figure-latex/unnamed-chunk-13-1.pdf}
+
+~
+
+2 --- Show that we have met the requirements for using the normal
+approximation to the binomial model in our CI calculation above.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#To show that the binomial distribution is correct, it must meet the following criteria. }
+\CommentTok{\#np ≥ 5}
+\CommentTok{\#n(1{-}p) ≥ 5}
+
+\CommentTok{\# xdf \textless{}{-} read.table("NWSL\_gameTeam.tsv", sep="\textbackslash{}t", header=TRUE)}
+\CommentTok{\# n \textless{}{-} nrow(xdf)}
+\CommentTok{\# }
+\CommentTok{\# xheads \textless{}{-} as.integer(xdf[, "team"] \%in\% "Washington Spirit")}
+\CommentTok{\# }
+\CommentTok{\# phat \textless{}{-} mean(xheads)}
+\CommentTok{\# phat}
+\CommentTok{\# }
+\CommentTok{\# }\AlertTok{\#\#\#}\CommentTok{ OR}
+\CommentTok{\# }
+\CommentTok{\# phat \textless{}{-} sum(xheads) / length(xheads)}
+\CommentTok{\# phat}
+\CommentTok{\# n* phat}
+\CommentTok{\# n* (1{-}phat)}
+
+\CommentTok{\# As phat is from the binomial distribution, and both of these are greater than 10, these have met the requirements listed above}
+\end{Highlighting}
+\end{Shaded}
+
+~
+
+3 --- Imagine our NWSL data set is actually a randomly realized
+collection of games from an infinite collection of games that could have
+resulted. Thinking about the population parameter proportion of the
+occurrence of a team drawing one or more Red Cards in a game, create a
+90\% CI, a 95\% CI, and a 99\% CI. Comment and interpret your results.
+Also show that we have met the requirements for using the normal
+approximation to the binomial model.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\#\# here\textquotesingle{}s a head start}
+
+\NormalTok{xteamGame\_redCard }\OtherTok{\textless{}{-}} \FunctionTok{as.integer}\NormalTok{( xdf[ , }\StringTok{"CrdR"}\NormalTok{ ] }\SpecialCharTok{\textgreater{}} \DecValTok{0}\NormalTok{ )}
+
+\NormalTok{phat\_rc }\OtherTok{\textless{}{-}} \FunctionTok{mean}\NormalTok{(xteamGame\_redCard)}
+\NormalTok{phat\_rc}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.03213611
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{est\_SE\_rc }\OtherTok{\textless{}{-}} \FunctionTok{sqrt}\NormalTok{( phat\_rc }\SpecialCharTok{*}\NormalTok{ (}\DecValTok{1} \SpecialCharTok{{-}}\NormalTok{ phat\_rc) }\SpecialCharTok{/} \FunctionTok{length}\NormalTok{(xteamGame\_redCard) ) }
+\NormalTok{est\_SE\_rc}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.005422018
+\end{verbatim}
+
+\end{document}

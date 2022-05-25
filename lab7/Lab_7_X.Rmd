@@ -1,0 +1,498 @@
+
+
+---
+title: "Lab 7"
+author:  Your Name and UID go here
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 3
+  bookdown::pdf_document2: default
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+
+
+&nbsp;&nbsp;
+
+# Examples
+
+Requires library xtable.
+
+
+&nbsp;&nbsp;
+
+
+
+
+## NWSL 2017-2021 Season Team-Game Data
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+## Read in our data
+xdf <- read.table("NWSL_gameTeam.tsv", sep="\t", header=TRUE)
+
+head(xdf, n=6)
+
+### table(xdf[ , "team"])
+
+```
+
+&nbsp;&nbsp;
+
+This data set was made by processing data obtained from FBREF.com
+
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='Distribution Team Goals scored by game.'}
+
+xbrks <- seq(-0.5, max(xdf[ , "Gls"])+0.5, by=1)
+par(cex=0.65)
+hist(xdf[ , "Gls"], breaks=xbrks, main="Team-Game Goals Scored, NWSL 2017-2021 Season")
+
+```
+
+
+&nbsp;&nbsp;
+
+Let's also create a frequency table.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='asis'}
+
+library(xtable)
+options(xtable.comment = FALSE)
+
+xtbl <- table("goals"=xdf[ , "Gls"])
+xtbl <- as.data.frame(xtbl)
+print(xtable(xtbl, caption="NWSL game-team goals scored."), include.rownames=FALSE)
+
+```
+
+&nbsp;&nbsp;
+
+Calculate some summaries.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='asis'}
+
+xvarnames <- c("Gls", "Ast", "PK", "PKatt", "CrdY", "CrdR")
+
+xmins <- apply(xdf[ , xvarnames], 2, min)
+
+xmeans <- apply(xdf[ , xvarnames], 2, mean)
+
+xmedians <- apply(xdf[ , xvarnames], 2, median)
+
+xsds <- apply(xdf[ , xvarnames], 2, sd)
+
+xIQRs <- apply(xdf[ , xvarnames], 2, IQR)
+
+xmaxs <- apply(xdf[ , xvarnames], 2, max)
+
+xsummaries <- rbind(xmins, xmeans, xmedians, xsds, xIQRs, xmaxs)
+
+rownames(xsummaries) <- c("min", "mean", "median", "sd", "IQR", "max")
+
+print(xtable(xsummaries, caption="NWSL game-team summary statistics."), include.rownames=TRUE)
+
+```
+
+
+&nbsp;&nbsp;
+
+Let's take a look at average game-team goals by season
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='asis'}
+
+xagg <- aggregate(xdf[ , "Gls"], by=list(xdf[ , "season"]), mean)
+
+colnames(xagg) <- c("Season", "Goals")
+
+print(xtable(xagg, caption="NWSL avg game-team goals scored by season."), include.rownames=FALSE)
+
+```
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=3.5, fig.height=3.0, fig.cap='NWSL Avg Team-Game Goals by Season.'}
+
+#x <- as.factor(xagg[ , "Season"])
+x <- xagg[ , "Season"]
+y <- xagg[ , "Goals"]
+par(cex=0.65)
+plot(x, y, type="l", col="#3355BB", main="Avg Team-Game Goals Scored by NWSL Season", 
+     xaxt="n", xlab="Season", ylab="Avg Team-Game Goals", lwd=2)
+axis(1, c(2017, 2018, 2019, 2020, 2021), c("2017", "2018", "2019", "2020", "2021"))
+
+```
+
+
+
+&nbsp;&nbsp;
+
+### Simple Random Sampling
+
+&nbsp;&nbsp;
+
+This is an illustration. 
+
+We are going to draw 200,000 random samples of size $n=16$, with replacement, from our NWSL team-game data, and for each simulation calculate the sample average.  We'll then use a histogram to graphically convey this empirical sampling distribution.
+
+By the way, when we sample with replacement we are defining our population as being comprised of an infinite collection of copies of our data.
+
+We are simulating unbiased sampling --- in particular, simple random sampling.
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+set.seed(777)
+
+nn <- 200000
+
+N <- 16
+
+xavg_vec <- numeric(nn)
+
+for(i in 1:length(xavg_vec)) {
+    xavg_vec[i] <- mean( sample(xdf[ , "Gls"], size=N, replace=TRUE) )
+}
+```
+
+```{r esd1, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=4.0, fig.height=3.0, fig.cap='Empirical Sampling Distribution of mean Team-Game goals from NWSL, sample size of 16. The red line marks the true population parameter mean team-game goals; the green, the mean of all the simulated sample means.'}
+
+par(cex=0.65)
+hist(xavg_vec, main="Empiric Sampling Dist. NWSL Team-Game Goals, n=16")
+abline(v=mean(xavg_vec), col="#33BB33AA", lwd=7)
+abline(v=mean(xdf[ , "Gls"]), col="#BB3333AA", lwd=3)
+
+```
+
+&nbsp;&nbsp;
+
+The fact that the red and green lines in Figure \@ref(fig:esd1) closely mark the same value tell us that the population mean and the average of the sample means closely agree.
+The suggestion is that the method of sampling (the sample() function in \textbf{R}), is unbiased.
+
+
+&nbsp;&nbsp;
+
+### Deliberately Biased Sampling
+
+&nbsp;&nbsp;
+
+We can deliberately illustrate bias by explicitly not drawing samples with impartiality.  For example, we can draw team-game goals only from the 2017 season.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+set.seed(777)
+
+nn <- 200000
+
+N <- 16
+
+xavg_vec <- numeric(nn)
+
+xbiasmask <- xdf[ , "season"] %in% "2017"
+#xbiasmask <- xdf[ , "team"] %in% "Washington Spirit"
+
+for(i in 1:length(xavg_vec)) {
+    xavg_vec[i] <- mean( sample(xdf[ xbiasmask, "Gls"], size=N, replace=TRUE) )
+}
+```
+
+
+```{r esd2, echo=TRUE, message=FALSE, eval=TRUE, results='figure', fig.width=4.0, fig.height=3.0, fig.cap='Empirical Sampling Distribution of mean Team-Game goals from NWSL, sample size of 16, where sample was drawn only from 2017 season. The red line marks the true population parameter mean team-game goals; the green, the mean of all the simulated sample means.'}
+
+par(cex=0.65)
+hist(xavg_vec, main="Biased Empiric Sampling Dist. NWSL Team-Game Goals, n=16")
+abline(v=mean(xavg_vec), col="#33BB33AA", lwd=7)
+abline(v=mean(xdf[ , "Gls"]), col="#BB3333AA", lwd=3)
+
+```
+
+&nbsp;&nbsp;
+
+The fact that the red and green lines in Figure \@ref(fig:esd2) do not mark the same value tell us that the population mean and the average of the sample means are different.
+The suggestion is that the method of sampling (only drawing from one season) is \textbf{biased}.
+
+
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Confidence Interval for Population Proportion
+
+&nbsp;&nbsp;
+
+
+### Super Bowl Coin Tosses
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+## Read in our data
+sbdf <- read.table("SuperBowl_coinTosses.tsv", sep="\t", header=TRUE)
+
+head(sbdf, n=6)
+
+```
+
+&nbsp;&nbsp;
+
+This data set was obtained from https://www.sportsbettingdime.com/guides/resources/super-bowl-coin-toss-history/
+
+&nbsp;&nbsp;
+
+
+
+
+Imagine that these `r nrow(sbdf)` observations were randomly realized from an infinite population of Super Bowl coin tosses.
+
+Let's create a 68% Confidence Interval for the true, unknown population parameter proportion of Heads.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+n <- nrow(sbdf)
+
+xheads <- as.integer(sbdf[, "CoinToss"] %in% "Heads")
+
+phat <- mean(xheads)
+phat
+
+### OR
+
+phat <- sum(xheads) / length(xheads)
+phat
+
+var_phat <- phat * (1 - phat)
+var_phat
+
+est_SE <- sqrt(var_phat / n)
+est_SE
+
+```
+
+&nbsp;&nbsp;
+
+We need to calculate our estimated margin of error from our confidence level.
+
+We're using the normal approximation.  We know from the empiric rule that $-1 < Z < 1$ chops out about the middle 68% of the normal distribution.
+
+We can also have \textbf{R} do this for us.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+z_low <- qnorm( (1 - 0.68) / 2 )
+z_low
+
+z_high <- qnorm( 0.68 + (1 - 0.68) / 2 )
+z_high
+
+```
+
+&nbsp;&nbsp;
+
+Let's just use $z_{L} = -1$ and $z_{H} = 1$
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+z_low <- -1
+z_high <- 1
+
+CI_low <- phat + z_low * est_SE
+
+CI_high <- phat + z_high * est_SE
+
+```
+
+&nbsp;&nbsp;
+
+We are 68% confident that the true proportion of heads within this imaginary, infinite population of Super Bowl coin tosses is between 
+`r round( CI_low, 4)` and `r round( CI_high, 4 )`.
+
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+1 --- Consider Figure \@ref(fig:esd2).  Repeat the process we used to illustrate biased sampling, except instead of drawing only from one season, draw your sample from all seasons but only rows where the team is "Washington Spirit".  Comment on your findings.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+set.seed(777)
+nn <- 200000
+N <- 16
+xavg_vec <- numeric(nn)
+xbiasmask <- xdf[ , "team"] %in% "Washington Spirit"
+for(i in 1:length(xavg_vec)) {
+xavg_vec[i] <- mean( sample(xdf[ xbiasmask, "Gls"], size=N, replace=TRUE) )
+}
+
+par(cex=0.65)
+hist(xavg_vec, main="Biased Empiric Sampling Dist. NWSL Team-Game Goals, n=16")
+abline(v=mean(xavg_vec), col="#33BB33AA", lwd=7)
+abline(v=mean(xdf[ , "Gls"]), col="#BB3333AA", lwd=3)
+
+
+```
+
+&nbsp;
+
+
+
+2 --- Show that we have met the requirements for using the normal approximation to the binomial model in our CI calculation above.
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+#To show that the binomial distribution is correct, it must meet the following criteria. 
+#np ≥ 5
+#n(1-p) ≥ 5
+
+xdf <- read.table("NWSL_gameTeam.tsv", sep="\t", header=TRUE)
+n <- nrow(xdf)
+
+xheads <- as.integer(xdf[, "team"] %in% "Washington Spirit")
+
+phat <- mean(xheads)
+phat
+
+### OR
+
+phat <- sum(xheads) / length(xheads)
+phat
+n* phat
+n* (1-phat)
+
+# As phat is from the binomial distribution, and both of these are greater than 10, these have met the requirements listed above
+
+
+
+```
+
+&nbsp;
+
+
+
+3 --- Imagine our NWSL data set is actually a randomly realized collection of games from an infinite collection of games that could have resulted.  Thinking about the population parameter proportion of the occurrence of a team drawing one or more Red Cards in a game, create a 90% CI, a 95% CI, and a 99% CI.  Comment and interpret your results.  Also show that we have met the requirements for using the normal approximation to the binomial model.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+### here's a head start
+
+xteamGame_redCard <- as.integer( xdf[ , "CrdR" ] > 0 )
+
+phat_rc <- mean(xteamGame_redCard)
+phat_rc
+
+est_SE_rc <- sqrt( phat_rc * (1 - phat_rc) / length(xteamGame_redCard) ) 
+est_SE_rc
+
+#####
+## 90
+#####
+z_low <- qnorm( (1 - 0.90) / 2 )
+z_high <- qnorm( 0.90 + (1 - 0.90) / 2 )
+
+CI_low <- phat_rc + z_low * est_SE_rc
+CI_high <- phat_rc + z_high * est_SE_rc
+
+print("The confidence interval is: ")
+paste(CI_low, CI_high, sep = "-")
+
+
+#####
+## 95
+#####
+
+z_low <- qnorm( (1 - 0.95) / 2 )
+
+z_high <- qnorm( 0.95 + (1 - 0.95) / 2 )
+
+CI_low <- phat_rc + z_low * est_SE_rc
+CI_high <- phat_rc + z_high * est_SE_rc
+
+print("The confidence interval is: ")
+paste(CI_low, CI_high, sep = "-")
+
+#####
+## 99
+#####
+
+z_low <- qnorm( (1 - 0.99) / 2 )
+
+z_high <- qnorm( 0.99 + (1 - 0.99) / 2 )
+
+CI_low <- phat_rc + z_low * est_SE_rc
+CI_high <- phat_rc + z_high * est_SE_rc
+
+print("The confidence interval is: ")
+paste(CI_low, CI_high, sep = "-")
+
+```
+
+
+
+
+
+
+
+
+
