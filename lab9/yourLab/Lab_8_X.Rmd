@@ -1,0 +1,455 @@
+
+
+---
+title: "Lab 8"
+author:  Your Name and UID go here
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  bookdown::pdf_document2: default
+  pdf_document:
+    toc: yes
+    toc_depth: 3
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+
+&nbsp;&nbsp;
+
+# Examples
+
+Requires library xtable.
+
+
+&nbsp;&nbsp;
+
+
+
+
+## Super Bowl Coin Tosses
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+## Read in our data
+sbdf <- read.table("SuperBowl_coinTosses.tsv", sep="\t", header=TRUE)
+
+head(sbdf, n=6)
+
+```
+
+&nbsp;&nbsp;
+
+
+Imagine that these `r nrow(sbdf)` observations were randomly realized from an infinite population of Super Bowl coin tosses.
+
+Let's test the claim that Super Bowl coin toss is not fair; that head and tails are not equally likely, at significance $\alpha=0.05$.
+
+So,
+
+$H_0 : p_H = 1/2$
+
+$H_a : p_H \neq 1/2$
+
+at
+
+$\alpha = 0.05$
+
+We'll approximate the sampling distribution of our proportion of heads test statistic estimator with the standard normal distribution.
+
+Let's start by creating our "critical region", aka, our "rejection region".
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+left_tail_cutoff <- qnorm(0.025)
+left_tail_cutoff
+
+right_tail_cutoff <- qnorm(0.975)
+right_tail_cutoff
+
+```
+
+&nbsp;&nbsp;
+
+Our critical region is $(-\infty, `r round(left_tail_cutoff, 4)`]$ OR $[`r round(right_tail_cutoff, 4)`,  \infty)$
+
+Now, calculate our test statistic
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+n <- nrow(sbdf)
+
+xheads <- as.integer(sbdf[, "CoinToss"] %in% "Heads")
+
+p_H0 <- 1/2
+
+phat <- mean(xheads)
+phat
+
+### OR
+
+phat <- sum(xheads) / length(xheads)
+phat
+
+var_phat <- p_H0 * (1 - p_H0)
+var_phat
+
+SE <- sqrt(var_phat / n)
+SE
+
+z_test <-  (phat - p_H0) / SE
+z_test
+
+```
+
+&nbsp;&nbsp;
+
+Using the normal approximation, our test statistic $z_{\textrm{test}} = `r round(z_test, 5)`$ does not fall into our rejection region, so we fail to reject the hypothesis that Super Bowl coin tosses are fair.
+
+Here's a more detailed conclusion: we fail to reject the hypothesis that within our imaginary, infinite target population of all possible Super Bowl coin tosses that could have occurred in the first 56 Super Bowls, the head-tails result is fair.
+
+
+
+
+
+
+
+
+&nbsp;&nbsp;
+
+
+## WNBA
+
+Consider the WNBA seasons 2015-2021.
+
+Suppose someone claims that the proportion of times a player scores 9 or more points in games in which they start is more than 50%.
+
+Our population is starting player-game outcomes over 2015-2021.
+
+We actually have that data, so we can directly calculate this proportion and accept of reject this claim with certainty.
+
+Let's pretend we don't.
+
+We'll use a sample of 100 starting player-game outcomes that was obtained by random selection, and test this claim at $\alpha=0.01$.
+
+$H_0 : p_{x \geq 9} = 1/2$
+
+$H_a : p_{x \geq 9} > 1/2$
+
+Let's start by creating our rejection region.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+right_tail_cutoff <- qnorm(0.99)
+right_tail_cutoff
+
+```
+
+&nbsp;&nbsp;
+
+Our critical region is $[`r round(right_tail_cutoff, 4)`,  \infty)$
+
+
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+ydf_sample <- read.table("WNBA_starterGame_sample.tsv", sep="\t", header=TRUE)
+
+xscore_sample <- as.integer( ydf_sample[ , "pts"] >= 9 )
+
+```
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+pH0 <- 1/2
+
+n <- length(xscore_sample)
+n
+
+p_hat <- mean(xscore_sample)
+p_hat
+
+p_hat_var <- pH0 * (1 - pH0)
+p_hat_var
+
+SE <- sqrt( p_hat_var / n )
+SE
+
+z_test <- (p_hat - pH0) / SE
+z_test
+
+```
+
+&nbsp;&nbsp;
+
+Using the normal approximation, our test statistic $z_{\textrm{test}} = `r round(z_test, 5)`$ falls into our rejection region, so we conclude the occurrence of WNBA starters scoring 9 or more points is not 50%, but rather more.
+
+
+&nbsp;&nbsp;
+
+
+Let's calculate the actual proportion.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+ydf <- read.table("WNBA_playerGame.tsv", sep="\t", header=TRUE)
+
+dim(ydf)
+
+xmask_starters <- ydf[ , "strtr" ] %in% c(1,2,3,4,5)
+ydf_starter <- ydf[ xmask_starters,  ]
+
+dim(ydf_starter)
+
+xscore <- as.integer( ydf_starter[ , "pts"] >= 9 )
+
+xtrue_prop <- mean(xscore)
+
+xtrue_prop
+```
+
+&nbsp;&nbsp;
+
+It turns out our alternative is in fact true.
+
+&nbsp;&nbsp;
+
+
+
+## What's Alpha?
+
+&nbsp;&nbsp;
+
+Suppose our null is true.
+
+Let's simulate 50000 random samples and keep track of the test results of each simulation.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+set.seed(777)
+
+nn <- 50000 ### number of simulations
+
+n <- 100
+
+z_test_sim <- numeric(nn)
+
+for(ii in 1:nn) {
+  
+  xrnd_ndx <- sample( I(1:nrow(ydf_starter)), size=n )
+
+  ydf_starter_sample <- ydf_starter[ xrnd_ndx, ]
+
+  p_hat_sim <- mean(as.integer( ydf_starter_sample[ , "pts"] >= 9 ))
+  
+  z_test_sim[ ii ] <- (p_hat_sim - xtrue_prop) / sqrt( xtrue_prop * (1 - xtrue_prop) / n )
+
+}
+
+xp_in_crit_region <- mean(z_test_sim > right_tail_cutoff)
+xp_in_crit_region
+
+```
+
+```{r esd2, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=4.5, fig.height=3.0, fig.cap=''}
+
+par(cex=0.65)
+hist(z_test_sim, main="Empiric Distribution of Simulated Z-test Stats")
+abline(v=right_tail_cutoff, col="#BB3333AA", lwd=3)
+
+```
+
+
+
+
+
+\newpage
+
+
+
+
+## Home Court Advantage
+
+&nbsp;&nbsp;
+
+Although most sports leagues, including the WNBA, played at least partial seasons during the COVID-19 pandemic, many of these games were played in mostly empty arenas.  This was especially the case in 2020.
+
+Suppose someone says that the home court advantage in the WNBA during the pandemic seasons 2020 and 2021 was less than that of the previous seasons, 2015-2019.
+
+We can measure "home team advantage" as the proportion of games won by the home team, and directly calculate this advantage for both groups of seasons.
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+sdf <- read.table("WNBA_game.tsv", sep="\t", header=TRUE)
+
+xmask_before <- sdf[ , "season" ] %in% c(2015, 2016, 2017, 2018, 2019)
+xmask_during <- sdf[ , "season" ] %in% c(2020, 2021)
+
+n_before <- sum(xmask_before)
+n_before
+
+n_during <- sum(xmask_during)
+n_during
+
+HW_before <- as.integer(sdf[ xmask_before, "HTscore" ] > sdf[ xmask_before, "VTscore" ])
+p_hatHW_before <- mean(HW_before)
+p_hatHW_before
+
+HW_during <- as.integer(sdf[ xmask_during, "HTscore" ] > sdf[ xmask_during, "VTscore" ])
+p_hatHW_during <- mean(HW_during)
+p_hatHW_during
+
+```
+
+The home team advantage during the WNBA 2015-2019 seasons --- before the pandemic --- was `r round(p_hatHW_before, 5)`, whereas during the pandemic, it was `r round(p_hatHW_during, 5)`.
+
+We can, of course, view this as an inferential question.  We can view the actual games in our data set to be a randomly materialized subset from an abstract population of all possible games that could have resulted.
+
+$H_0 : p_{\mathrm{HWbefore}} = p_{\mathrm{HWduring}}$
+
+$H_a : p_{\mathrm{HWbefore}} > p_{\mathrm{HWduring}}$
+
+Let's set our significance level to $\alpha = 0.05$.
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+p_hat_pooled <- mean( c(HW_before, HW_during) )
+p_hat_pooled
+
+SE_pooled <- sqrt( p_hat_pooled * (1 - p_hat_pooled) * ( (1/n_before) + (1/n_during) ) )
+SE_pooled
+
+z_test <- ( p_hatHW_before - p_hatHW_during ) / SE_pooled
+z_test
+
+p_val <- 1 - pnorm(z_test)
+
+```
+
+Our calculated p-value is `r round( p_val,5)` which is less than our significance level of $0.05$.
+
+We therefore conclude the claim is correct, that home court advantage in the WNBA during the pandemic seasons 2020 and 2021 was reduced from that of prior seasons, 2015-2019.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+
+
+
+
+
+
+
+1 --- Calculate the p-value for our Super Bowl coin tosses and comment on this value.  How large is our target population?
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+
+2 --- Show that we have met the requirements for using the normal approximation to the binomial model in our hypothesis test of starting player-game occurrence of 9-or-more point scoring.  How large is our target population?
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+3 --- Imagine, once again, we do not have access to the player-game WNBA population. Use a randomly generated sample of size 144 to test the claim that the proportion of bench players scoring 5 or more points in a game in which they play is greater than 1/3.  Make sure to first check that we have met the requirements for using the normal approximation to the binomial model. 
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+### here's a head start
+ydf <- read.table("WNBA_playerGame.tsv", sep="\t", header=TRUE)
+
+xmask_bench <- as.integer(ydf[ , "strtr" ]) > 5
+ydf_bench <- ydf[ xmask_bench,  ]
+
+dim(ydf_bench)
+
+set.seed(777)
+
+my_sample_df <- ydf_bench[ sample(1:nrow(ydf_bench), size=144), ]
+
+mean(my_sample_df[ , "pts"] >= 5)
+
+## mean(my_sample_df[ , "tpm"] >= 2)
+
+```
+
+&nbsp;
+
+4 --- Repeat Question 3, except test the claim that the proportion of bench players hitting 2 or more three-pointers in a game in which they play is less than 1/5.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+5 --- In the Examples above, in the Section "What's Alpha?", we ran a number of simulations where our null was true.  The proportion of times our calculated (simulated) test statistic fell into the critical region was `r round(xp_in_crit_region, 5)`.  Why is this value close to the significance level we set?
+
+
+
+

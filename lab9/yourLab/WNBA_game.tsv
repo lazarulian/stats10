@@ -1,0 +1,1344 @@
+"season"	"date"	"regsea"	"VTabbr"	"VT"	"HTabbr"	"HT"	"HTTZ"	"min"	"pace"	"refs"	"VTscore"	"HTscore"
+"2015"	20150605	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	98.1	"Billy Smith, Jeffrey Smith, Eric Brewton"	72	95
+"2015"	20150605	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	82.1	"Daryl Humphrey, Don Hudson, Michael Price"	73	68
+"2015"	20150605	TRUE	"TUL"	"Tulsa Shock"	"MIN"	"Minnesota Lynx"	2	182	95.1	"Tom Mauer, Denise Brooks, Tony Dawkins"	75	83
+"2015"	20150605	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	96.8	"Lamont Simpson, Tim Greene, Tiara Cruse"	73	82
+"2015"	20150605	TRUE	"SAS"	"San Antonio Stars"	"PHO"	"Phoenix Mercury"	1	200	88.8	"Roy Gulbeyan, Maj Forsberg, Jeff Wooten"	71	76
+"2015"	20150606	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	90.3	"Tiara Cruse, Tim Greene, Lamont Simpson"	75	69
+"2015"	20150606	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	85	"Kurt Walker, Tiffany Bird, Maj Forsberg"	61	86
+"2015"	20150606	TRUE	"CHI"	"Chicago Sky"	"TUL"	"Tulsa Shock"	2	200	96.6	"---"	93	101
+"2015"	20150606	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	92.6	"Denise Brooks, Kevin Sparrock, Tom Mauer"	62	67
+"2015"	20150607	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	94.8	"Eric Brewton, Billy Smith, Lamont Simpson"	75	70
+"2015"	20150609	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	90.6	"Tony Dawkins, Michael Price, Don Hudson"	79	86
+"2015"	20150609	TRUE	"SEA"	"Seattle Storm"	"TUL"	"Tulsa Shock"	2	200	91	"---"	45	68
+"2015"	20150611	TRUE	"SAS"	"San Antonio Stars"	"ATL"	"Atlanta Dream"	3	200	88.7	"Don Hudson, Sue Blauch, Kevin Sparrock"	69	72
+"2015"	20150611	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	88.8	"Roy Gulbeyan, Fatou Cissoko-Stephens, Tyler Ford"	65	67
+"2015"	20150611	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	175	88	"Michael Price, Jeff Wooten, Byron Jarrett"	70	79
+"2015"	20150611	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	89.5	"Eric Brewton, Jeffrey Smith, Daryl Humphrey"	57	68
+"2015"	20150612	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	93.3	"Byron Jarrett, Tom Mauer, Tony Dawkins"	74	77
+"2015"	20150612	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	84.5	"Tim Greene, Amy Bonner, Daryl Humphrey"	64	61
+"2015"	20150614	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	93.8	"Eric Brewton, Tony Dawkins, Aaron Smith"	64	82
+"2015"	20150614	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	99.5	"Daryl Humphrey, Denise Brooks, Jeffrey Smith"	98	72
+"2015"	20150614	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	83.3	"Billy Smith, Cheryl Flores, Tommy Nunez"	60	54
+"2015"	20150614	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	91.3	"Tyler Ford, Roy Gulbeyan, Fatou Cissoko-Stephens"	74	59
+"2015"	20150614	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	92.8	"Kevin Sparrock, Lamont Simpson, Sue Blauch"	66	81
+"2015"	20150614	TRUE	"TUL"	"Tulsa Shock"	"SAS"	"San Antonio Stars"	2	200	84.8	"Tiffany Bird, Jeff Wooten, Kurt Walker"	73	62
+"2015"	20150616	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	96.6	"Tim Greene, Fatou Cissoko-Stephens, Roy Gulbeyan"	90	79
+"2015"	20150616	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	75.8	"Sue Blauch, Kurt Walker, Jeff Wooten"	67	52
+"2015"	20150616	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	89.8	"Kevin Sparrock, Lamont Simpson, Billy Smith"	79	58
+"2015"	20150616	TRUE	"SAS"	"San Antonio Stars"	"TUL"	"Tulsa Shock"	2	200	91	"---"	61	88
+"2015"	20150619	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	98.8	"Don Hudson, Lamont Simpson, Jonathan Sterling"	73	74
+"2015"	20150619	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	89.2	"Tom Mauer, Billy Smith, Byron Jarrett"	80	63
+"2015"	20150619	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	250	84.1	"Denise Brooks, Kurt Walker, Tyler Ford"	90	78
+"2015"	20150619	TRUE	"MIN"	"Minnesota Lynx"	"SAS"	"San Antonio Stars"	2	200	87.9	"Cheryl Flores, Daryl Humphrey, Roy Gulbeyan"	74	59
+"2015"	20150619	TRUE	"TUL"	"Tulsa Shock"	"WAS"	"Washington Mystics"	3	200	91.8	"Jeffrey Smith, Vladimir Voyard-Tadal, Tony Dawkins"	86	82
+"2015"	20150620	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	90.3	"Jonathan Sterling, Lamont Simpson, Kevin Sparrock"	87	75
+"2015"	20150620	TRUE	"CHI"	"Chicago Sky"	"SAS"	"San Antonio Stars"	2	225	91.2	"Aaron Smith, Sue Blauch, Tyler Ford"	95	87
+"2015"	20150621	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	92.9	"Tony Dawkins, Daryl Humphrey, Vladimir Voyard-Tadal"	73	64
+"2015"	20150621	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	87.9	"Janetta Graham, Roy Gulbeyan, Denise Brooks"	76	68
+"2015"	20150621	TRUE	"TUL"	"Tulsa Shock"	"MIN"	"Minnesota Lynx"	2	195	89.7	"Tim Greene, Eric Brewton, Kevin Sparrock"	86	75
+"2015"	20150621	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	90.3	"Tommy Nunez, Tiffany Bird, Jeff Wooten"	84	72
+"2015"	20150623	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	89.6	"Billy Smith, Eric Brewton, Sue Blauch"	80	84
+"2015"	20150624	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	225	96.2	"Fatou Cissoko-Stephens, Denise Brooks, Tommy Nunez"	96	100
+"2015"	20150625	TRUE	"PHO"	"Phoenix Mercury"	"SAS"	"San Antonio Stars"	2	200	95.3	"Denise Brooks, Kevin Sparrock, Byron Jarrett"	71	76
+"2015"	20150625	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	92.2	"Jeffrey Smith, Roy Gulbeyan, Michael Price"	76	73
+"2015"	20150626	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	87.8	"Kurt Walker, Aaron Smith, Eric Brewton"	69	72
+"2015"	20150626	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	225	85.1	"Tommy Nunez, Tony Dawkins, Jeff Wooten"	76	80
+"2015"	20150626	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	95.5	"Sue Blauch, Daryl Humphrey, Don Hudson"	83	77
+"2015"	20150626	TRUE	"NYL"	"New York Liberty"	"TUL"	"Tulsa Shock"	2	200	91.4	"---"	62	71
+"2015"	20150627	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	197	87.6	"Tom Mauer, Lamont Simpson, Tony Dawkins"	56	71
+"2015"	20150627	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	200	89.9	"Kurt Walker, Billy Smith, Tim Greene"	71	73
+"2015"	20150628	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	85.6	"Eric Brewton, Daryl Humphrey, Kevin Sparrock"	70	79
+"2015"	20150628	TRUE	"SEA"	"Seattle Storm"	"TUL"	"Tulsa Shock"	2	200	90.6	"---"	89	93
+"2015"	20150628	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	86.8	"Tommy Nunez, Jeff Wooten, Tom Mauer"	71	86
+"2015"	20150630	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	92.5	"Jeffrey Smith, Roy Gulbeyan, Amy Bonner"	89	81
+"2015"	20150630	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	90.9	"Kurt Walker, Eric Brewton, Denise Brooks"	92	84
+"2015"	20150630	TRUE	"SAS"	"San Antonio Stars"	"PHO"	"Phoenix Mercury"	1	200	86.1	"Tommy Nunez, Janetta Graham, Michael Price"	78	85
+"2015"	20150630	TRUE	"TUL"	"Tulsa Shock"	"SEA"	"Seattle Storm"	0	200	88.6	"Tom Mauer, Maj Forsberg, Byron Jarrett"	69	74
+"2015"	20150702	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	89.9	"Billy Smith, Lamont Simpson, Fatou Cissoko-Stephens"	77	74
+"2015"	20150702	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	76.2	"Vladimir Voyard-Tadal, Tim Greene, Michael Price"	50	73
+"2015"	20150702	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	200	88.1	"Tom Mauer, Byron Jarrett, Jeff Wooten"	81	86
+"2015"	20150702	TRUE	"TUL"	"Tulsa Shock"	"PHO"	"Phoenix Mercury"	1	200	89.3	"Kurt Walker, Cheryl Flores, Roy Gulbeyan"	55	86
+"2015"	20150703	TRUE	"TUL"	"Tulsa Shock"	"LAS"	"Los Angeles Sparks"	0	200	90	"Tiffany Bird, Tony Dawkins, Tommy Nunez"	95	98
+"2015"	20150703	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	192	88.4	"Denise Brooks, Michael Price, Don Hudson"	57	82
+"2015"	20150705	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	93.1	"Jeffrey Smith, Tony Dawkins, Kevin Sparrock"	64	72
+"2015"	20150705	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	225	77.7	"Tyler Ford, Maj Forsberg, Michael Price"	94	91
+"2015"	20150707	TRUE	"TUL"	"Tulsa Shock"	"ATL"	"Atlanta Dream"	3	200	103.2	"Maj Forsberg, Lamont Simpson, Daryl Humphrey"	85	75
+"2015"	20150708	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	85.8	"Roy Gulbeyan, Byron Jarrett, Sue Blauch"	65	88
+"2015"	20150708	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	88.8	"Michael Price, Tiffany Bird, Eric Brewton"	61	70
+"2015"	20150709	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	225	85.4	"Roy Gulbeyan, Lamont Simpson, Kevin Sparrock"	79	76
+"2015"	20150710	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	93.4	"Michael Price, Kurt Walker, Byron Jarrett"	83	90
+"2015"	20150710	TRUE	"SAS"	"San Antonio Stars"	"IND"	"Indiana Fever"	3	200	93.3	"Tony Dawkins, Lamont Simpson, Maj Forsberg"	76	83
+"2015"	20150710	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	91.9	"Tommy Nunez, Daryl Humphrey, Janetta Graham"	94	79
+"2015"	20150711	TRUE	"LAS"	"Los Angeles Sparks"	"TUL"	"Tulsa Shock"	2	200	83.2	"---"	65	82
+"2015"	20150712	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	89.6	"Byron Jarrett, Eric Brewton, Tim Greene"	76	84
+"2015"	20150712	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	86.4	"Amy Bonner, Maj Forsberg, Daryl Humphrey"	76	96
+"2015"	20150712	TRUE	"SAS"	"San Antonio Stars"	"MIN"	"Minnesota Lynx"	2	180	88.8	"Tommy Nunez, Tom Mauer, Denise Brooks"	49	60
+"2015"	20150712	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	88.5	"Tony Dawkins, Kurt Walker, Jeffrey Smith"	60	70
+"2015"	20150714	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	93.2	"Byron Jarrett, Lamont Simpson, Tim Greene"	85	79
+"2015"	20150714	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	92.7	"Denise Brooks, Eric Brewton, Amy Bonner"	71	80
+"2015"	20150715	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	91.8	"Kurt Walker, Tony Dawkins, Jeffrey Smith"	57	85
+"2015"	20150715	TRUE	"TUL"	"Tulsa Shock"	"IND"	"Indiana Fever"	3	200	94.8	"Tommy Nunez, Kevin Sparrock, Janetta Graham"	80	83
+"2015"	20150715	TRUE	"SAS"	"San Antonio Stars"	"NYL"	"New York Liberty"	3	200	91	"Jonathan Sterling, Billy Smith, Sue Blauch"	68	84
+"2015"	20150715	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	86.3	"Denise Brooks, Maj Forsberg, Cheryl Flores"	55	68
+"2015"	20150716	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	177	90.2	"Amy Bonner, Jeff Wooten, Roy Gulbeyan"	76	63
+"2015"	20150716	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	93.5	"Tiara Cruse, Tom Mauer, Lamont Simpson"	57	64
+"2015"	20150717	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	187	95.3	"Billy Smith, Eric Brewton, Cheryl Flores"	66	76
+"2015"	20150717	TRUE	"TUL"	"Tulsa Shock"	"SAS"	"San Antonio Stars"	2	200	87.5	"Daryl Humphrey, Aaron Smith, Kurt Walker"	58	65
+"2015"	20150717	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	84.2	"Tom Mauer, Tommy Nunez, Byron Jarrett"	50	68
+"2015"	20150718	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	90.2	"Daryl Humphrey, Maj Forsberg, Roy Gulbeyan"	75	73
+"2015"	20150718	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	95.3	"Jeff Wooten, Michael Price, Sue Blauch"	73	86
+"2015"	20150719	TRUE	"SAS"	"San Antonio Stars"	"CHI"	"Chicago Sky"	2	200	89.2	"Tom Mauer, Jonathan Sterling, Tommy Nunez"	82	93
+"2015"	20150719	TRUE	"MIN"	"Minnesota Lynx"	"TUL"	"Tulsa Shock"	2	200	88.5	"---"	76	72
+"2015"	20150719	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	93.3	"Tiara Cruse, Billy Smith, Eric Brewton"	82	89
+"2015"	20150721	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	98.5	"Lamont Simpson, Byron Jarrett, Vladimir Voyard-Tadal"	92	97
+"2015"	20150721	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	177	81.1	"Sue Blauch, Michael Price, Tommy Nunez"	65	61
+"2015"	20150721	TRUE	"IND"	"Indiana Fever"	"SAS"	"San Antonio Stars"	2	200	86.4	"Janetta Graham, Billy Smith, Eric Brewton"	62	80
+"2015"	20150721	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	90.5	"Amy Bonner, Kurt Walker, Tim Greene"	81	77
+"2015"	20150721	TRUE	"WAS"	"Washington Mystics"	"TUL"	"Tulsa Shock"	2	200	81.9	"---"	76	69
+"2015"	20150722	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	186	89.1	"Cheryl Flores, Tom Mauer, Kurt Walker"	59	51
+"2015"	20150722	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	209	81.5	"Tyler Ford, Roy Gulbeyan, Jeff Wooten"	78	74
+"2015"	20150728	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	225	84.6	"Tim Greene, Jeffrey Smith, Billy Smith"	75	73
+"2015"	20150728	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	225	92	"Tommy Nunez, Amy Bonner, Michael Price"	87	89
+"2015"	20150729	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	92.1	"Eric Brewton, Sue Blauch, Tyler Ford"	72	84
+"2015"	20150729	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	197	91.4	"Maj Forsberg, Tom Mauer, Daryl Humphrey"	62	82
+"2015"	20150729	TRUE	"ATL"	"Atlanta Dream"	"SAS"	"San Antonio Stars"	2	200	100.4	"Tony Dawkins, Kurt Walker, Tiffany Bird"	85	102
+"2015"	20150729	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	87.1	"Denise Brooks, Don Hudson, Kevin Sparrock"	74	87
+"2015"	20150730	TRUE	"PHO"	"Phoenix Mercury"	"TUL"	"Tulsa Shock"	2	200	94.6	"---"	78	66
+"2015"	20150731	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	88.9	"Cheryl Flores, Denise Brooks, Tiffany Bird"	88	77
+"2015"	20150731	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	94.4	"Sue Blauch, Tom Mauer, Janetta Graham"	66	67
+"2015"	20150731	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	168	101.7	"Tyler Ford, Jeffrey Smith, Eric Brewton"	70	76
+"2015"	20150731	TRUE	"WAS"	"Washington Mystics"	"SAS"	"San Antonio Stars"	2	200	89.4	"Michael Price, Jeff Wooten, Amy Bonner"	88	53
+"2015"	20150801	TRUE	"MIN"	"Minnesota Lynx"	"TUL"	"Tulsa Shock"	2	200	84.1	"---"	73	80
+"2015"	20150802	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	93.8	"Sue Blauch, Jeffrey Smith, Kevin Sparrock"	71	68
+"2015"	20150802	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	83.9	"Eric Brewton, Kurt Walker, Janetta Graham"	68	71
+"2015"	20150802	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	85	"Fatou Cissoko-Stephens, Jeff Wooten, Tom Mauer"	70	83
+"2015"	20150802	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	91.1	"Maj Forsberg, Michael Price, Tony Dawkins"	62	78
+"2015"	20150802	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	86.2	"Tim Greene, Tommy Nunez, Byron Jarrett"	67	78
+"2015"	20150804	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	99.5	"Don Hudson, Kevin Sparrock, Michael Price"	82	106
+"2015"	20150804	TRUE	"SAS"	"San Antonio Stars"	"CON"	"Connecticut Sun"	3	200	95.4	"Lamont Simpson, Tyler Ford, Jeffrey Smith"	51	82
+"2015"	20150804	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	185	91.3	"Kurt Walker, Amy Bonner, Sue Blauch"	55	77
+"2015"	20150804	TRUE	"TUL"	"Tulsa Shock"	"PHO"	"Phoenix Mercury"	1	225	83	"Denise Brooks, Byron Jarrett, Jeff Wooten"	84	87
+"2015"	20150805	TRUE	"SAS"	"San Antonio Stars"	"WAS"	"Washington Mystics"	3	200	84.2	"Maj Forsberg, Tom Mauer, Tony Dawkins"	63	66
+"2015"	20150806	TRUE	"TUL"	"Tulsa Shock"	"LAS"	"Los Angeles Sparks"	0	190	87.3	"Billy Smith, Janetta Graham, Michael Price"	57	82
+"2015"	20150807	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	99	"Sue Blauch, Tiara Cruse, Tommy Nunez"	77	63
+"2015"	20150807	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	84.1	"Tiffany Bird, Daryl Humphrey, Byron Jarrett"	72	86
+"2015"	20150807	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	101.2	"Lamont Simpson, Maj Forsberg, Tony Dawkins"	77	106
+"2015"	20150807	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	83.4	"Billy Smith, Michael Price, Roy Gulbeyan"	66	73
+"2015"	20150808	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	200	99.4	"Kevin Sparrock, Cheryl Flores, Roy Gulbeyan"	81	88
+"2015"	20150809	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	88.6	"Lamont Simpson, Tom Mauer, Maj Forsberg"	64	74
+"2015"	20150809	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	189	86.1	"Tommy Nunez, Denise Brooks, Daryl Humphrey"	59	72
+"2015"	20150809	TRUE	"ATL"	"Atlanta Dream"	"TUL"	"Tulsa Shock"	2	200	93.1	"---"	98	90
+"2015"	20150809	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	85.3	"Don Hudson, Tiara Cruse, Eric Brewton"	73	84
+"2015"	20150811	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	186	91.5	"Jeffrey Smith, Tiffany Bird, Eric Brewton"	85	68
+"2015"	20150811	TRUE	"SAS"	"San Antonio Stars"	"MIN"	"Minnesota Lynx"	2	188	95.1	"---"	76	80
+"2015"	20150811	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	93.5	"Byron Jarrett, Roy Gulbeyan, Denise Brooks"	63	84
+"2015"	20150811	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	84	"Billy Smith, Sue Blauch, Tyler Ford"	73	62
+"2015"	20150812	TRUE	"TUL"	"Tulsa Shock"	"CON"	"Connecticut Sun"	3	200	90.2	"Kevin Sparrock, Roy Gulbeyan, Tony Dawkins"	74	80
+"2015"	20150812	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	84.9	"Cheryl Flores, Kurt Walker, Tommy Nunez"	66	83
+"2015"	20150814	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	95.4	"Denise Brooks, Roy Gulbeyan, Tim Greene"	82	82
+"2015"	20150814	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	91.1	"Tommy Nunez, Janetta Graham, Jeffrey Smith"	90	78
+"2015"	20150814	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	90.1	"Jeff Wooten, Eric Brewton, Sue Blauch"	94	84
+"2015"	20150815	TRUE	"TUL"	"Tulsa Shock"	"NYL"	"New York Liberty"	3	200	86.6	"Lamont Simpson, Don Hudson, Tom Mauer"	81	76
+"2015"	20150816	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	83.2	"Daryl Humphrey, Janetta Graham, Billy Smith"	77	90
+"2015"	20150816	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	176	88	"Maj Forsberg, Kurt Walker, Sue Blauch"	64	68
+"2015"	20150816	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	84.5	"Roy Gulbeyan, Denise Brooks, Eric Brewton"	75	63
+"2015"	20150816	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	87.9	"Michael Price, Byron Jarrett, Tiffany Bird"	63	72
+"2015"	20150816	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	86.9	"Jeffrey Smith, Tommy Nunez, Tony Dawkins"	58	77
+"2015"	20150818	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	169	87.6	"Michael Price, Byron Jarrett, Daryl Humphrey"	79	56
+"2015"	20150818	TRUE	"PHO"	"Phoenix Mercury"	"TUL"	"Tulsa Shock"	2	200	90	"---"	59	74
+"2015"	20150819	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	193	85	"Billy Smith, Sue Blauch, Amy Bonner"	79	61
+"2015"	20150819	TRUE	"NYL"	"New York Liberty"	"SAS"	"San Antonio Stars"	2	200	89.6	"Maj Forsberg, Roy Gulbeyan, Tyler Ford"	73	45
+"2015"	20150821	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	99.3	"Kevin Sparrock, Denise Brooks, Tom Mauer"	85	87
+"2015"	20150821	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	87.4	"Amy Bonner, Tiara Cruse, Michael Price"	67	78
+"2015"	20150821	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	83.1	"Tyler Ford, Billy Smith, Daryl Humphrey"	66	68
+"2015"	20150821	TRUE	"MIN"	"Minnesota Lynx"	"SAS"	"San Antonio Stars"	2	200	88.4	"Byron Jarrett, Cheryl Flores, Kurt Walker"	77	61
+"2015"	20150821	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	86.6	"Jeffrey Smith, Roy Gulbeyan, Janetta Graham"	75	63
+"2015"	20150821	TRUE	"CON"	"Connecticut Sun"	"TUL"	"Tulsa Shock"	2	225	77.9	"---"	76	84
+"2015"	20150823	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	93.1	"Amy Bonner, Tom Mauer, Tiara Cruse"	102	92
+"2015"	20150823	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	87.8	"Tiffany Bird, Kurt Walker, Denise Brooks"	79	80
+"2015"	20150823	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	89.4	"Byron Jarrett, Lamont Simpson, Kurt Walker"	67	79
+"2015"	20150823	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	91.6	"Tony Dawkins, Sue Blauch, Eric Brewton"	72	59
+"2015"	20150823	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	89.1	"Michael Price, Don Hudson, Tim Greene"	66	64
+"2015"	20150825	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	80.2	"Tommy Nunez, Michael Price, Denise Brooks"	57	71
+"2015"	20150826	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	87.6	"Cheryl Flores, Amy Bonner, Eric Brewton"	63	79
+"2015"	20150827	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	85.2	"Sue Blauch, Jeffrey Smith, Roy Gulbeyan"	81	80
+"2015"	20150828	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	95.9	"Kevin Sparrock, Maj Forsberg, Byron Jarrett"	90	84
+"2015"	20150828	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	88.5	"Cheryl Flores, Daryl Humphrey, Eric Brewton"	68	81
+"2015"	20150828	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	91.4	"Tiara Cruse, Tommy Nunez, Billy Smith"	69	83
+"2015"	20150828	TRUE	"LAS"	"Los Angeles Sparks"	"TUL"	"Tulsa Shock"	2	200	85.6	"---"	55	76
+"2015"	20150828	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	90.3	"Tyler Ford, Denise Brooks, Tony Dawkins"	63	71
+"2015"	20150829	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	91.8	"Don Hudson, Jeffrey Smith, Roy Gulbeyan"	98	96
+"2015"	20150829	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	90.5	"Daryl Humphrey, Byron Jarrett, Tim Greene"	80	66
+"2015"	20150830	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	92.9	"Eric Brewton, Maj Forsberg, Cheryl Flores"	72	68
+"2015"	20150830	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	166	87.6	"Sue Blauch, Billy Smith, Janetta Graham"	52	57
+"2015"	20150830	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	89.4	"Michael Price, Tom Mauer, Amy Bonner"	61	71
+"2015"	20150830	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	85	"Lamont Simpson, Tiffany Bird, Jeff Wooten"	59	69
+"2015"	20150830	TRUE	"IND"	"Indiana Fever"	"TUL"	"Tulsa Shock"	2	200	92.7	"---"	70	76
+"2015"	20150901	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	89	"Don Hudson, Amy Bonner, Tom Mauer"	51	81
+"2015"	20150901	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	225	84.8	"Tyler Ford, Tony Dawkins, Denise Brooks"	75	80
+"2015"	20150902	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	78.4	"Jeff Wooten, Lamont Simpson, Maj Forsberg"	53	73
+"2015"	20150903	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	174	86.2	"Michael Price, Maj Forsberg, Janetta Graham"	91	77
+"2015"	20150903	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	85.9	"Tom Mauer, Sue Blauch, Amy Bonner"	82	60
+"2015"	20150903	TRUE	"TUL"	"Tulsa Shock"	"SEA"	"Seattle Storm"	0	200	87.5	"Byron Jarrett, Cheryl Flores, Kurt Walker"	85	67
+"2015"	20150904	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	191	83.9	"Lamont Simpson, Billy Smith, Roy Gulbeyan"	65	76
+"2015"	20150904	TRUE	"CON"	"Connecticut Sun"	"SAS"	"San Antonio Stars"	2	200	83.7	"Jeffrey Smith, Tony Dawkins, Tommy Nunez"	73	72
+"2015"	20150905	TRUE	"PHO"	"Phoenix Mercury"	"SAS"	"San Antonio Stars"	2	200	89.6	"Denise Brooks, Kevin Sparrock, Daryl Humphrey"	82	52
+"2015"	20150906	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	91.9	"Byron Jarrett, Sue Blauch, Billy Smith"	67	73
+"2015"	20150906	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	93.5	"Tiara Cruse, Amy Bonner, Tim Greene"	65	93
+"2015"	20150906	TRUE	"TUL"	"Tulsa Shock"	"LAS"	"Los Angeles Sparks"	0	181	82	"Jeff Wooten, Jeffrey Smith, Roy Gulbeyan"	73	82
+"2015"	20150906	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	193	84.8	"Maj Forsberg, Tommy Nunez, Kurt Walker"	75	68
+"2015"	20150908	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	189	87	"Jeffrey Smith, Tyler Ford, Denise Brooks"	67	68
+"2015"	20150908	TRUE	"SAS"	"San Antonio Stars"	"TUL"	"Tulsa Shock"	2	200	90.1	"---"	64	74
+"2015"	20150908	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	225	89.3	"Kurt Walker, Tom Mauer, Amy Bonner"	72	76
+"2015"	20150909	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	95.3	"Amy Bonner, Tiffany Bird, Kurt Walker"	47	90
+"2015"	20150909	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	83.6	"Daryl Humphrey, Michael Price, Kevin Sparrock"	64	74
+"2015"	20150911	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	94.4	"Daryl Humphrey, Denise Brooks, Sue Blauch"	75	67
+"2015"	20150911	TRUE	"TUL"	"Tulsa Shock"	"CHI"	"Chicago Sky"	2	200	89.8	"Lamont Simpson, Amy Bonner, Maj Forsberg, Lamont Simpson"	71	92
+"2015"	20150911	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	84.7	"Tiffany Bird, Jeffrey Smith, Eric Brewton"	82	55
+"2015"	20150911	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	84.5	"Billy Smith, Michael Price, Byron Jarrett"	55	70
+"2015"	20150911	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	87.2	"Janetta Graham, Roy Gulbeyan, Jeff Wooten"	59	78
+"2015"	20150913	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	88.8	"Tiara Cruse, Denise Brooks, Tom Mauer"	75	86
+"2015"	20150913	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	94.9	"Amy Bonner, Sue Blauch, Tony Dawkins"	76	81
+"2015"	20150913	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	94.7	"Maj Forsberg, Tommy Nunez, Billy Smith"	59	58
+"2015"	20150913	TRUE	"PHO"	"Phoenix Mercury"	"TUL"	"Tulsa Shock"	2	200	88.9	"---"	87	91
+"2015"	20150913	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	86.5	"Daryl Humphrey, Don Hudson, Eric Brewton"	73	71
+"2016"	20160514	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	100.5	"Billy Smith, Jonathan Sterling, Amy Bonner"	70	93
+"2016"	20160514	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	95.4	"Kevin Sparrock, Tiara Cruse, Tom Mauer"	90	79
+"2016"	20160514	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	102.4	"Michael Price, Tiffany Bird, Byron Jarrett"	76	95
+"2016"	20160514	TRUE	"ATL"	"Atlanta Dream"	"SAS"	"San Antonio Stars"	2	225	85.6	"Tommy Nunez, Jeff Wooten, Fatou Cissoko-Stephens"	73	63
+"2016"	20160514	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	92.9	"Vladimir Voyard-Tadal, Daryl Humphrey, Jeffrey Smith"	87	76
+"2016"	20160515	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	183	93	"Kurt Walker, Janetta Graham, Roy Gulbeyan"	66	92
+"2016"	20160515	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	93.3	"Don Hudson, Amy Bonner, Karleena Tobin"	71	79
+"2016"	20160518	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	97.9	"Jeffrey Smith, Tiara Cruse, Roy Gulbeyan"	97	80
+"2016"	20160518	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	101.9	"Tony Dawkins, Amy Bonner, Eric Brewton"	93	97
+"2016"	20160518	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	94	"Billy Smith, Sue Blauch, Fatou Cissoko-Stephens"	87	77
+"2016"	20160519	TRUE	"CON"	"Connecticut Sun"	"SAS"	"San Antonio Stars"	2	200	87.8	"Kurt Walker, JB DeRosa, Daryl Humphrey"	72	68
+"2016"	20160520	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	100.9	"Sue Blauch, Billy Smith, Tiffany Bird"	85	94
+"2016"	20160520	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	94.1	"Vladimir Voyard-Tadal, Cheryl Flores, Tom Mauer"	81	80
+"2016"	20160520	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	98.7	"Katie Lukanich, Tommy Nunez, Michael Price"	88	67
+"2016"	20160521	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	225	91.5	"Tony Dawkins, Eric Brewton, Karleena Tobin"	84	76
+"2016"	20160521	TRUE	"SAS"	"San Antonio Stars"	"DAL"	"Dallas Wings"	2	200	92.5	"Jeff Wooten, Roy Gulbeyan, Aaron Smith"	77	82
+"2016"	20160521	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	225	95.7	"Daryl Humphrey, Jeffrey Smith, Tiara Cruse"	75	72
+"2016"	20160522	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	98.2	"Cheryl Flores, Tommy Nunez, Michael Price"	81	87
+"2016"	20160522	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	93.7	"Janetta Graham, Kurt Walker, Billy Smith"	78	71
+"2016"	20160524	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	95.3	"Tiffany Bird, Kurt Walker, Eric Brewton"	91	80
+"2016"	20160524	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	225	100.8	"Aaron Smith, Byron Jarrett, Sue Blauch"	85	79
+"2016"	20160525	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	96.7	"Amy Bonner, Daryl Humphrey, Roy Gulbeyan"	85	78
+"2016"	20160526	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	95.2	"Sue Blauch, Don Hudson, Byron Jarrett"	77	72
+"2016"	20160526	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	225	86.9	"Tommy Nunez, Cheryl Flores, Jeff Wooten"	84	82
+"2016"	20160527	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	98.7	"Daryl Humphrey, Eric Brewton, Tiffany Bird"	102	93
+"2016"	20160527	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	92.3	"Maj Forsberg, Aaron Smith, Tony Dawkins"	71	74
+"2016"	20160527	TRUE	"CHI"	"Chicago Sky"	"SAS"	"San Antonio Stars"	2	200	92.9	"Roy Gulbeyan, Kevin Sparrock, Isaac Barnett"	78	79
+"2016"	20160528	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	88	"Tim Greene, Amy Bonner, Tom Mauer"	81	93
+"2016"	20160529	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	98	"Roy Gulbeyan, Don Hudson, Natalie Sago"	76	85
+"2016"	20160529	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	94.7	"Maj Forsberg, JB DeRosa, Jonathan Sterling"	92	87
+"2016"	20160529	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	86.2	"Janetta Graham, Billy Smith, Eric Brewton"	77	93
+"2016"	20160531	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	98.1	"Jeff Wooten, Amy Bonner, Roy Gulbeyan"	79	69
+"2016"	20160531	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	102.1	"Maj Forsberg, Jonathan Sterling, Tommy Nunez"	90	99
+"2016"	20160601	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	94	"Janetta Graham, Eric Brewton, JB DeRosa"	75	85
+"2016"	20160601	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	89.6	"Tony Dawkins, Jeffrey Smith, Tiara Cruse"	86	78
+"2016"	20160602	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	192	79.2	"Kurt Walker, Aaron Smith, Don Hudson"	61	64
+"2016"	20160603	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	91.2	"Amy Bonner, Kevin Sparrock, Daryl Humphrey"	72	98
+"2016"	20160603	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	106.1	"Eric Brewton, Jeff Wooten, Karleena Tobin"	83	77
+"2016"	20160603	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	86.2	"Sue Blauch, Maj Forsberg, Tiara Cruse"	59	91
+"2016"	20160603	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	84.4	"Michael Price, Byron Jarrett, Tiffany Bird"	81	95
+"2016"	20160604	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	93.6	"Kurt Walker, Natalie Sago, Billy Smith"	63	80
+"2016"	20160604	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	75.9	"Tommy Nunez, Katie Lukanich, Jeffrey Smith"	72	61
+"2016"	20160605	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	88.9	"Sue Blauch, Maj Forsberg, Tim Greene"	86	79
+"2016"	20160605	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	93.7	"Aaron Smith, Tony Dawkins, Amy Bonner"	88	77
+"2016"	20160605	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	93.3	"Don Hudson, Roy Gulbeyan, Daryl Humphrey"	86	78
+"2016"	20160607	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	185	94.4	"Billy Smith, Michael Price, Cheryl Flores"	77	98
+"2016"	20160607	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	93	"Daryl Humphrey, Tommy Nunez, Jeffrey Smith"	81	89
+"2016"	20160608	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	93.7	"Eric Brewton, Tiffany Bird, Jeff Wooten"	87	79
+"2016"	20160609	TRUE	"SAS"	"San Antonio Stars"	"PHO"	"Phoenix Mercury"	1	200	91	"Kurt Walker, Sue Blauch, Don Hudson"	75	90
+"2016"	20160610	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	99.6	"Roy Gulbeyan, Jeff Wooten, Janetta Graham"	110	78
+"2016"	20160610	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	92.7	"Byron Jarrett, Jeffrey Smith, Tiara Cruse"	76	77
+"2016"	20160610	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	89.1	"Daryl Humphrey, Cheryl Flores, Jonathan Sterling"	73	64
+"2016"	20160611	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	96.8	"Sue Blauch, Natalie Sago, Don Hudson"	93	73
+"2016"	20160611	TRUE	"NYL"	"New York Liberty"	"SAS"	"San Antonio Stars"	2	200	92.5	"Vladimir Voyard-Tadal, Kevin Sparrock, Eric Brewton"	90	75
+"2016"	20160611	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	96.3	"Jonathan Sterling, Byron Jarrett, Tom Mauer"	83	76
+"2016"	20160612	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	98.7	"Daryl Humphrey, Isaac Barnett, Aaron Smith"	87	93
+"2016"	20160612	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	90.3	"Fatou Cissoko-Stephens, Roy Gulbeyan, Jeff Wooten"	90	88
+"2016"	20160612	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	92.3	"Tiffany Bird, Michael Price, Tony Dawkins"	80	86
+"2016"	20160614	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	275	87.2	"Katie Lukanich, Roy Gulbeyan, Jeff Wooten"	109	106
+"2016"	20160614	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	196	86.4	"Vladimir Voyard-Tadal, Jeffrey Smith, Tommy Nunez"	85	98
+"2016"	20160614	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	88.5	"Billy Smith, Eric Brewton, Sue Blauch"	63	87
+"2016"	20160614	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	88	"Byron Jarrett, Kurt Walker, Aaron Smith"	88	91
+"2016"	20160614	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	200	90.5	"Tony Dawkins, Tiffany Bird, Tom Mauer"	70	77
+"2016"	20160616	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	90.2	"Daryl Humphrey, Tony Dawkins, Vladimir Voyard-Tadal"	80	72
+"2016"	20160616	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	92.9	"Kevin Sparrock, Jeffrey Smith, Isaac Barnett"	79	88
+"2016"	20160617	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	225	94.2	"Janetta Graham, Maj Forsberg, Billy Smith"	97	101
+"2016"	20160617	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	193	87.5	"Sue Blauch, Byron Jarrett, JB DeRosa"	71	77
+"2016"	20160617	TRUE	"IND"	"Indiana Fever"	"SAS"	"San Antonio Stars"	2	200	88.8	"Tim Greene, Michael Price, Cheryl Flores"	84	75
+"2016"	20160618	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	275	93.5	"Jeff Wooten, Vladimir Voyard-Tadal, Eric Brewton"	117	111
+"2016"	20160618	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	93	"Fatou Cissoko-Stephens, Jeffrey Smith, Kurt Walker"	65	95
+"2016"	20160619	TRUE	"SAS"	"San Antonio Stars"	"CON"	"Connecticut Sun"	3	200	94.2	"Fatou Cissoko-Stephens, Maj Forsberg, Billy Smith"	90	93
+"2016"	20160619	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	225	86.9	"Kevin Sparrock, Don Hudson, Roy Gulbeyan"	78	75
+"2016"	20160619	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	96.7	"JB DeRosa, Sue Blauch, Byron Jarrett"	96	84
+"2016"	20160621	TRUE	"SAS"	"San Antonio Stars"	"CHI"	"Chicago Sky"	2	200	99.8	"Jeffrey Smith, Kevin Sparrock, Sue Blauch"	75	81
+"2016"	20160621	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	96.8	"Billy Smith, Maj Forsberg, Roy Gulbeyan"	90	100
+"2016"	20160621	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	194	94.1	"Jeff Wooten, Aaron Smith, Eric Brewton"	72	67
+"2016"	20160622	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	250	87.6	"Cheryl Flores, Daryl Humphrey, Tommy Nunez"	90	79
+"2016"	20160622	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	91.6	"Isaac Barnett, Tony Dawkins, Byron Jarrett"	62	76
+"2016"	20160623	TRUE	"SAS"	"San Antonio Stars"	"DAL"	"Dallas Wings"	2	225	94.5	"Tommy Nunez, Tiara Cruse, Byron Jarrett"	90	97
+"2016"	20160624	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	94.8	"Tom Mauer, Kevin Sparrock, Jeffrey Smith"	94	76
+"2016"	20160624	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	87.7	"Michael Price, Tony Dawkins, Kurt Walker"	79	80
+"2016"	20160624	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	97.7	"Jeff Wooten, Roy Gulbeyan, Aaron Smith"	81	98
+"2016"	20160624	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	89.3	"Cheryl Flores, Amy Bonner, Sue Blauch"	91	79
+"2016"	20160625	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	88.7	"Jeff Wooten, Kurt Walker, Daryl Humphrey"	92	87
+"2016"	20160625	TRUE	"ATL"	"Atlanta Dream"	"SAS"	"San Antonio Stars"	2	200	88	"Amy Bonner, Tom Mauer, Tim Greene"	69	73
+"2016"	20160626	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	89.5	"Cheryl Flores, Tommy Nunez, Billy Smith"	73	80
+"2016"	20160626	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	225	92.6	"Aaron Smith, Eric Brewton, Kevin Sparrock"	104	97
+"2016"	20160626	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	85.1	"Byron Jarrett, Tiara Cruse, Michael Price"	63	87
+"2016"	20160628	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	193	90.9	"Kurt Walker, Amy Bonner, JB DeRosa"	84	83
+"2016"	20160628	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	87.8	"Cheryl Flores, Michael Price, Tommy Nunez"	81	84
+"2016"	20160629	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	92.7	"Jeffrey Smith, Jonathan Sterling, Byron Jarrett"	95	83
+"2016"	20160629	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	225	97.2	"Tim Greene, Roy Gulbeyan, Billy Smith"	95	92
+"2016"	20160629	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	95.8	"Kurt Walker, Tony Dawkins, Natalie Sago"	75	86
+"2016"	20160629	TRUE	"SAS"	"San Antonio Stars"	"WAS"	"Washington Mystics"	3	200	82.1	"Sue Blauch, Daryl Humphrey, Aaron Smith"	67	84
+"2016"	20160630	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	198	93.4	"Jeff Wooten, Eric Brewton, Don Hudson"	75	84
+"2016"	20160630	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	89.1	"Karleena Tobin, Kevin Sparrock, Amy Bonner"	83	78
+"2016"	20160701	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	225	88.2	"Natalie Sago, Kurt Walker, Tony Dawkins"	84	86
+"2016"	20160701	TRUE	"SAS"	"San Antonio Stars"	"IND"	"Indiana Fever"	3	225	95.5	"Billy Smith, Roy Gulbeyan, Tiara Cruse"	87	85
+"2016"	20160701	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	96.4	"JB DeRosa, Tom Mauer, Sue Blauch"	99	88
+"2016"	20160702	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	92.6	"Cheryl Flores, Eric Brewton, Jeffrey Smith"	86	83
+"2016"	20160702	TRUE	"SAS"	"San Antonio Stars"	"MIN"	"Minnesota Lynx"	2	200	94.9	"Katie Lukanich, Kevin Sparrock, Tommy Nunez"	68	91
+"2016"	20160703	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	94.7	"Tiara Cruse, Kurt Walker, Roy Gulbeyan"	95	87
+"2016"	20160703	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	88.7	"Sue Blauch, Byron Jarrett, Isaac Barnett"	67	77
+"2016"	20160705	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	87.5	"Tommy Nunez, Isaac Barnett, Jeff Wooten"	64	77
+"2016"	20160705	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	87.8	"Vladimir Voyard-Tadal, Byron Jarrett, Sue Blauch"	74	77
+"2016"	20160705	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	96.5	"Eric Brewton, Daryl Humphrey, Cheryl Flores"	82	87
+"2016"	20160706	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	90.1	"Kurt Walker, Janetta Graham, Tony Dawkins"	88	94
+"2016"	20160706	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	95.4	"Fatou Cissoko-Stephens, Kevin Sparrock, Roy Gulbeyan"	74	78
+"2016"	20160706	TRUE	"WAS"	"Washington Mystics"	"SAS"	"San Antonio Stars"	2	200	83.2	"Jeffrey Smith, Cheryl Flores, Tom Mauer"	70	77
+"2016"	20160707	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	225	87.8	"Sue Blauch, Fatou Cissoko-Stephens, Tim Greene"	89	93
+"2016"	20160708	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	225	95.8	"Billy Smith, Kurt Walker, Eric Brewton"	90	95
+"2016"	20160708	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	98	"Tony Dawkins, Tiara Cruse, Sue Blauch"	88	85
+"2016"	20160708	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	92.5	"Jeffrey Smith, Natalie Sago, Tommy Nunez"	78	60
+"2016"	20160708	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	200	84.2	"Maj Forsberg, Katie Lukanich, Daryl Humphrey"	78	68
+"2016"	20160709	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	92.4	"Tiara Cruse, Tom Mauer, Tony Dawkins"	56	93
+"2016"	20160710	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	98.5	"Maj Forsberg, Kevin Sparrock, Jonathan Sterling"	95	100
+"2016"	20160710	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	87.5	"Katie Lukanich, Tommy Nunez, Jeffrey Smith"	67	63
+"2016"	20160710	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	89.1	"Jeff Wooten, Natalie Sago, Daryl Humphrey"	82	93
+"2016"	20160710	TRUE	"SAS"	"San Antonio Stars"	"NYL"	"New York Liberty"	3	200	91.9	"Eric Brewton, Fatou Cissoko-Stephens, Billy Smith"	65	75
+"2016"	20160710	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	85.9	"Byron Jarrett, Tiffany Bird, Kurt Walker"	93	82
+"2016"	20160712	TRUE	"MIN"	"Minnesota Lynx"	"SAS"	"San Antonio Stars"	2	200	83.2	"Tommy Nunez, Maj Forsberg, Natalie Sago"	81	57
+"2016"	20160713	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	85.7	"Katie Lukanich, Billy Smith, Michael Price"	77	67
+"2016"	20160713	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	91	"Amy Bonner, Tom Mauer, Kevin Sparrock"	86	64
+"2016"	20160713	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	89.2	"Jeffrey Smith, Daryl Humphrey, Karleena Tobin"	62	86
+"2016"	20160713	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	97.9	"Roy Gulbeyan, Tiffany Bird, Byron Jarrett"	74	78
+"2016"	20160715	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	86.7	"Jeff Wooten, Tim Greene, Jeffrey Smith"	77	84
+"2016"	20160715	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	225	90.9	"Tony Dawkins, Eric Brewton, Fatou Cissoko-Stephens"	98	92
+"2016"	20160715	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	87.4	"Tiffany Bird, Michael Price, Janetta Graham"	72	78
+"2016"	20160715	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	86.8	"Billy Smith, Byron Jarrett, Amy Bonner"	70	88
+"2016"	20160715	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	83.5	"Maj Forsberg, Tommy Nunez, Tiara Cruse"	51	80
+"2016"	20160716	TRUE	"SAS"	"San Antonio Stars"	"PHO"	"Phoenix Mercury"	1	200	86.1	"Kevin Sparrock, Tiara Cruse, Kurt Walker"	64	83
+"2016"	20160717	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	94.5	"Byron Jarrett, Tim Greene, Amy Bonner"	74	91
+"2016"	20160717	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	225	96.1	"Daryl Humphrey, Michael Price, Billy Smith"	98	97
+"2016"	20160717	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	95.5	"Don Hudson, Jeff Wooten, Sue Blauch"	76	83
+"2016"	20160717	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	94.5	"Roy Gulbeyan, Natalie Sago, Tiffany Bird"	91	88
+"2016"	20160719	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	84.7	"Jeffrey Smith, Sue Blauch, Maj Forsberg"	82	92
+"2016"	20160719	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	93	"Billy Smith, Isaac Barnett, Tommy Nunez"	79	77
+"2016"	20160720	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	92.4	"Aaron Smith, Amy Bonner, Byron Jarrett"	89	78
+"2016"	20160720	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	89.8	"Kevin Sparrock, Kurt Walker, Tim Greene"	65	83
+"2016"	20160720	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	93.8	"Michael Price, Vladimir Voyard-Tadal, Jeff Wooten"	69	83
+"2016"	20160720	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	90.3	"Roy Gulbeyan, Tony Dawkins, Karleena Tobin"	88	81
+"2016"	20160721	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	87.7	"Eric Brewton, JB DeRosa, Tiara Cruse"	82	70
+"2016"	20160722	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	98.8	"Don Hudson, Maj Forsberg, Roy Gulbeyan"	88	93
+"2016"	20160722	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	95.2	"Kurt Walker, JB DeRosa, Tiara Cruse"	94	89
+"2016"	20160722	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	84.7	"Jeffrey Smith, Sue Blauch, Fatou Cissoko-Stephens"	72	79
+"2016"	20160722	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	199	87.4	"Eric Brewton, Cheryl Flores, Tom Mauer"	95	75
+"2016"	20160826	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	90.1	"Eric Brewton, Tony Dawkins, Janetta Graham"	82	90
+"2016"	20160826	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	91.7	"Jonathan Sterling, Sue Blauch, Don Hudson"	80	84
+"2016"	20160826	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	91	"Cheryl Flores, Isaac Barnett, Tommy Nunez"	72	98
+"2016"	20160826	TRUE	"NYL"	"New York Liberty"	"SAS"	"San Antonio Stars"	2	200	91	"Tom Mauer, Maj Forsberg, Billy Smith"	84	77
+"2016"	20160826	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	95.5	"Tiffany Bird, Byron Jarrett, Kurt Walker"	72	79
+"2016"	20160827	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	89.2	"Fatou Cissoko-Stephens, Jeffrey Smith, Tim Greene"	92	69
+"2016"	20160828	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	98.2	"Daryl Humphrey, Karleena Tobin, Tim Greene"	73	87
+"2016"	20160828	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	96.2	"Tom Mauer, Jeff Wooten, Natalie Sago"	92	85
+"2016"	20160828	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	92.6	"Tony Dawkins, Tommy Nunez, Amy Bonner"	80	92
+"2016"	20160828	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	94.4	"Maj Forsberg, Michael Price, Billy Smith"	66	70
+"2016"	20160828	TRUE	"SAS"	"San Antonio Stars"	"WAS"	"Washington Mystics"	3	200	94.9	"Katie Lukanich, Kevin Sparrock, Eric Brewton"	85	74
+"2016"	20160830	TRUE	"SAS"	"San Antonio Stars"	"CON"	"Connecticut Sun"	3	200	90.9	"Vladimir Voyard-Tadal, Amy Bonner, Natalie Sago"	62	89
+"2016"	20160830	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	92.2	"Sue Blauch, Jonathan Sterling, JB DeRosa"	79	65
+"2016"	20160831	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	89.6	"Maj Forsberg, Michael Price, Aaron Smith"	66	78
+"2016"	20160901	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	100.7	"Tiffany Bird, Don Hudson, Byron Jarrett"	77	98
+"2016"	20160901	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	83.2	"Janetta Graham, Tim Greene, Tommy Nunez"	70	61
+"2016"	20160902	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	93.9	"Katie Lukanich, Sue Blauch, Tiffany Bird"	88	92
+"2016"	20160902	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	93.4	"Byron Jarrett, Daryl Humphrey, Tiara Cruse"	74	87
+"2016"	20160902	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	96.1	"Jeffrey Smith, Kevin Sparrock, JB DeRosa"	77	79
+"2016"	20160902	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	85.5	"Aaron Smith, Kurt Walker, Maj Forsberg"	69	75
+"2016"	20160903	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	95.6	"Eric Brewton, Kurt Walker, Tim Greene"	70	92
+"2016"	20160904	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	93.2	"Jonathan Sterling, Jeffrey Smith, Tiara Cruse"	91	82
+"2016"	20160904	TRUE	"SAS"	"San Antonio Stars"	"CHI"	"Chicago Sky"	2	200	86.6	"Isaac Barnett, Maj Forsberg, Don Hudson"	73	97
+"2016"	20160904	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	96.5	"Tony Dawkins, Byron Jarrett, Billy Smith"	88	83
+"2016"	20160904	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	184	81.4	"Sue Blauch, Cheryl Flores, Jeff Wooten"	81	80
+"2016"	20160904	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	90.5	"JB DeRosa, Tom Mauer, Janetta Graham"	79	93
+"2016"	20160906	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	96.2	"Isaac Barnett, Tony Dawkins, Maj Forsberg"	87	91
+"2016"	20160906	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	197	87.6	"Byron Jarrett, Daryl Humphrey, Jonathan Sterling"	77	74
+"2016"	20160906	TRUE	"IND"	"Indiana Fever"	"SAS"	"San Antonio Stars"	2	200	86.9	"Karleena Tobin, Kurt Walker, Tiara Cruse"	71	69
+"2016"	20160907	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	91.1	"Maj Forsberg, Fatou Cissoko-Stephens, Aaron Smith"	102	78
+"2016"	20160907	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	95.2	"Jeffrey Smith, Cheryl Flores, Vladimir Voyard-Tadal"	81	118
+"2016"	20160908	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	190	93.1	"JB DeRosa, Tommy Nunez, Amy Bonner"	86	79
+"2016"	20160909	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	95.1	"Byron Jarrett, Daryl Humphrey, Kevin Sparrock"	88	95
+"2016"	20160909	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	99.5	"Tiffany Bird, Tony Dawkins, Jeffrey Smith"	82	89
+"2016"	20160909	TRUE	"DAL"	"Dallas Wings"	"SAS"	"San Antonio Stars"	2	200	88.6	"Tom Mauer, Janetta Graham, Amy Bonner"	92	84
+"2016"	20160909	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	91.4	"Natalie Sago, Eric Brewton, Tim Greene"	81	76
+"2016"	20160911	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	97	"Billy Smith, Eric Brewton, Amy Bonner"	96	86
+"2016"	20160911	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	96	"Cheryl Flores, Tim Greene, Roy Gulbeyan"	81	84
+"2016"	20160911	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	94.9	"Daryl Humphrey, Tom Mauer, Jonathan Sterling"	75	86
+"2016"	20160911	TRUE	"MIN"	"Minnesota Lynx"	"SAS"	"San Antonio Stars"	2	200	94.7	"Tommy Nunez, JB DeRosa, Kevin Sparrock"	81	76
+"2016"	20160911	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	90.8	"Kurt Walker, Jeff Wooten, Roy Gulbeyan"	56	78
+"2016"	20160911	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	81.8	"Isaac Barnett, Sue Blauch, Tiffany Bird"	80	73
+"2016"	20160913	TRUE	"SAS"	"San Antonio Stars"	"ATL"	"Atlanta Dream"	3	200	93.2	"Tim Greene, Vladimir Voyard-Tadal, Sue Blauch"	71	67
+"2016"	20160913	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	225	91.1	"Tiffany Bird, Jonathan Sterling, Roy Gulbeyan"	97	98
+"2016"	20160913	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	95.1	"Tommy Nunez, Don Hudson, Fatou Cissoko-Stephens"	87	89
+"2016"	20160913	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	188	92.5	"Michael Price, Aaron Smith, Billy Smith, Cheryl Flores"	85	90
+"2016"	20160913	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	87.3	"Tiara Cruse, Billy Smith, Byron Jarrett"	75	62
+"2016"	20160915	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	96	"Fatou Cissoko-Stephens, Amy Bonner, Jeff Wooten"	91	94
+"2016"	20160915	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	87.6	"Roy Gulbeyan, Jeffrey Smith, Janetta Graham"	62	86
+"2016"	20160916	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	100.1	"Don Hudson, Michael Price, JB DeRosa"	68	92
+"2016"	20160916	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	95.1	"Vladimir Voyard-Tadal, Kurt Walker, Katie Lukanich"	74	107
+"2016"	20160916	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	89.3	"Daryl Humphrey, Maj Forsberg, Jeff Wooten"	82	75
+"2016"	20160916	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	191	88	"Roy Gulbeyan, Isaac Barnett, Eric Brewton"	65	69
+"2016"	20160917	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	94.6	"Kevin Sparrock, Cheryl Flores, Kurt Walker"	87	95
+"2016"	20160918	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	89.6	"Sue Blauch, Billy Smith, Tony Dawkins"	60	83
+"2016"	20160918	TRUE	"PHO"	"Phoenix Mercury"	"SAS"	"San Antonio Stars"	2	200	80.7	"Amy Bonner, Jeff Wooten, Daryl Humphrey"	81	65
+"2016"	20160918	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	95.8	"Tommy Nunez, Maj Forsberg, Eric Brewton"	75	88
+"2016"	20160918	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	96.6	"Tom Mauer, Isaac Barnett, Michael Price"	87	78
+"2017"	20170513	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	101.2	"Maj Forsberg, Tim Greene, Vladimir Voyard-Tadal"	81	74
+"2017"	20170513	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	91.8	"Natalie Sago, Tiffany Bird, Sue Blauch"	68	78
+"2017"	20170513	TRUE	"SAS"	"San Antonio Stars"	"NYL"	"New York Liberty"	3	200	86.2	"Billy Smith, Fatou Cissoko-Stephens, Eric Brewton"	64	73
+"2017"	20170514	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	97.3	"Jeff Wooten, Roy Gulbeyan, Janetta Graham"	61	70
+"2017"	20170514	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	86.1	"Tommy Nunez, Kevin Sparrock, Cheryl Flores"	68	58
+"2017"	20170514	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	88.1	"Kurt Walker, Tiara Cruse, Jonathan Sterling"	82	87
+"2017"	20170514	TRUE	"SAS"	"San Antonio Stars"	"WAS"	"Washington Mystics"	3	200	87.3	"Don Hudson, JB DeRosa, Karleena Tobin"	74	89
+"2017"	20170517	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	95.6	"Jeff Wooten, Vladimir Voyard-Tadal, Tiffany Bird"	62	85
+"2017"	20170518	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	96.3	"Isaac Barnett, Tiara Cruse, Sue Blauch"	90	71
+"2017"	20170519	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	99.2	"Kurt Walker, Byron Jarrett, Tiara Cruse"	91	83
+"2017"	20170519	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	89.6	"Janetta Graham, Tommy Nunez, Jeff Wooten"	89	99
+"2017"	20170519	TRUE	"PHO"	"Phoenix Mercury"	"SAS"	"San Antonio Stars"	2	200	97.5	"Maj Forsberg, Randy Richardson, Fatou Cissoko-Stephens"	78	72
+"2017"	20170520	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	93.4	"Tiffany Bird, Katie Lukanich, Roy Gulbeyan"	89	87
+"2017"	20170520	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	83.8	"Karleena Tobin, Kurt Walker, Isaac Barnett"	79	81
+"2017"	20170521	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	96.7	"Kevin Sparrock, Sue Blauch, Randy Richardson"	75	71
+"2017"	20170521	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	87.9	"Byron Jarrett, Jeffrey Smith, Maj Forsberg"	71	81
+"2017"	20170523	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	95.5	"Maj Forsberg, JB DeRosa, Vladimir Voyard-Tadal"	78	80
+"2017"	20170523	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	90.9	"Byron Jarrett, Cheryl Flores, Tony Dawkins"	69	67
+"2017"	20170524	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	86	"Tiffany Bird, Roy Gulbeyan, Jonathan Sterling"	82	67
+"2017"	20170524	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	88.4	"Don Hudson, Tiara Cruse, Billy Smith"	90	93
+"2017"	20170525	TRUE	"DAL"	"Dallas Wings"	"SAS"	"San Antonio Stars"	2	200	98	"Isaac Barnett, Cheryl Flores, Byron Jarrett"	94	82
+"2017"	20170526	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	90.3	"Jonathan Sterling, Roy Gulbeyan, Janetta Graham"	82	68
+"2017"	20170526	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	91.2	"Kurt Walker, Don Hudson, Brenda Pantoja"	81	87
+"2017"	20170526	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	99.7	"Tony Dawkins, Eric Brewton, Sue Blauch"	79	88
+"2017"	20170527	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	88.3	"Cheryl Flores, Roy Gulbeyan, Byron Jarrett"	73	75
+"2017"	20170527	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	99.3	"Maj Forsberg, Billy Smith, JB DeRosa"	65	107
+"2017"	20170528	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	103.4	"Isaac Barnett, Kurt Walker, Cheryl Flores"	97	79
+"2017"	20170528	TRUE	"SAS"	"San Antonio Stars"	"MIN"	"Minnesota Lynx"	2	200	88.9	"Eric Brewton, Brenda Pantoja, Randy Richardson"	66	80
+"2017"	20170528	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	90.5	"Jeff Wooten, Tom Mauer, Janetta Graham"	70	94
+"2017"	20170530	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	91.2	"Brenda Pantoja, Kurt Walker, Tim Greene"	62	89
+"2017"	20170530	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	90.3	"Jonathan Sterling, Tiffany Bird, Maj Forsberg"	90	75
+"2017"	20170531	TRUE	"SAS"	"San Antonio Stars"	"ATL"	"Atlanta Dream"	3	200	93.6	"Tony Dawkins, Katie Lukanich, Jeffrey Smith"	70	77
+"2017"	20170531	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	87.4	"Daryl Humphrey, Tiara Cruse, Billy Smith"	76	78
+"2017"	20170601	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	93.7	"Tiffany Bird, Sue Blauch, Tim Greene"	99	91
+"2017"	20170602	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	100.8	"Isaac Barnett, Sue Blauch, Tony Dawkins"	89	93
+"2017"	20170603	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	90.1	"Tom Mauer, Randy Richardson, Tiffany Bird"	85	91
+"2017"	20170603	TRUE	"CON"	"Connecticut Sun"	"SAS"	"San Antonio Stars"	2	200	95.5	"Tim Greene, Natalie Sago, Jeffrey Smith"	85	77
+"2017"	20170603	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	91.2	"Karleena Tobin, Kurt Walker, Kevin Sparrock"	100	77
+"2017"	20170604	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	94.8	"Cheryl Flores, Billy Smith, Eric Brewton"	72	88
+"2017"	20170604	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	95.1	"Maj Forsberg, Jonathan Sterling, Don Hudson"	72	78
+"2017"	20170606	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	95.4	"Karleena Tobin, Roy Gulbeyan, Eric Brewton"	101	89
+"2017"	20170606	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	95.2	"Tommy Nunez, Tiara Cruse, Natalie Sago"	70	79
+"2017"	20170606	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	200	88.7	"Billy Smith, Brenda Pantoja, JB DeRosa"	85	76
+"2017"	20170607	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	225	92.9	"Maj Forsberg, Tim Greene, Don Hudson"	98	90
+"2017"	20170607	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	92.5	"Janetta Graham, Vladimir Voyard-Tadal, Byron Jarrett"	61	76
+"2017"	20170609	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	99.3	"Daryl Humphrey, Maj Forsberg, Jeffrey Smith"	90	96
+"2017"	20170609	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	84.5	"Karleena Tobin, Tommy Nunez, Tony Dawkins"	80	83
+"2017"	20170609	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	90.5	"Kurt Walker, Tiara Cruse, JB DeRosa"	98	73
+"2017"	20170610	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	98.7	"Fatou Cissoko-Stephens, Tim Greene, Don Hudson"	71	104
+"2017"	20170610	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	89.5	"Roy Gulbeyan, Katie Lukanich, Tom Mauer"	89	87
+"2017"	20170610	TRUE	"CHI"	"Chicago Sky"	"SAS"	"San Antonio Stars"	2	225	89	"Daryl Humphrey, Isaac Barnett, Maj Forsberg"	85	81
+"2017"	20170611	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	92.7	"Janetta Graham, Tony Dawkins, Billy Smith"	91	74
+"2017"	20170611	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	93.7	"Randy Richardson, Tiara Cruse, Kurt Walker"	86	94
+"2017"	20170611	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	86.6	"Natalie Sago, Jeffrey Smith, Jeff Wooten"	70	88
+"2017"	20170613	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	93.4	"Byron Jarrett, Fatou Cissoko-Stephens, Cheryl Flores"	87	97
+"2017"	20170613	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	225	90.1	"Katie Lukanich, Eric Brewton, Billy Smith"	91	86
+"2017"	20170614	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	89.3	"Jeffrey Smith, Sue Blauch, Kevin Sparrock"	76	96
+"2017"	20170615	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	88.5	"Vladimir Voyard-Tadal, Brenda Pantoja, Roy Gulbeyan"	74	85
+"2017"	20170615	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	200	90.7	"Kurt Walker, Karleena Tobin, Eric Brewton"	75	80
+"2017"	20170616	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	225	92.4	"Tom Mauer, Katie Lukanich, Jeff Wooten"	102	93
+"2017"	20170616	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	93.6	"Kurt Walker, Eric Brewton, Janetta Graham"	78	86
+"2017"	20170617	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	102.5	"Natalie Sago, Vladimir Voyard-Tadal, Roy Gulbeyan"	98	93
+"2017"	20170618	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	94.7	"Karleena Tobin, Jeff Wooten, Don Hudson"	91	79
+"2017"	20170618	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	92.6	"Brenda Pantoja, Katie Lukanich, Tommy Nunez"	59	90
+"2017"	20170618	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	92.2	"Isaac Barnett, Tony Dawkins, Cheryl Flores"	57	75
+"2017"	20170618	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	87.9	"Sue Blauch, Tim Greene, Daryl Humphrey"	87	83
+"2017"	20170621	TRUE	"SAS"	"San Antonio Stars"	"DAL"	"Dallas Wings"	2	200	90.2	"Vladimir Voyard-Tadal, Tiffany Bird, Randy Richardson"	78	81
+"2017"	20170623	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	92.5	"Eric Brewton, Tiffany Bird, Daryl Humphrey"	82	78
+"2017"	20170623	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	97.3	"Tommy Nunez, Jonathan Sterling, Brenda Pantoja"	76	93
+"2017"	20170623	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	94.5	"Roy Gulbeyan, Isaac Barnett, Tiara Cruse"	94	89
+"2017"	20170623	TRUE	"DAL"	"Dallas Wings"	"SAS"	"San Antonio Stars"	2	200	87.9	"Natalie Sago, JB DeRosa, Kurt Walker"	81	69
+"2017"	20170623	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	89.7	"Vladimir Voyard-Tadal, Sue Blauch, Don Hudson"	85	82
+"2017"	20170624	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	89.6	"Fatou Cissoko-Stephens, Jeff Wooten, Tiffany Bird"	84	73
+"2017"	20170625	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	97.8	"Isaac Barnett, Roy Gulbeyan, Natalie Sago"	97	63
+"2017"	20170625	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	97	"Jonathan Sterling, Cheryl Flores, Byron Jarrett"	82	96
+"2017"	20170625	TRUE	"SAS"	"San Antonio Stars"	"MIN"	"Minnesota Lynx"	2	200	87.3	"Daryl Humphrey, Don Hudson, Fatou Cissoko-Stephens"	78	87
+"2017"	20170627	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	91.3	"Don Hudson, Natalie Sago, Vladimir Voyard-Tadal"	87	79
+"2017"	20170627	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	97	"Jeffrey Smith, Fatou Cissoko-Stephens, Byron Jarrett"	70	100
+"2017"	20170628	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	95.2	"Kevin Sparrock, Sue Blauch, JB DeRosa"	82	75
+"2017"	20170629	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	92.5	"Katie Lukanich, Tiara Cruse, Eric Brewton"	89	96
+"2017"	20170629	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	93.1	"Vladimir Voyard-Tadal, Karleena Tobin, Don Hudson"	54	67
+"2017"	20170630	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	93.1	"Roy Gulbeyan, Janetta Graham, JB DeRosa"	85	76
+"2017"	20170630	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	93.2	"Tom Mauer, Jeff Wooten, Sue Blauch"	91	83
+"2017"	20170630	TRUE	"CHI"	"Chicago Sky"	"SAS"	"San Antonio Stars"	2	200	88.3	"Billy Smith, Jeffrey Smith, Byron Jarrett"	82	89
+"2017"	20170701	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	94.7	"Roy Gulbeyan, Janetta Graham, Isaac Barnett"	89	69
+"2017"	20170701	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	92.4	"Karleena Tobin, Tony Dawkins, Tommy Nunez"	91	85
+"2017"	20170702	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	96	"Billy Smith, Brenda Pantoja, Jeffrey Smith"	72	81
+"2017"	20170702	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	84.6	"Tom Mauer, Daryl Humphrey, Sue Blauch"	69	76
+"2017"	20170705	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	104.4	"Eric Brewton, Kevin Sparrock, Sue Blauch"	84	94
+"2017"	20170705	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	86.8	"Katie Lukanich, Tommy Nunez, Jeffrey Smith"	80	88
+"2017"	20170705	TRUE	"CON"	"Connecticut Sun"	"SAS"	"San Antonio Stars"	2	200	94.7	"Cheryl Flores, Jeff Wooten, Daryl Humphrey"	89	56
+"2017"	20170706	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	92.2	"Roy Gulbeyan, Billy Smith, Janetta Graham"	77	88
+"2017"	20170706	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	91.9	"Tim Greene, Tom Mauer, Karleena Tobin"	79	70
+"2017"	20170707	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	93.1	"Daryl Humphrey, Byron Jarrett, Cheryl Flores"	68	89
+"2017"	20170707	TRUE	"PHO"	"Phoenix Mercury"	"SAS"	"San Antonio Stars"	2	200	91.4	"Tony Dawkins, Sue Blauch, Kevin Sparrock"	92	77
+"2017"	20170708	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	96	"Byron Jarrett, Fatou Cissoko-Stephens, Tim Greene"	76	100
+"2017"	20170708	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	94.6	"Eric Brewton, Janetta Graham, Billy Smith"	92	96
+"2017"	20170708	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	88.7	"Katie Lukanich, Jeffrey Smith, JB DeRosa"	69	81
+"2017"	20170709	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	101	"Tom Mauer, Tony Dawkins, Karleena Tobin"	78	98
+"2017"	20170709	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	95.6	"Cheryl Flores, Kurt Walker, Daryl Humphrey"	69	81
+"2017"	20170712	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	97.4	"Jeff Wooten, Natalie Sago, Kevin Sparrock"	84	90
+"2017"	20170712	TRUE	"SAS"	"San Antonio Stars"	"IND"	"Indiana Fever"	3	200	89	"Jeffrey Smith, Tiffany Bird, Kurt Walker"	79	72
+"2017"	20170712	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	94.5	"Janetta Graham, Tim Greene, Maj Forsberg"	84	89
+"2017"	20170712	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	93.9	"Byron Jarrett, Fatou Cissoko-Stephens, Roy Gulbeyan"	83	79
+"2017"	20170713	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	100.8	"Fatou Cissoko-Stephens, Kurt Walker, Natalie Sago"	77	87
+"2017"	20170714	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	92.9	"Karleena Tobin, Tim Greene, Billy Smith"	72	58
+"2017"	20170714	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	93.2	"Maj Forsberg, Randy Richardson, Katie Lukanich"	78	68
+"2017"	20170714	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	95	"Byron Jarrett, Tommy Nunez, Tiara Cruse"	88	71
+"2017"	20170715	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	96.5	"Jeff Wooten, Tony Dawkins, Natalie Sago"	84	90
+"2017"	20170716	TRUE	"SAS"	"San Antonio Stars"	"CON"	"Connecticut Sun"	3	200	92.9	"Randy Richardson, Tim Greene, Maj Forsberg"	75	89
+"2017"	20170716	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	250	96	"Tiara Cruse, Tommy Nunez, Byron Jarrett"	106	112
+"2017"	20170716	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	89.7	"Karleena Tobin, Billy Smith, Eric Brewton"	66	81
+"2017"	20170716	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	91.6	"Sue Blauch, Tom Mauer, Fatou Cissoko-Stephens"	55	85
+"2017"	20170717	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	85.9	"Janetta Graham, Jeff Wooten, Jonathan Sterling"	62	80
+"2017"	20170718	TRUE	"SAS"	"San Antonio Stars"	"ATL"	"Atlanta Dream"	3	200	97	"Isaac Barnett, Don Hudson, Fatou Cissoko-Stephens"	75	88
+"2017"	20170718	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	92	"Cheryl Flores, JB DeRosa, Jeffrey Smith"	94	83
+"2017"	20170719	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	101.6	"Kevin Sparrock, Jonathan Sterling, Sue Blauch"	74	100
+"2017"	20170719	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	91.1	"Tiffany Bird, Don Hudson, Janetta Graham"	80	96
+"2017"	20170719	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	92.1	"Tom Mauer, Brenda Pantoja, Roy Gulbeyan"	84	77
+"2017"	20170719	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	225	89.8	"Byron Jarrett, Tony Dawkins, Tiara Cruse"	96	100
+"2017"	20170720	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	91.9	"Tom Mauer, Katie Lukanich, Vladimir Voyard-Tadal"	82	80
+"2017"	20170720	TRUE	"IND"	"Indiana Fever"	"SAS"	"San Antonio Stars"	2	200	87	"Tiffany Bird, Natalie Sago, JB DeRosa"	61	85
+"2017"	20170725	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	225	101.2	"Natalie Sago, Tim Greene, Tommy Nunez"	91	99
+"2017"	20170725	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	99.2	"Sue Blauch, Billy Smith, JB DeRosa"	72	93
+"2017"	20170725	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	94.3	"Roy Gulbeyan, Daryl Humphrey, Cheryl Flores"	82	84
+"2017"	20170725	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	87	"Tiffany Bird, Kurt Walker, Randy Richardson"	60	68
+"2017"	20170725	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	88	"Byron Jarrett, Maj Forsberg, Brenda Pantoja"	75	76
+"2017"	20170725	TRUE	"WAS"	"Washington Mystics"	"SAS"	"San Antonio Stars"	2	200	86.8	"Katie Lukanich, Jeff Wooten, Eric Brewton"	85	76
+"2017"	20170728	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	99.2	"Jeffrey Smith, Sue Blauch, Jonathan Sterling"	90	80
+"2017"	20170728	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	96.3	"Isaac Barnett, Eric Brewton, Tiara Cruse"	86	80
+"2017"	20170728	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	93.6	"Tony Dawkins, Billy Smith, Tiffany Bird"	85	84
+"2017"	20170728	TRUE	"LAS"	"Los Angeles Sparks"	"SAS"	"San Antonio Stars"	2	200	88.6	"Kevin Sparrock, Cheryl Flores, Roy Gulbeyan"	85	73
+"2017"	20170728	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	97	"Natalie Sago, Byron Jarrett, Maj Forsberg"	93	109
+"2017"	20170730	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	90.9	"Billy Smith, Fatou Cissoko-Stephens, Tom Mauer"	77	70
+"2017"	20170730	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	95.4	"Roy Gulbeyan, Tim Greene, Karleena Tobin"	86	82
+"2017"	20170730	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	96.4	"Isaac Barnett, Tiara Cruse, Jeffrey Smith"	73	89
+"2017"	20170730	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	96.9	"Jeff Wooten, Jonathan Sterling, Janetta Graham"	74	95
+"2017"	20170730	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	91.5	"Cheryl Flores, Tommy Nunez, JB DeRosa"	82	93
+"2017"	20170730	TRUE	"SAS"	"San Antonio Stars"	"PHO"	"Phoenix Mercury"	1	200	94.1	"Sue Blauch, Byron Jarrett, Daryl Humphrey"	64	81
+"2017"	20170801	TRUE	"NYL"	"New York Liberty"	"SAS"	"San Antonio Stars"	2	200	89.9	"Tommy Nunez, Jeffrey Smith, Brenda Pantoja"	81	93
+"2017"	20170803	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	91.7	"Don Hudson, Katie Lukanich, Sue Blauch"	54	69
+"2017"	20170804	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	102	"Kevin Sparrock, Cheryl Flores, Jeff Wooten"	92	93
+"2017"	20170804	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	89.1	"Billy Smith, Fatou Cissoko-Stephens, Tom Mauer"	80	93
+"2017"	20170804	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	97.6	"Byron Jarrett, Janetta Graham, Jonathan Sterling"	81	70
+"2017"	20170804	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	94.8	"Daryl Humphrey, JB DeRosa, Maj Forsberg"	74	87
+"2017"	20170804	TRUE	"WAS"	"Washington Mystics"	"SAS"	"San Antonio Stars"	2	200	86.7	"Natalie Sago, Eric Brewton, Tony Dawkins"	74	76
+"2017"	20170805	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	96.9	"Jeffrey Smith, Billy Smith, Vladimir Voyard-Tadal"	86	91
+"2017"	20170805	TRUE	"SEA"	"Seattle Storm"	"SAS"	"San Antonio Stars"	2	225	90.4	"Randy Richardson, Sue Blauch, Don Hudson"	80	87
+"2017"	20170806	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	101.1	"Kurt Walker, Eric Brewton, Karleena Tobin"	79	85
+"2017"	20170806	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	97.8	"Jeffrey Smith, Kevin Sparrock, Maj Forsberg"	82	84
+"2017"	20170806	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	92.7	"Byron Jarrett, Tiffany Bird, Isaac Barnett"	80	85
+"2017"	20170808	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	87.8	"Tony Dawkins, Kurt Walker, Fatou Cissoko-Stephens"	81	72
+"2017"	20170808	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	98.5	"Tiffany Bird, Byron Jarrett, Vladimir Voyard-Tadal"	71	84
+"2017"	20170808	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	90.3	"Sue Blauch, Tom Mauer, Tommy Nunez"	76	81
+"2017"	20170810	TRUE	"SAS"	"San Antonio Stars"	"CHI"	"Chicago Sky"	2	200	93.8	"Eric Brewton, Tommy Nunez, Janetta Graham"	74	94
+"2017"	20170810	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	225	94.9	"Jeffrey Smith, Tiara Cruse, Roy Gulbeyan"	101	100
+"2017"	20170811	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	91.7	"Roy Gulbeyan, Randy Richardson, Daryl Humphrey"	83	77
+"2017"	20170811	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	90.5	"Eric Brewton, Jonathan Sterling, Cheryl Flores"	70	64
+"2017"	20170812	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	104.7	"Tony Dawkins, Sue Blauch, Isaac Barnett"	88	96
+"2017"	20170812	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	92.7	"Kurt Walker, Janetta Graham, Don Hudson"	98	89
+"2017"	20170812	TRUE	"ATL"	"Atlanta Dream"	"SAS"	"San Antonio Stars"	2	200	88.9	"Jeffrey Smith, Katie Lukanich, Jeff Wooten"	68	84
+"2017"	20170812	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	89.6	"Daryl Humphrey, Karleena Tobin, Billy Smith"	80	100
+"2017"	20170813	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	86.7	"Tim Greene, Vladimir Voyard-Tadal, Maj Forsberg"	69	83
+"2017"	20170815	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	98.5	"Tiara Cruse, Jonathan Sterling, Tommy Nunez"	96	75
+"2017"	20170816	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	79.7	"Kevin Sparrock, JB DeRosa, Sue Blauch"	61	62
+"2017"	20170816	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	89.5	"Kurt Walker, Jeff Wooten, Natalie Sago"	95	62
+"2017"	20170818	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	250	90.5	"Sue Blauch, Kevin Sparrock, JB DeRosa"	115	106
+"2017"	20170818	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	98.1	"Daryl Humphrey, Roy Gulbeyan, Tiffany Bird"	82	70
+"2017"	20170818	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	93.6	"Tommy Nunez, Kurt Walker, Fatou Cissoko-Stephens"	52	111
+"2017"	20170818	TRUE	"SAS"	"San Antonio Stars"	"SEA"	"Seattle Storm"	0	200	90.7	"Maj Forsberg, Tim Greene, Randy Richardson"	78	79
+"2017"	20170818	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	91.3	"Tony Dawkins, Eric Brewton, Tiara Cruse"	89	79
+"2017"	20170819	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	99.8	"Isaac Barnett, Jeffrey Smith, Cheryl Flores"	86	90
+"2017"	20170820	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	96.7	"Tiffany Bird, Kurt Walker, Daryl Humphrey"	103	66
+"2017"	20170820	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	95.8	"Byron Jarrett, Karleena Tobin, Kevin Sparrock"	66	94
+"2017"	20170820	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	87.3	"Katie Lukanich, Tom Mauer, Roy Gulbeyan"	87	82
+"2017"	20170820	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	81.3	"Billy Smith, Jeff Wooten, Natalie Sago"	61	70
+"2017"	20170822	TRUE	"SAS"	"San Antonio Stars"	"LAS"	"Los Angeles Sparks"	0	200	91.2	"Jeff Wooten, Daryl Humphrey, Katie Lukanich"	55	75
+"2017"	20170822	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	92	"Jeffrey Smith, Jonathan Sterling, Maj Forsberg"	69	105
+"2017"	20170823	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	92.2	"Billy Smith, Natalie Sago, Tony Dawkins"	83	89
+"2017"	20170823	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	103.9	"Tommy Nunez, Janetta Graham, Tim Greene"	87	93
+"2017"	20170823	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	84.9	"Tiara Cruse, Kevin Sparrock, Byron Jarrett"	71	50
+"2017"	20170824	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	91	"Cheryl Flores, Tiffany Bird, Sue Blauch"	82	67
+"2017"	20170825	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	104.1	"Don Hudson, Katie Lukanich, Eric Brewton"	96	83
+"2017"	20170825	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	82.7	"Tim Greene, Maj Forsberg, Tommy Nunez"	66	74
+"2017"	20170825	TRUE	"MIN"	"Minnesota Lynx"	"SAS"	"San Antonio Stars"	2	200	93.4	"Roy Gulbeyan, Randy Richardson, Tiara Cruse"	89	70
+"2017"	20170826	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	225	84.9	"Tiffany Bird, Eric Brewton, Vladimir Voyard-Tadal"	74	79
+"2017"	20170826	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	92.8	"Natalie Sago, Tom Mauer, Don Hudson"	83	78
+"2017"	20170827	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	90	"Billy Smith, Tommy Nunez, Karleena Tobin"	67	78
+"2017"	20170827	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	95.2	"Tony Dawkins, Kurt Walker, Fatou Cissoko-Stephens"	62	92
+"2017"	20170827	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	89.3	"Jeffrey Smith, Roy Gulbeyan, Jeff Wooten"	75	71
+"2017"	20170829	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	99.2	"JB DeRosa, Jeffrey Smith, Cheryl Flores"	86	76
+"2017"	20170830	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	95.4	"Vladimir Voyard-Tadal, Cheryl Flores, Tommy Nunez"	99	96
+"2017"	20170830	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	85.2	"Janetta Graham, JB DeRosa, Kurt Walker"	80	69
+"2017"	20170901	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	240	75.7	"Jeffrey Smith, Katie Lukanich, Kurt Walker"	56	81
+"2017"	20170901	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	105	"Eric Brewton, Tony Dawkins, Tiffany Bird"	87	110
+"2017"	20170901	TRUE	"SAS"	"San Antonio Stars"	"NYL"	"New York Liberty"	3	200	86.8	"Tiara Cruse, Roy Gulbeyan, Kevin Sparrock"	69	81
+"2017"	20170901	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	95	"Tim Greene, Maj Forsberg, Daryl Humphrey"	66	86
+"2017"	20170901	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	225	89.5	"Sue Blauch, Vladimir Voyard-Tadal, Byron Jarrett"	106	110
+"2017"	20170902	TRUE	"SAS"	"San Antonio Stars"	"IND"	"Indiana Fever"	3	200	87.6	"Don Hudson, Billy Smith, Randy Richardson"	75	71
+"2017"	20170903	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	99.7	"Tiara Cruse, Roy Gulbeyan, Isaac Barnett"	85	80
+"2017"	20170903	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	92.8	"Tony Dawkins, Daryl Humphrey, Sue Blauch"	82	81
+"2017"	20170903	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	95.9	"Eric Brewton, Tiffany Bird, Jeff Wooten"	70	81
+"2017"	20170903	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	92.8	"Jonathan Sterling, Maj Forsberg, Jeffrey Smith"	72	86
+"2017"	20170903	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	91.7	"JB DeRosa, Fatou Cissoko-Stephens, Tommy Nunez"	70	84
+"2018"	20180518	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	95.5	"Cheryl Flores, Maj Forsberg, Tom Mauer"	78	86
+"2018"	20180519	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	88.2	"Michael Price, Katie Lukanich, Jeffrey Smith"	82	64
+"2018"	20180520	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	91.9	"Karleena Tobin, Byron Jarrett, Eric Brewton"	76	80
+"2018"	20180520	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	101.5	"Billy Smith, Tiara Cruse, Don Hudson"	65	101
+"2018"	20180520	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	96.8	"Daryl Humphrey, Janetta Graham, Roy Gulbeyan"	78	101
+"2018"	20180520	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	96.7	"Tiffany Bird, Maj Forsberg, Cheryl Flores"	77	76
+"2018"	20180520	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	92.1	"Jeffrey Wooten, Natalie Sago, Kurt Walker"	87	82
+"2018"	20180520	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	91.5	"Isaac Barnett, Tim Greene, Sue Blauch"	75	82
+"2018"	20180522	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	92.3	"Natalie Sago, Randy Richardson, Eric Brewton"	87	70
+"2018"	20180522	TRUE	"LVA"	"Las Vegas Aces"	"WAS"	"Washington Mystics"	3	200	103	"Tony Dawkins, Roy Gulbeyan, Cheryl Flores"	70	75
+"2018"	20180523	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	91.7	"Brenda Pantoja, Kevin Sparrock, Billy Smith"	81	63
+"2018"	20180523	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	100.3	"Katie Lukanich, Byron Jarrett, Jeffrey Smith"	68	76
+"2018"	20180523	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	90.3	"Tiffany Bird, Fatou Cissoko-Stephens, Michael Price"	87	71
+"2018"	20180524	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	92.4	"Tim Greene, Sue Blauch, Roy Gulbeyan"	94	102
+"2018"	20180524	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	93.5	"Tom Mauer, Byron Jarrett, Ashley Moyer-Gleich"	93	84
+"2018"	20180525	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	88.7	"Jeffrey Wooten, John Butler, Janetta Graham"	78	72
+"2018"	20180525	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	225	88.2	"Maj Forsberg, Isaac Barnett, Toni Patillo"	91	95
+"2018"	20180526	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	101.3	"Tim Greene, Eric Brewton, Kevin Fahy"	78	70
+"2018"	20180526	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	99.2	"Janetta Graham, John Butler, Jeffrey Wooten"	77	86
+"2018"	20180527	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	87.9	"Toni Patillo, Kurt Walker, Isaac Barnett"	72	80
+"2018"	20180527	TRUE	"SEA"	"Seattle Storm"	"LVA"	"Las Vegas Aces"	0	200	103.3	"Daryl Humphrey, Roy Gulbeyan, Jenna Schroeder"	105	98
+"2018"	20180527	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	86.9	"Billy Smith, Fatou Cissoko-Stephens, Randy Richardson"	78	90
+"2018"	20180529	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	93.5	"Don Hudson, Jeanna Schroeder, Jeffrey Smith, Jenna Schroeder"	74	76
+"2018"	20180529	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	98.8	"Billy Smith, Sue Blauch, Randy Richardson"	89	94
+"2018"	20180529	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	93.4	"Katie Lukanich, Janetta Graham, Tiffany Bird"	77	81
+"2018"	20180530	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	99.9	"Natalie Sago, Eric Brewton, Daryl Humphrey"	103	95
+"2018"	20180531	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	92.6	"Tom Mauer, Brenda Pantoja, John Butler"	74	101
+"2018"	20180601	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	105.2	"Tiffany Bird, Eric Brewton, Jenna Schroeder"	110	72
+"2018"	20180601	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	89.4	"Sue Blauch, Kevin Sparrock, Kurt Walker"	73	85
+"2018"	20180601	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	93.6	"Janetta Graham, Michael Price, Jeffrey Wooten"	95	85
+"2018"	20180602	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	93.1	"Cheryl Flores, Don Hudson, Tim Greene"	90	94
+"2018"	20180602	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	225	90.3	"Roy Gulbeyan, Katie Lukanich, Isaac Barnett"	87	81
+"2018"	20180603	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	91.1	"Tony Dawkins, Bryon Jarrett, Toni Patillo"	78	71
+"2018"	20180603	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	106	"Kevin Fahy, Tiara Cruse, Jeffrey Wooten"	90	95
+"2018"	20180603	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	89.1	"Tiffany Bird, Sue Blauch, Natalie Sago"	69	77
+"2018"	20180603	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	92.9	"Jeffrey Smith, Michael Price, Karleena Tobin"	88	64
+"2018"	20180605	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	103.5	"Kevin Sparrock, Tiara Cruse, Billy Smith"	77	82
+"2018"	20180605	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	84.3	"Tom Mauer, Jeffrey Smith, Maj Forsberg"	80	74
+"2018"	20180607	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	92.4	"Billy Smith, Roy Gulbeyan, Katie Lukanich"	88	63
+"2018"	20180607	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	97	"Jenna Schroeder, Tim Greene, Jeffrey Wooten"	88	86
+"2018"	20180607	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	92.6	"Tiara Cruse, Tom Mauer, Maj Forsberg"	88	80
+"2018"	20180608	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	94.6	"Jeffrey Wooten, Tiara Cruse, John Butler"	89	83
+"2018"	20180608	TRUE	"ATL"	"Atlanta Dream"	"LVA"	"Las Vegas Aces"	0	200	99.6	"Ashley Moyer-Gleich, Don Hudson, Eric Brewton"	87	83
+"2018"	20180608	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	90.1	"Billy Smith, Kurt Walker, Katie Lukanich"	79	96
+"2018"	20180609	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	91.8	"Jeffrey Smith, Randy Richardson, Isaac Barnett"	75	89
+"2018"	20180610	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	87.1	"Don Hudson, Eric Brewton, Ashley Moyer-Gleich"	59	77
+"2018"	20180610	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	90.2	"Kevin Fahy, Sue Blauch, Kevin Sparrock"	75	78
+"2018"	20180610	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	94.9	"Janetta Graham, Michael Price, Tim Greene"	66	72
+"2018"	20180610	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	95.3	"Karleena Tobin, Kurt Walker, Tony Dawkins"	67	64
+"2018"	20180612	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	92.9	"Sue Blauch, Byron Jarrett, Jeffrey Smith"	75	72
+"2018"	20180612	TRUE	"LVA"	"Las Vegas Aces"	"IND"	"Indiana Fever"	3	225	95.3	"Randy Richardson, Billy Smith, Katie Lukanich"	101	92
+"2018"	20180612	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	200	83.3	"Tim Greene, Cheryl Flores, Michael Price"	64	72
+"2018"	20180612	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	88.7	"Janetta Graham, Jeffrey Wooten, Brenda Pantoja"	85	96
+"2018"	20180613	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	94.2	"Eric Brewton, Karleena Tobin, Tiara Cruse"	95	91
+"2018"	20180613	TRUE	"LVA"	"Las Vegas Aces"	"NYL"	"New York Liberty"	3	200	88.7	"Tony Dawkins, Tiffany Bird, Isaac Barnett"	78	63
+"2018"	20180614	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	92.4	"Don Hudson, Byron Jarrett, Natalie Sago"	67	72
+"2018"	20180615	TRUE	"LVA"	"Las Vegas Aces"	"DAL"	"Dallas Wings"	2	200	92.9	"Karleena Tobin, Brenda Pantoja, Roy Gulbeyan"	67	77
+"2018"	20180615	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	94.9	"Maj Forsberg, Fatou Cissoko-Stephens, Tim Greene"	92	103
+"2018"	20180615	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	89.7	"Tiffany Bird, Isaac Barnett, Billy Smith"	97	86
+"2018"	20180616	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	95.1	"Tiffany Bird, Sue Blauch, Tom Mauer"	64	96
+"2018"	20180616	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	95.8	"Kurt Walker, Byron Jarrett, Natalie Sago"	71	85
+"2018"	20180616	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	95.9	"Cheryl Flores, Kevin Sparrock, Cheryl Flores, Kevin Sparrock, Jeffrey Wooten, Jeffrey Wooten"	72	89
+"2018"	20180617	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	90.2	"Fatou Cissoko-Stephens, Jeffrey Smith, Roy Gulbeyan"	81	72
+"2018"	20180617	TRUE	"PHO"	"Phoenix Mercury"	"LVA"	"Las Vegas Aces"	0	200	94.8	"Tiara Cruse, Maj Forsberg, Daryl Humphrey"	92	80
+"2018"	20180619	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	88.6	"Daryl Humphrey, Kurt Walker, Brenda Pantoja"	55	74
+"2018"	20180619	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	102.5	"Maj Forsberg, Katie Lukanich, Jeffrey Smith"	83	91
+"2018"	20180619	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	101.2	"Roy Gulbeyan, Fatou Cissoko-Stephens, Tiara Cruse"	72	79
+"2018"	20180619	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	96.1	"Randy Richardson, Michael Price, Cheryl Flores"	89	77
+"2018"	20180619	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	86.3	"Ashley Moyer-Gleich, Tim Greene, Eric Brewton"	60	88
+"2018"	20180622	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	97.7	"Tim Greene, Katie Lukanich, Jeffrey Wooten"	70	75
+"2018"	20180622	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	102	"Tiara Cruse, Kurt Walker, Karleena Tobin"	93	77
+"2018"	20180622	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	89.9	"Isaac Barnett, Michael Price, Cheryl Flores"	72	101
+"2018"	20180622	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	98.1	"Billy Smith, Sue Blauch, Jeffrey Smith"	78	88
+"2018"	20180622	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	94.7	"Byron Jarrett, Janetta Graham, Daryl Humphrey"	83	72
+"2018"	20180622	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	93.7	"Roy Gulbeyan, Natalie Sago, Kevin Sparrock"	63	72
+"2018"	20180624	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	97.8	"Katie Lukanich, Billy Smith, Tim Greene"	88	97
+"2018"	20180624	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	95.1	"Sue Blauch, Randy Richardson, Kurt Walker"	97	76
+"2018"	20180624	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	87.2	"Don Hudson, Tiara Cruse, Michael Price"	87	78
+"2018"	20180624	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	90.7	"Janetta Graham, Tom Mauer, Eric Brewton"	54	80
+"2018"	20180624	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	95.5	"Roy Gulbeyan, Natalie Sago, Brenda Pantoja"	88	73
+"2018"	20180626	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	97.4	"Natalie Sago, Byron Jarrett, John Butler"	83	87
+"2018"	20180626	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	93.7	"Jeffrey Wooten, Jenna Schroeder, Eric Brewton"	79	91
+"2018"	20180626	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	88.8	"Michael Price, Cheryl Flores, Randy Richardson"	83	69
+"2018"	20180626	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	90.7	"Jeffrey Smith, Sue Blauch, Kevin Fahy"	80	92
+"2018"	20180627	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	97.4	"Kevin Sparrock, Isaac Barnett, Tiffany Bird"	80	93
+"2018"	20180627	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	93.2	"Cheryl Flores, Fatou Cissoko-Stephens, Janetta Graham"	89	101
+"2018"	20180627	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	100.3	"Tom Mauer, Ashley Moyer-Gleich, Maj Forsberg"	97	91
+"2018"	20180628	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	88.7	"Jeffrey Smith, Tim Greene, Brenda Pantoja"	72	81
+"2018"	20180628	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	89	"Jeffrey Wooten, Toni Patillo, Karleena Tobin"	77	80
+"2018"	20180629	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	93.1	"Tiffany Bird, Isaac Barnett, Maj Forsberg"	95	77
+"2018"	20180629	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	94.6	"Kevin Sparrock, Randy Richardson, Cheryl Flores"	78	94
+"2018"	20180629	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	95.8	"Don Hudson, Janetta Graham, Billy Smith"	74	85
+"2018"	20180629	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	95.4	"Tiara Cruse, Kurt Walker, Fatou Cissoko-Stephens"	103	99
+"2018"	20180630	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	93	"Fatou Cissoko-Stephens, Eric Brewton, Byron Jarrett"	84	74
+"2018"	20180701	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	225	95.5	"Maj Forsberg, Don Hudson, Kevin Fahy"	97	94
+"2018"	20180701	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	93.8	"Isaac Barnett, Tiffany Bird, Brenda Pantoja"	76	72
+"2018"	20180701	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	98.1	"Natalie Sago, Jeffrey Wooten, Kurt Walker"	87	83
+"2018"	20180701	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	93.2	"Tony Dawkins, Toni Patillo, Michael Price"	71	87
+"2018"	20180701	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	91	"Katie Lukanich, Billy Smith, Ashley Moyer-Gleich"	70	84
+"2018"	20180703	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	98.2	"Jeffrey Smith, Katie Lukanich, Jeffrey Wooten"	85	108
+"2018"	20180703	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	90.5	"Maj Forsberg, Tiara Cruse, Isaac Barnett"	73	72
+"2018"	20180703	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	86.7	"Randy Richardson, Cheryl Flores, Tim Greene"	71	59
+"2018"	20180703	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	86.3	"Karleena Tobin, Eric Brewton, Byron Jarrett"	77	62
+"2018"	20180705	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	97.5	"John Butler, Eric Brewton, Tiara Cruse"	63	90
+"2018"	20180705	TRUE	"CHI"	"Chicago Sky"	"LVA"	"Las Vegas Aces"	0	200	97.1	"Natalie Sago, Billy Smith, Brenda Pantoja"	80	84
+"2018"	20180705	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	85.4	"Jeffrey Wooten, Karleena Tobin, Byron Jarrett"	72	83
+"2018"	20180705	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	92.3	"Jeffrey Smith, Tiffany Bird, Don Hudson"	77	84
+"2018"	20180705	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	88.5	"Randy Richardson, Tim Greene, Cheryl Flores"	67	86
+"2018"	20180706	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	101.3	"Randy Richardson, Sue Blauch, Isaac Barnett"	95	86
+"2018"	20180707	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	92.1	"Eric Brewton, Tiara Cruse, Tony Dawkins"	63	77
+"2018"	20180707	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	93.5	"Billy Smith, Tiffany Bird, Don Hudson"	83	74
+"2018"	20180707	TRUE	"CON"	"Connecticut Sun"	"LVA"	"Las Vegas Aces"	0	200	98.4	"Janetta Graham, Kurt Walker, John Butler"	90	94
+"2018"	20180708	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	98.4	"Kevin Sparrock, Brenda Pantoja, Byron Jarrett"	70	76
+"2018"	20180708	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	91.5	"Tim Greene, Sue Blauch, Isaac Barnett"	97	87
+"2018"	20180708	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	89.8	"Jenna Schroeder, Daryl Humphrey, Jeffrey Smith"	91	97
+"2018"	20180710	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	97.8	"Byron Jarrett, Fatou Cissoko-Stephens, Karleena Tobin"	98	74
+"2018"	20180710	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	94.7	"Daryl Humphrey, Cheryl Flores, Toni Patillo"	72	101
+"2018"	20180710	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	225	87.8	"Tony Dawkins, Janetta Graham, Roy Gulbeyan"	77	75
+"2018"	20180711	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	96.1	"Maj Forsberg, Tom Mauer, Tiffany Bird"	79	76
+"2018"	20180711	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	87.1	"Tim Greene, Brenda Pantoja, Jeffrey Smith"	87	65
+"2018"	20180711	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	89.3	"Kurt Walker, Tiara Cruse, Don Hudson"	106	89
+"2018"	20180712	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	92.8	"Fatou Cissoko-Stephens, Jeffrey Wooten, Byron Jarrett"	92	77
+"2018"	20180713	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	93.4	"Tiffany Bird, Tony Dawkins, Cheryl Flores"	74	98
+"2018"	20180713	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	91.7	"Kurt Walker, Karleena Tobin, Janetta Graham"	87	91
+"2018"	20180713	TRUE	"LVA"	"Las Vegas Aces"	"MIN"	"Minnesota Lynx"	2	200	94.7	"Toni Patillo, Don Hudson, Eric Brewton"	85	77
+"2018"	20180713	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	92.9	"Brenda Pantoja, Maj Forsberg, Daryl Humphrey"	72	88
+"2018"	20180714	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	99	"Ashley Moyer-Gleich, Tiara Cruse, Billy Smith"	84	91
+"2018"	20180715	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	89.6	"Toni Patillo, Roy Gulbeyan, Katie Lukanich"	77	80
+"2018"	20180715	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	92.7	"Fatou Cissoko-Stephens, Byron Jarrett, Maj Forsberg"	101	82
+"2018"	20180715	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	98.3	"Michael Price, Tiffany Bird, Kevin Sparrock"	99	78
+"2018"	20180715	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	88.9	"Tony Dawkins, Sue Blauch, Natalie Sago"	83	64
+"2018"	20180715	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	94.1	"Jeffrey Smith, Janetta Graham, Kurt Walker"	84	107
+"2018"	20180717	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	99.4	"Eric Brewton, Jenna Schroeder, Byron Jarrett"	86	83
+"2018"	20180717	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	101.1	"Tiffany Bird, Roy Gulbeyan, Tony Dawkins"	87	104
+"2018"	20180718	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	99.4	"Kevin Sparrock, Toni Patillo, Jeffrey Wooten"	101	83
+"2018"	20180718	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	85	"Jeffrey Smith, Karleena Tobin, Michael Price"	65	89
+"2018"	20180719	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	98.5	"Tiara Cruse, Kevin Fahy, Sue Blauch"	68	82
+"2018"	20180719	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	98.7	"Kurt Walker, Natalie Sago, Don Hudson"	81	90
+"2018"	20180719	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	103.3	"Roy Gulbeyan, Tony Dawkins, Cheryl Flores"	85	82
+"2018"	20180720	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	104.1	"Maj Forsberg, Randy Richardson, Janetta Graham"	99	114
+"2018"	20180720	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	91	"Michael Price, Kevin Fahy, Brenda Pantoja"	78	65
+"2018"	20180720	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	86.8	"Cheryl Flores, Jeffrey Wooten, Tom Mauer"	78	76
+"2018"	20180721	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	92.1	"Tim Greene, Tony Dawkins, Isaac Barnett"	95	78
+"2018"	20180721	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	89.7	"Tiffany Bird, Natalie Sago, Jeffrey Wooten"	80	75
+"2018"	20180722	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	92.4	"Jeffrey Smith, Billy Smith, Randy Richardson"	74	87
+"2018"	20180722	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	91.7	"Roy Gulbeyan, Brenda Pantoja, Kevin Fahy"	93	76
+"2018"	20180722	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	90.4	"Tom Mauer, Sue Blauch, Isaac Barnett"	92	75
+"2018"	20180722	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	200	94.8	"Don Hudson, John Butler, Maj Forsberg"	74	88
+"2018"	20180724	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	91.7	"Jeffrey Smith, Karleena Tobin, Billy Smith"	68	94
+"2018"	20180724	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	96.4	"Roy Gulbeyan, Sue Blauch, Jenna Schroeder"	92	72
+"2018"	20180724	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	200	89.4	"John Butler, Isaac Barnett, Maj Forsberg"	81	71
+"2018"	20180724	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	91.5	"Byron Jarrett, Tom Mauer, Katie Lukanich"	82	85
+"2018"	20180725	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	94.6	"Ashley Moyer-Gleich, Randy Richardson, Kurt Walker"	101	87
+"2018"	20180731	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	91.7	"Kurt Walker, Isaac Barnett, Karleena Tobin"	86	71
+"2018"	20180731	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	93.5	"Daryl Humphrey, Brenda Pantoja, Don Hudson"	92	91
+"2018"	20180731	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	98.5	"Katie Lukanich, Tim Greene, Michael Price"	102	91
+"2018"	20180801	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	95.8	"Natalie Sago, Billy Smith, Karleena Tobin"	77	92
+"2018"	20180801	TRUE	"PHO"	"Phoenix Mercury"	"LVA"	"Las Vegas Aces"	0	200	101.5	"Janetta Graham, Eric Brewton, Roy Gulbeyan"	104	93
+"2018"	20180802	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	89.2	"Jeffrey Smith, Ashley Moyer-Gleich, Jeffrey Wooten"	78	84
+"2018"	20180802	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	85.5	"Maj Forsberg, Kurt Walker, Isaac Barnett"	57	79
+"2018"	20180803	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	98.4	"Jeffrey Wooten, Fatou Cissoko-Stephens, Cheryl Flores"	74	89
+"2018"	20180803	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	95.3	"Daryl Humphrey, John Butler, Brenda Pantoja"	75	85
+"2018"	20180804	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	94.7	"Janetta Graham, Natalie Sago, Billy Smith"	68	55
+"2018"	20180805	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	102.9	"Fatou Cissoko-Stephens, Cheryl Flores, Brenda Pantoja"	88	109
+"2018"	20180805	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	87.3	"Billy Smith, Maj Forsberg, Kevin Fahy"	76	74
+"2018"	20180805	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	80.4	"Jeffrey Wooten, Daryl Humphrey, Randy Richardson"	75	78
+"2018"	20180805	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	85.1	"Kurt Walker, Natalie Sago, Tom Mauer"	86	66
+"2018"	20180806	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	100.7	"Cheryl Flores, Kevin Sparrock, Tony Dawkins"	96	80
+"2018"	20180807	TRUE	"LVA"	"Las Vegas Aces"	"ATL"	"Atlanta Dream"	3	200	101.8	"Byron Jarrett, Billy Smith, Kevin Sparrock"	100	109
+"2018"	20180807	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	99.2	"Maj Forsberg, Katie Lukanich, Randy Richardson"	85	64
+"2018"	20180807	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	95.4	"Brenda Pantoja, Kurt Walker, Daryl Humphrey"	94	79
+"2018"	20180807	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	97.5	"Janetta Graham, Eric Brewton, Jeffrey Smith"	103	98
+"2018"	20180808	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	91.6	"Katie Lukanich, Michael Price, Tim Greene"	101	92
+"2018"	20180808	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	89.6	"Byron Jarrett, Kevin Fahy, Brenda Pantoja"	82	81
+"2018"	20180809	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	92.2	"Tiara Cruse, Maj Forsberg, Randy Richardson"	73	79
+"2018"	20180809	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	91.4	"Janetta Graham, Kurt Walker, Jeffrey Smith"	89	73
+"2018"	20180809	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	83.6	"Roy Gulbeyan, Tony Dawkins, Tiffany Bird"	77	100
+"2018"	20180810	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	94.2	"Tiara Cruse, Tom Mauer, Roy Gulbeyan"	86	97
+"2018"	20180810	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	92.3	"Kurt Walker, Katie Lukanich, Michael Price"	74	94
+"2018"	20180811	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	96.1	"Eric Brewton, Daryl Humphrey, Jeffrey Smith, Jenna Schroeder"	82	92
+"2018"	20180811	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	200	93.8	"Tiffany Bird, Byron Jarrett, Randy Richardson"	74	92
+"2018"	20180812	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	98.3	"Katie Lukanich, Eric Brewton, Tony Dawkins"	75	82
+"2018"	20180812	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	94	"Jeffrey Wooten, John Butler, Billy Smith"	81	72
+"2018"	20180812	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	95	"Michael Price, Tim Greene, Janetta Graham"	86	77
+"2018"	20180812	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	90.1	"Maj Forsberg, Brenda Pantoja, Tiara Cruse"	78	86
+"2018"	20180812	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	93.3	"Kurt Walker, Tom Mauer, Cheryl Flores"	80	93
+"2018"	20180814	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	90.7	"Janetta Graham, Michael Price, Roy Gulbeyan"	76	96
+"2018"	20180814	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	91.8	"Cheryl Flores, Tony Dawkins, Eric Brewton"	66	74
+"2018"	20180814	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	95.4	"Isaac Barnett, Kevin Sparrock, Tiffany Bird"	91	88
+"2018"	20180815	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	85.7	"Toni Patillo, Roy Gulbeyan, Daryl Humphrey"	76	62
+"2018"	20180815	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	90.9	"Tom Mauer, Don Hudson, Maj Forsberg"	72	85
+"2018"	20180817	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	92.5	"Daryl Humphrey, Isaac Barnett, Maj Forsberg"	79	96
+"2018"	20180817	TRUE	"LVA"	"Las Vegas Aces"	"DAL"	"Dallas Wings"	2	200	96.5	"Byron Jarrett, Natalie Sago, Brenda Pantoja"	102	107
+"2018"	20180817	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	100.5	"Roy Gulbeyan, Tim Greene, Ashley Moyer-Gleich"	95	104
+"2018"	20180817	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	98.1	"Karleena Tobin, Michael Price, Kevin Sparrock"	77	85
+"2018"	20180817	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	82.4	"Billy Smith, Jeffrey Wooten, Katie Lukanich"	67	69
+"2018"	20180818	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	250	96.1	"Eric Brewton, Tiara Cruse, Don Hudson"	115	106
+"2018"	20180819	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	93.8	"Isaac Barnett, Tim Greene, Maj Forsberg"	97	92
+"2018"	20180819	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	99.3	"Brenda Pantoja, Kurt Walker, Tom Mauer"	86	89
+"2018"	20180819	TRUE	"ATL"	"Atlanta Dream"	"LVA"	"Las Vegas Aces"	0	200	95.3	"Daryl Humphrey, Jeffrey Wooten, Cheryl Flores"	93	78
+"2018"	20180819	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	87.3	"Eric Brewton, Michael Price, Natalie Sago"	83	88
+"2018"	20180819	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	90.1	"Randy Richardson, Byron Jarrett, Toni Patillo"	85	96
+"2018"	20180819	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	90.1	"Tiffany Bird, Roy Gulbeyan, John Butler"	68	84
+"2019"	20190524	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	92.3	"Kevin Sparrock, Tiara Cruse, Byron Jarrett"	72	76
+"2019"	20190524	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	94.4	"Tiffany Bird, Karleena Tobin, Jeffrey Smith"	81	80
+"2019"	20190525	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	91.6	"Jeffrey Smith, Eric Brewton, Karleena Tobin"	69	84
+"2019"	20190525	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	100.1	"Tom Mauer, Katie Lukanich, Roy Gulbeyan"	71	89
+"2019"	20190525	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	90.5	"Cheryl Flores, Maj Forsberg, Janetta Graham"	68	77
+"2019"	20190526	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	102.4	"Randy Richardson, Michael Price, Ashley Gilpin"	70	83
+"2019"	20190528	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	92.2	"Tim Greene, Toni Patillo, Michael Price"	77	88
+"2019"	20190529	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	86.9	"Eric Brewton, Fatou Cissoko-Stephens, John Butler"	61	72
+"2019"	20190531	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	96.8	"Toni Patillo, Michael Price, Tony Dawkins"	82	66
+"2019"	20190531	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	95.4	"Cheryl Flores, Katie Lukanich, Jeffrey Wooten"	70	77
+"2019"	20190531	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	94.4	"Byron Jarrett, Kurt Walker, Jenna Schroeder"	84	86
+"2019"	20190601	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	100.6	"Tim Greene, Maj Forsberg, Matt Kallio"	79	83
+"2019"	20190601	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	89	"Randy Richardson, Ashley Gilpin, Roy Gulbeyan"	70	67
+"2019"	20190601	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	96	"Kevin Sparrock, Tiara Cruse, Eric Brewton"	77	92
+"2019"	20190601	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	91.2	"Isaac Barnett, Janetta Graham, Jeffrey Smith"	75	96
+"2019"	20190602	TRUE	"CON"	"Connecticut Sun"	"LVA"	"Las Vegas Aces"	0	200	100.7	"Billy Smith, Tiffany Bird, Angelica Suffren"	80	74
+"2019"	20190604	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	97.3	"Kevin Fahy, Michael Price, Tony Dawkins"	78	73
+"2019"	20190604	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	86.5	"Kurt Walker, Billy Smith, Angelica Suffren"	77	84
+"2019"	20190605	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	93.8	"Dannica Mosher, Jeffrey Wooten, Michael Price"	85	103
+"2019"	20190606	TRUE	"LVA"	"Las Vegas Aces"	"ATL"	"Atlanta Dream"	3	200	103.4	"Roy Gulbeyan, Kevin Fahy, Jenna Schroeder"	92	69
+"2019"	20190606	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	97.6	"Jeffrey Wooten, Matt Kallio, Tiara Cruse"	77	89
+"2019"	20190606	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	81.3	"Byron Jarrett, Jeffrey Smith, Katie Lukanich"	56	58
+"2019"	20190607	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	86.6	"Kurt Walker, Daryl Humphrey, Karleena Tobin"	64	79
+"2019"	20190607	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	92.5	"Cheryl Flores, Maj Forsberg, Tom Mauer"	94	85
+"2019"	20190608	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	99.7	"Isaac Barnett, Tiffany Bird, Roy Gulbeyan"	89	85
+"2019"	20190609	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	92.2	"Daryl Humphrey, Maj Forsberg, Karleena Tobin"	65	59
+"2019"	20190609	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	95.4	"Tiara Cruse, Jeffrey Smith, John Butler"	71	78
+"2019"	20190609	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	94.7	"Cheryl Flores, Matt Kallio, Tom Mauer"	94	87
+"2019"	20190609	TRUE	"LVA"	"Las Vegas Aces"	"NYL"	"New York Liberty"	3	200	99.7	"Tim Greene, Kurt Walker, Ashley Gilpin"	78	88
+"2019"	20190609	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	85.5	"Toni Patillo, Billy Smith, Eric Brewton"	62	86
+"2019"	20190611	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	95.4	"Roy Gulbeyan, Ashley Gilpin, Jenna Schroeder"	75	82
+"2019"	20190611	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	93.8	"John Butler, Janetta Graham, Jeffrey Smith"	75	83
+"2019"	20190611	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	88.4	"Dannica Mosher, Isaac Barnett, Maj Forsberg"	84	82
+"2019"	20190612	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	97.1	"Tiara Cruse, Billy Smith, Kevin Sparrock"	69	75
+"2019"	20190613	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	84.1	"Katie Lukanich, Tim Greene, Michael Price"	76	72
+"2019"	20190614	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	103.8	"Byron Jarrett, Roy Gulbeyan, Janetta Graham"	65	100
+"2019"	20190614	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	93.4	"Jeffrey Wooten, Cheryl Flores, Angelica Suffren"	85	81
+"2019"	20190614	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	86.7	"Randy Richardson, Tom Mauer, Maj Forsberg"	85	68
+"2019"	20190614	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	89.9	"Tiffany Bird, Jenna Schroeder, Kevin Fahy"	74	71
+"2019"	20190615	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	88.3	"John Butler, Tiffany Bird, Kevin Sparrock"	61	71
+"2019"	20190615	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	88.5	"Toni Patillo, Jeffrey Smith, Jeffrey Wooten"	70	64
+"2019"	20190615	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	101.7	"Tim Greene, Kurt Walker, Katie Lukanich"	98	92
+"2019"	20190616	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	86.4	"Eric Brewton, Billy Smith, Fatou Cissoko-Stephens"	67	81
+"2019"	20190616	TRUE	"LVA"	"Las Vegas Aces"	"MIN"	"Minnesota Lynx"	2	200	95.5	"Daryl Humphrey, Maj Forsberg, Randy Richardson"	80	75
+"2019"	20190618	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	99.3	"Michael Price, John Butler, Janetta Graham"	81	52
+"2019"	20190619	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	85.3	"Maj Forsberg, Fatou Cissoko-Stephens, Tony Dawkins"	78	88
+"2019"	20190619	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	99.6	"Danica Mosher, Isaac Barnett, Byron Jarrett"	91	83
+"2019"	20190620	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	88.8	"Randy Richardson, Janetta Graham, Maj Forsberg"	54	69
+"2019"	20190620	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	95.4	"Toni Patillo, Matt Kallio, Billy Smith"	95	72
+"2019"	20190621	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	88.9	"Tiara Cruse, Kevin Fahy, Cheryl Flores"	76	69
+"2019"	20190621	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	94.2	"Byron Jarrett, Dannica Mosher, Isaac Barnett"	76	86
+"2019"	20190621	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	88.4	"Daryl Humphrey, Jeffrey Wooten, Kevin Sparrock"	62	84
+"2019"	20190622	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	92.9	"Fatou Cissoko-Stephens, Jeffrey Wooten, Daryl Humphrey"	68	86
+"2019"	20190622	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	97	"Eric Brewton, Matt Kallio, Karleena Tobin"	83	92
+"2019"	20190623	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	87.6	"Cheryl Flores, Tiara Cruse, Tim Greene"	89	73
+"2019"	20190623	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	103.1	"Angelica Suffren, Michael Price, Kevin Sparrock"	75	93
+"2019"	20190623	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	89.8	"Kurt Walker, Byron Jarrett, Toni Patillo"	72	82
+"2019"	20190623	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	88.3	"Tiffany Bird, Randy Richardson, John Butler"	61	65
+"2019"	20190625	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	97.1	"Angelica Suffren, Isaac Barnett, Eric Brewton"	78	74
+"2019"	20190625	TRUE	"SEA"	"Seattle Storm"	"LVA"	"Las Vegas Aces"	0	200	102.2	"Michael Price, Janetta Graham, Kevin Fahy"	56	60
+"2019"	20190626	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	98.6	"Kurt Walker, Jeffrey Wooten, Karleena Tobin"	81	74
+"2019"	20190626	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	85.8	"John Butler, Cheryl Flores, Tom Mauer"	73	74
+"2019"	20190627	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	102.4	"Tiara Cruse, Jenna Schroeder, Randy Richardson"	74	86
+"2019"	20190628	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	86.5	"Tim Greene, Jeffrey Wooten, Fatou Cissoko-Stephens"	68	69
+"2019"	20190628	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	89.4	"Tiffany Bird, Tiara Cruse, Randy Richardson"	69	91
+"2019"	20190628	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	88.8	"Cheryl Flores, Jenna Schroeder, Tom Mauer"	76	79
+"2019"	20190629	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	225	94	"John Butler, Katie Lukanich, Cheryl Flores"	97	102
+"2019"	20190629	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	93.2	"Michael Price, Billy Smith, Toni Patillo"	59	102
+"2019"	20190630	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	95.4	"Dannica Mosher, Kevin Sparrock, Eric Brewton"	74	58
+"2019"	20190630	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	96.1	"Isaac Barnett, Jeffrey Smith, Jenna Schroeder, Kevin Fahy"	86	89
+"2019"	20190630	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	94.2	"Janetta Graham, Tiffany Bird, Jeffrey Wooten"	69	94
+"2019"	20190630	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	86.7	"Ashley Gilpin, Roy Gulbeyan, Karleena Tobin"	69	67
+"2019"	20190702	TRUE	"CHI"	"Chicago Sky"	"LVA"	"Las Vegas Aces"	0	200	102.4	"Billy Smith, Kevin Sparrock, Jenna Schroeder"	82	90
+"2019"	20190702	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	91.4	"Karleena Tobin, Cheryl Flores, John Butler"	68	85
+"2019"	20190703	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	95.1	"Billy Smith, Tiffany Bird, Fatou Cissoko-Stephens"	84	83
+"2019"	20190705	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	82.1	"Michael Price, Tim Greene, Daryl Humphrey"	76	56
+"2019"	20190705	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	91.4	"Jeffrey Smith, Tony Dawkins, Tiffany Bird"	80	76
+"2019"	20190705	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	91.3	"Kevin Sparrock, Roy Gulbeyan, Katie Lukanich"	77	66
+"2019"	20190706	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	90.4	"Janetta Graham, Tom Mauer, Byron Jarrett"	74	71
+"2019"	20190707	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	95.9	"Kevin Sparrock, Tony Dawkins, Jeffrey Smith"	66	78
+"2019"	20190707	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	94.4	"Katie Lukanich, Roy Gulbeyan, Tim Greene"	81	98
+"2019"	20190707	TRUE	"LVA"	"Las Vegas Aces"	"NYL"	"New York Liberty"	3	200	94.9	"Tom Mauer, Byron Jarrett, Janetta Graham"	90	58
+"2019"	20190707	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	88.8	"Michael Price, Billy Smith, Daryl Humphrey"	63	65
+"2019"	20190709	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	86.3	"Tiara Cruse, Eric Brewton, Billy Smith"	62	74
+"2019"	20190710	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	92.7	"Tiffany Bird, Toni Patillo, Jeffrey Smith"	75	78
+"2019"	20190710	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	93.4	"Jeffrey Wooten, Daryl Humphrey, Roy Gulbeyan"	73	72
+"2019"	20190710	TRUE	"LVA"	"Las Vegas Aces"	"IND"	"Indiana Fever"	3	200	95.6	"Randy Richardson, Tony Dawkins, Eric Brewton"	74	71
+"2019"	20190710	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	87	"Isaac Barnett, Tom Mauer, Byron Jarrett"	91	68
+"2019"	20190712	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	81.2	"Tony Dawkins, Byron Jarrett, Tom Mauer"	53	60
+"2019"	20190712	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	101.9	"Angelica Suffren, Isaac Barnett, Billy Smith"	83	99
+"2019"	20190712	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	89.3	"Tiara Cruse, Roy Gulbeyan, Randy Richardson"	64	79
+"2019"	20190712	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	94.4	"Tiffany Bird, Daryl Humphrey, Fatou Cissoko-Stephens"	90	84
+"2019"	20190712	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	90	"Jeffrey Wooten, Michael Price, Dannica Mosher"	81	95
+"2019"	20190713	TRUE	"LVA"	"Las Vegas Aces"	"WAS"	"Washington Mystics"	3	200	96.3	"Toni Patillo, Roy Gulbeyan, Fatou Cissoko-Stephens"	85	81
+"2019"	20190714	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	225	82.5	"Katie Lukanich, Isaac Barnett, Tiara Cruse"	76	71
+"2019"	20190714	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	90.4	"Tiffany Bird, Tony Dawkins, Randy Richardson"	89	79
+"2019"	20190714	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	89.3	"Matt Kallio, Janetta Graham, Byron Jarrett"	76	63
+"2019"	20190714	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	91.6	"Billy Smith, Tim Greene, Dannica Mosher"	62	75
+"2019"	20190714	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	90.2	"Maj Forsberg, Tom Mauer, Cheryl Flores"	69	78
+"2019"	20190717	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	100.3	"Daryl Humphrey, Kevin Fahy, Michael Price"	76	77
+"2019"	20190717	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	94	"Jenna Schroeder, Eric Brewton, Kevin Sparrock"	90	79
+"2019"	20190717	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	84	"Karleena Tobin, Byron Jarrett, Tom Mauer"	64	69
+"2019"	20190718	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	83.6	"Tim Greene, Maj Forsberg, Matt Kallio"	64	69
+"2019"	20190719	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	92.1	"Byron Jarrett, Jeffrey Smith, John Butler"	69	98
+"2019"	20190719	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	225	88	"Roy Gulbeyan, Fatou Cissoko-Stephens, Isaac Barnett"	95	88
+"2019"	20190719	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	98.6	"Karleena Tobin, Michael Price, Tim Greene"	66	69
+"2019"	20190720	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	90.9	"Toni Patillo, Jenna Schroeder, Roy Gulbeyan"	70	66
+"2019"	20190720	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	92.4	"Billy Smith, Kevin Fahy, Katie Lukanich"	78	83
+"2019"	20190721	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	93.4	"Jeffrey Smith, John Butler, Maj Forsberg"	70	78
+"2019"	20190721	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	99.1	"Matt Kallio, Jeffrey Wooten, Janetta Graham"	74	79
+"2019"	20190721	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	91	"Eric Brewton, Karleena Tobin, Dannica Mosher"	65	93
+"2019"	20190723	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	86.2	"Jenna Schroeder, Tom Mauer, Tiara Cruse"	78	66
+"2019"	20190723	TRUE	"SEA"	"Seattle Storm"	"LVA"	"Las Vegas Aces"	0	200	85.1	"Eric Brewton, Kevin Sparrock, Cheryl Flores"	62	79
+"2019"	20190723	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	91	"Randy Richardson, Janetta Graham, Jeffrey Wooten"	77	95
+"2019"	20190724	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	92.4	"Billy Smith, Tim Greene, Angelica Suffren"	63	70
+"2019"	20190724	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	92.1	"Katie Lukanich, Jeffrey Smith, Isaac Barnett"	79	71
+"2019"	20190730	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	103.7	"Cheryl Flores, Kevin Sparrock, Roy Gulbeyan"	94	100
+"2019"	20190730	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	93.8	"John Butler, Michael Price, Ashley Gilpin"	54	86
+"2019"	20190730	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	93.3	"Tiffany Bird, Tim Greene, Toni Patillo"	93	99
+"2019"	20190731	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	98.6	"Cheryl Flores, Eric Brewton, Tony Dawkins"	59	61
+"2019"	20190801	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	92.1	"Karleena Tobin, Jenna Schroeder, Jeffrey Smith"	62	68
+"2019"	20190801	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	96.5	"Janetta Graham, Roy Gulbeyan, Jeffrey Wooten"	64	87
+"2019"	20190801	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	94.9	"Byron Jarrett, Isaac Barnett, Tiffany Bird"	68	76
+"2019"	20190802	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	92	"Cheryl Flores, Matt Kallio, Michael Price"	99	79
+"2019"	20190803	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	104.7	"Janetta Graham, Katie Lukanich, Jeffrey Smith"	87	75
+"2019"	20190803	TRUE	"LVA"	"Las Vegas Aces"	"DAL"	"Dallas Wings"	2	200	92.6	"Billy Smith, Toni Patillo, Karleena Tobin"	75	70
+"2019"	20190803	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	93.5	"Jeffrey Wooten, Angelica Suffren, Roy Gulbeyan"	75	86
+"2019"	20190804	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	94.9	"Maj Forsberg, Randy Richardson, Ashley Gilpin"	75	83
+"2019"	20190804	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	96.9	"Eric Brewton, Tony Dawkins, Fatou Cissoko-Stephens"	94	79
+"2019"	20190804	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	91.1	"Isaac Barnett, Dannica Mosher, Byron Jarrett"	82	103
+"2019"	20190805	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	88.7	"---"	99	70
+"2019"	20190806	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	96.5	"Byron Jarrett, Billy Smith, Tim Greene"	85	69
+"2019"	20190807	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	102.3	"Maj Forsberg, Karleena Tobin, Daryl Humphrey"	92	101
+"2019"	20190808	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	89.5	"Roy Gulbeyan, Janetta Graham, John Butler"	74	84
+"2019"	20190808	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	81.1	"Katie Lukanich, Jeffrey Smith, Randy Richardson"	57	69
+"2019"	20190808	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	85.8	"Byron Jarrett, Tom Mauer, Eric Brewton"	78	91
+"2019"	20190809	TRUE	"CHI"	"Chicago Sky"	"LVA"	"Las Vegas Aces"	0	200	98.4	"Fatou Cissoko-Stephens, Tim Greene, Roy Gulbeyan"	87	84
+"2019"	20190809	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	97.6	"Jeffrey Wooten, Isaac Barnett, Kevin Fahy"	57	89
+"2019"	20190810	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	95.1	"Katie Lukanich, Eric Brewton, Daryl Humphrey"	82	87
+"2019"	20190810	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	85.4	"Billy Smith, Tim Greene, Ashley Gilpin"	80	77
+"2019"	20190811	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	105.4	"Jeffrey Wooten, Kevin Sparrock, Isaac Barnett"	81	84
+"2019"	20190811	TRUE	"CON"	"Connecticut Sun"	"LVA"	"Las Vegas Aces"	0	200	95.8	"Maj Forsberg, Randy Richardson, Tiffany Bird"	81	89
+"2019"	20190811	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	87.1	"Byron Jarrett, Kevin Fahy, John Butler"	84	69
+"2019"	20190811	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	94.2	"Jenna Schroeder, Jeffrey Smith, Fatou Cissoko-Stephens"	78	101
+"2019"	20190813	TRUE	"ATL"	"Atlanta Dream"	"LVA"	"Las Vegas Aces"	0	200	96.8	"Jeffrey Wooten, Jenna Schroeder, Isaac Barnett"	90	94
+"2019"	20190813	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	95.9	"Dannica Mosher, Tiffany Bird, Michael Price"	89	73
+"2019"	20190814	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	96.1	"Maj Forsberg, Fatou Cissoko-Stephens, Daryl Humphrey"	78	84
+"2019"	20190814	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	92.9	"Roy Gulbeyan, Katie Lukanich, Kevin Sparrock"	78	71
+"2019"	20190814	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	85.5	"Billy Smith, Karleena Tobin, Michael Price"	59	88
+"2019"	20190816	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	96.9	"Cheryl Flores, Kevin Fahy, Katie Lukanich"	81	91
+"2019"	20190816	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	101.5	"Tiffany Bird, Isaac Barnett, Tim Greene"	78	79
+"2019"	20190816	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	84.5	"Kevin Sparrock, Roy Gulbeyan, Jeffrey Wooten"	77	83
+"2019"	20190816	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	95.8	"Tom Mauer, Randy Richardson, Eric Brewton"	86	79
+"2019"	20190816	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	87.3	"Matt Kallio, Jeffrey Smith, Maj Forsberg"	68	77
+"2019"	20190818	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	98.6	"Maj Forsberg, Jeffrey Smith, Randy Richardson"	100	85
+"2019"	20190818	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	85.3	"Michael Price, Tom Mauer, Byron Jarrett"	68	78
+"2019"	20190818	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	92.3	"Janetta Graham, Eric Brewton, Tiffany Bird"	72	78
+"2019"	20190818	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	84.8	"Roy Gulbeyan, Angelica Suffren, Fatou Cissoko-Stephens"	74	82
+"2019"	20190818	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	91.7	"Isaac Barnett, Tiara Cruse, Cheryl Flores"	68	107
+"2019"	20190820	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	101.1	"Tim Greene, Byron Jarrett, Tom Mauer"	87	83
+"2019"	20190820	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	92.2	"Daryl Humphrey, Jeffrey Smith, Maj Forsberg"	82	76
+"2019"	20190820	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	95.3	"Toni Patillo, Michael Price, Matt Kallio"	71	81
+"2019"	20190820	TRUE	"PHO"	"Phoenix Mercury"	"LVA"	"Las Vegas Aces"	0	225	96.6	"Billy Smith, Cheryl Flores, Fatou Cissoko-Stephens"	79	84
+"2019"	20190822	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	102.8	"Ashley Gilpin, Tiffany Bird, Billy Smith"	65	98
+"2019"	20190822	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	93.3	"Cheryl Flores, Maj Forsberg, Jeffrey Smith"	70	86
+"2019"	20190823	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	100.9	"Roy Gulbeyan, John Butler, Kevin Sparrock"	78	85
+"2019"	20190823	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	100	"Katie Lukanich, Kevin Fahy, Eric Brewton"	85	89
+"2019"	20190823	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	100.9	"Angelica Suffren, Isaac Barnett, Tiara Cruse"	90	87
+"2019"	20190825	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	89.3	"Tony Dawkins, Tiffany Bird, Eric Brewton"	77	73
+"2019"	20190825	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	92.6	"Maj Forsberg, Janetta Graham, Cheryl Flores"	72	84
+"2019"	20190825	TRUE	"LVA"	"Las Vegas Aces"	"MIN"	"Minnesota Lynx"	2	200	93.5	"Roy Gulbeyan, Jeffrey Wooten, Toni Patillo"	77	98
+"2019"	20190825	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	99.1	"Tiara Cruse, Jeffrey Smith, Daryl Humphrey"	94	86
+"2019"	20190825	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	84	"Michael Price, Karleena Tobin, Randy Richardson"	63	54
+"2019"	20190825	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	95.2	"Tim Greene, Billy Smith, Byron Jarrett"	72	101
+"2019"	20190827	TRUE	"LVA"	"Las Vegas Aces"	"IND"	"Indiana Fever"	3	200	94.4	"Tim Greene, Kevin Sparrock, Cheryl Flores"	71	86
+"2019"	20190827	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	101.5	"Michael Price, Karleena Tobin, Kevin Fahy"	85	93
+"2019"	20190827	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	90.5	"Katie Lukanich, Tiffany Bird, Maj Forsberg"	95	82
+"2019"	20190827	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	93.2	"Jeffrey Smith, Daryl Humphrey, Tiara Cruse"	89	70
+"2019"	20190827	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	91.1	"Fatou Cissoko-Stephens, Jeffrey Wooten, Eric Brewton"	66	95
+"2019"	20190829	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	94.8	"Fatou Cissoko-Stephens, Michael Price, Cheryl Flores"	65	58
+"2019"	20190829	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	89.8	"Byron Jarrett, Katie Lukanich, Eric Brewton"	88	83
+"2019"	20190829	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	95.3	"Tiara Cruse, Tiffany Bird, Kevin Fahy"	87	83
+"2019"	20190830	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	94.9	"Jenna Schroeder, Tom Mauer, Michael Price"	94	84
+"2019"	20190831	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	84.9	"Cheryl Flores, Billy Smith, Daryl Humphrey"	91	85
+"2019"	20190831	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	100.1	"Roy Gulbeyan, Janetta Graham, Angelica Suffren"	86	92
+"2019"	20190901	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	94.1	"Tony Dawkins, Maj Forsberg, Tiara Cruse"	78	105
+"2019"	20190901	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	91.8	"Jeffrey Smith, Ashley Gilpin, Tim Greene"	73	81
+"2019"	20190901	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	89.2	"Jeffrey Wooten, Kevin Fahy, John Butler"	75	92
+"2019"	20190903	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	200	90.7	"Dannica Mosher, Billy Smith, Cheryl Flores"	60	70
+"2019"	20190903	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	94	"Tiara Cruse, Maj Forsberg, Janetta Graham"	93	77
+"2019"	20190903	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	91	"Jenna Schroeder, Roy Gulbeyan, Byron Jarrett"	82	70
+"2019"	20190904	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	88.5	"Janetta Graham, Isaac Barnett, Maj Forsberg"	72	102
+"2019"	20190905	TRUE	"LVA"	"Las Vegas Aces"	"ATL"	"Atlanta Dream"	3	200	95.6	"Roy Gulbeyan, Tiara Cruse, Ashley Gilpin"	74	78
+"2019"	20190905	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	94.3	"Michael Price, Randy Richardson, Katie Lukanich"	68	102
+"2019"	20190906	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	225	106.4	"Eric Brewton, Tim Greene, Tiffany Bird"	109	104
+"2019"	20190906	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	102.3	"Cheryl Flores, Fatou Cissoko-Stephens, Kevin Fahy"	86	81
+"2019"	20190906	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	94.1	"Kevin Sparrock, Michael Price, Billy Smith"	83	69
+"2019"	20190906	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	86.8	"Tony Dawkins, Roy Gulbeyan, Byron Jarrett"	73	86
+"2019"	20190908	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	95.9	"Karleena Tobin, Eric Brewton, Isaac Barnett"	71	63
+"2019"	20190908	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	92.3	"Jeffrey Smith, Tom Mauer, Billy Smith"	78	64
+"2019"	20190908	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	99.4	"Roy Gulbeyan, Byron Jarrett, Randy Richardson"	76	104
+"2019"	20190908	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	89.4	"Maj Forsberg, Tiara Cruse, Tiffany Bird"	68	77
+"2019"	20190908	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	98.8	"Toni Patillo, Jeffrey Wooten, Janetta Graham"	98	89
+"2019"	20190908	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	98.8	"Cheryl Flores, Kevin Fahy, Jenna Schroeder"	86	100
+"2020"	20200725	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	104.6	"Isaac Barnett, Ashley Gilpin, Cheryl Flores"	87	71
+"2020"	20200725	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	101.4	"Fatou Cissoko-Stephens, Roy Gulbeyan, Jeffrey Wooten"	99	76
+"2020"	20200725	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	98.6	"Amy Bonner, Kevin Fahy, Michael Price"	76	101
+"2020"	20200726	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	105.5	"Tom Mauer, Tim Greene, Kurt Walker"	95	105
+"2020"	20200726	TRUE	"CHI"	"Chicago Sky"	"LVA"	"Las Vegas Aces"	0	200	105.8	"Dannica Mosher, Eric Brewton, Isaac Barnett"	88	86
+"2020"	20200726	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	200	98.4	"Randy Richardson, Matt Kallio, Maj Forsberg"	69	77
+"2020"	20200728	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	100.3	"Tom Mauer, Randy Richardson, Maj Forsberg"	78	96
+"2020"	20200728	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	105.3	"Roy Gulbeyan, Dannica Mosher, Kurt Walker"	94	89
+"2020"	20200728	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	86	"Amy Bonner, Michael Price, Jeffrey Smith"	66	90
+"2020"	20200729	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	98.3	"Michael Price, Matt Kallio, Eric Brewton"	80	93
+"2020"	20200729	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	98.2	"Randy Richardson, Isaac Barnett, Ashley Gilpin"	100	106
+"2020"	20200729	TRUE	"ATL"	"Atlanta Dream"	"LVA"	"Las Vegas Aces"	0	200	101.2	"Jeffrey Wooten, Fatou Cissoko-Stephens, Cheryl Flores"	70	100
+"2020"	20200730	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	102.3	"Eric Brewton, Ashley Gilpin, Jeffrey Smith"	76	81
+"2020"	20200730	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	94.4	"Roy Gulbeyan, Kurt Walker, Kevin Fahy"	81	83
+"2020"	20200730	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	91.5	"Amy Bonner, Maj Forsberg, Tim Greene"	71	89
+"2020"	20200731	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	98.9	"Tom Mauer, Isaac Barnett, Randy Richardson"	78	84
+"2020"	20200731	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	90.3	"Kevin Fahy, Cheryl Flores, Jeffrey Wooten"	73	76
+"2020"	20200731	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	101.8	"Dannica Mosher, Matt Kallio, Michael Price"	95	102
+"2020"	20200801	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	103.7	"Tom Mauer, Eric Brewton, Isaac Barnett"	86	88
+"2020"	20200801	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	93	"Tim Greene, Fatou Cissoko-Stephens, Amy Bonner"	78	69
+"2020"	20200801	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	96.5	"Kurt Walker, Matt Kallio, Roy Gulbeyan"	75	81
+"2020"	20200802	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	93.9	"Jeffrey Smith, Michael Price, Tim Greene"	77	93
+"2020"	20200802	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	96.7	"Ashley Gilpin, Maj Forsberg, Fatou Cissoko-Stephens"	70	79
+"2020"	20200802	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	100.6	"Jeffrey Wooten, Kevin Fahy, Cheryl Flores"	96	67
+"2020"	20200804	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	99.2	"Eric Brewton, Tiara Cruse, Fatou Cissoko-Stephens"	81	74
+"2020"	20200804	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	90.8	"Tim Greene, Amy Bonner, Matt Kallio"	79	82
+"2020"	20200804	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	200	88.5	"Randy Richardson, Tom Mauer, Maj Forsberg"	74	87
+"2020"	20200805	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	95	"Randy Richardson, Ashley Gilpin, Maj Forsberg"	75	86
+"2020"	20200805	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	94.4	"Tom Mauer, Eric Brewton, Michael Price"	92	66
+"2020"	20200805	TRUE	"LVA"	"Las Vegas Aces"	"WAS"	"Washington Mystics"	3	200	94.5	"Roy Gulbeyan, Kevin Fahy, Cheryl Flores"	83	77
+"2020"	20200806	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	101.8	"Cheryl Flores, Jeffrey Smith, Jeffrey Wooten"	93	92
+"2020"	20200806	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	95.8	"Dannica Mosher, Tiara Cruse, Tim Greene"	91	68
+"2020"	20200806	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	101.5	"Roy Gulbeyan, Ashley Gilpin, Isaac Barnett"	86	96
+"2020"	20200807	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	101.4	"Eric Brewton, Fatou Cissoko-Stephens, Amy Bonner"	82	86
+"2020"	20200807	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	87.3	"Dannica Mosher, Kevin Fahy, Tim Greene"	80	87
+"2020"	20200807	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	95	"Tiffany Bird, Jeffrey Wooten, Randy Richardson"	74	66
+"2020"	20200808	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	101.7	"Cheryl Flores, Matt Kallio, Jeffrey Smith"	100	93
+"2020"	20200808	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	89.4	"Eric Brewton, Ashley Gilpin, Isaac Barnett"	75	85
+"2020"	20200808	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	97.8	"Maj Forsberg, Amy Bonner, Michael Price"	68	74
+"2020"	20200809	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	94.1	"Jeffrey Smith, Maj Forsberg, Isaac Barnett"	84	91
+"2020"	20200809	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	93.9	"Randy Richardson, Cheryl Flores, Dannica Mosher"	81	97
+"2020"	20200809	TRUE	"LVA"	"Las Vegas Aces"	"NYL"	"New York Liberty"	3	200	90.9	"Roy Gulbeyan, Tiara Cruse, Kevin Fahy"	78	76
+"2020"	20200810	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	96.1	"Roy Gulbeyan, Michael Price, Tom Mauer"	93	82
+"2020"	20200810	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	96.5	"Jeffrey Wooten, Tiffany Bird, Matt Kallio"	91	79
+"2020"	20200810	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	96.5	"Tiara Cruse, Tim Greene, Fatou Cissoko-Stephens"	71	89
+"2020"	20200811	TRUE	"LVA"	"Las Vegas Aces"	"IND"	"Indiana Fever"	3	200	98.8	"Jeffrey Wooten, Cheryl Flores, Dannica Mosher"	98	79
+"2020"	20200811	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	103.1	"Jeffrey Smith, Michael Price, Ashley Gilpin"	78	93
+"2020"	20200811	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	83.4	"Eric Brewton, Fatou Cissoko-Stephens, Tom Mauer"	48	68
+"2020"	20200812	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	90.6	"Maj Forsberg, Amy Bonner, Isaac Barnett"	71	89
+"2020"	20200812	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	80.7	"Dannica Mosher, Randy Richardson, Tiara Cruse"	66	70
+"2020"	20200812	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	91.8	"Kevin Fahy, Matt Kallio, Tiffany Bird"	63	100
+"2020"	20200813	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	93.1	"Michael Price, Maj Forsberg, Jeffrey Smith"	77	87
+"2020"	20200813	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	90.8	"Randy Richardson, Fatou Cissoko-Stephens, Tim Greene"	86	79
+"2020"	20200813	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	92.3	"Matt Kallio, Tiffany Bird, Roy Gulbeyan"	81	64
+"2020"	20200814	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	92.1	"Cheryl Flores, Tom Mauer, Roy Gulbeyan"	77	74
+"2020"	20200814	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	200	93.4	"Michael Price, Jeffrey Wooten, Ashley Gilpin"	83	65
+"2020"	20200814	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	95.1	"Dannica Mosher, Tim Greene, Eric Brewton"	80	96
+"2020"	20200815	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	89.2	"Maj Forsberg, Isaac Barnett, Kevin Fahy"	90	76
+"2020"	20200815	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	93.7	"Amy Bonner, Tiara Cruse, Randy Richardson"	73	88
+"2020"	20200815	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	100.2	"Tom Mauer, Tiffany Bird, Jeffrey Wooten"	64	94
+"2020"	20200816	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	97.2	"Jeffrey Smith, Ashley Gilpin, Tiara Cruse"	92	67
+"2020"	20200816	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	90.4	"Eric Brewton, Fatou Cissoko-Stephens, Tim Greene"	95	72
+"2020"	20200816	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	94.1	"Kevin Fahy, Roy Gulbeyan, Cheryl Flores"	95	89
+"2020"	20200818	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	98.5	"Roy Gulbeyan, Matt Kallio, Jeffrey Wooten"	82	84
+"2020"	20200818	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	87.1	"Tiffany Bird, Ashley Gilpin, Jeffrey Smith"	62	84
+"2020"	20200818	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	104.2	"Kevin Sparrock, Tim Greene, Tiara Cruse"	64	105
+"2020"	20200819	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	96.8	"Eric Brewton, Billy Smith, Amy Bonner"	74	83
+"2020"	20200819	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	89.6	"Karleena Tobin, Michael Price, Isaac Barnett"	84	91
+"2020"	20200819	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	91.5	"Dannica Mosher, Maj Forsberg, Randy Richardson"	91	98
+"2020"	20200820	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	98.3	"Billy Smith, Karleena Tobin, Jeffrey Wooten"	84	90
+"2020"	20200820	TRUE	"CON"	"Connecticut Sun"	"LVA"	"Las Vegas Aces"	0	200	99.2	"Dannica Mosher, Fatou Cissoko-Stephens, Tiara Cruse"	78	99
+"2020"	20200820	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	104.5	"Maj Forsberg, Ashley Gilpin, Jeffrey Smith"	101	85
+"2020"	20200821	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	250	91	"Ashley Gilpin, Roy Gulbeyan, Tiffany Bird"	93	85
+"2020"	20200821	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	225	90.6	"Fatou Cissoko-Stephens, Matt Kallio, Eric Brewton"	92	101
+"2020"	20200821	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	94	"Tim Greene, Michael Price, Kevin Sparrock"	90	80
+"2020"	20200822	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	91.1	"Dannica Mosher, Tiara Cruse, Cheryl Flores"	76	87
+"2020"	20200822	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	93.6	"Tim Greene, Jeffrey Wooten, Randy Richardson"	65	82
+"2020"	20200822	TRUE	"SEA"	"Seattle Storm"	"LVA"	"Las Vegas Aces"	0	200	102.8	"Maj Forsberg, Isaac Barnett, Amy Bonner"	74	82
+"2020"	20200823	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	89.8	"Kevin Sparrock, Cheryl Flores, Maj Forsberg"	81	84
+"2020"	20200823	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	90.2	"Billy Smith, Fatou Cissoko-Stephens, Eric Brewton"	78	75
+"2020"	20200823	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	95.1	"Karleena Tobin, Roy Gulbeyan, Tiffany Bird"	88	87
+"2020"	20200825	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	95.2	"Billy Smith, Isaac Barnett, Randy Richardson"	101	99
+"2020"	20200825	TRUE	"LVA"	"Las Vegas Aces"	"DAL"	"Dallas Wings"	2	200	92.2	"Michael Price, Tiffany Bird, Jeffrey Smith"	96	92
+"2020"	20200825	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	90.9	"Tim Greene, Roy Gulbeyan, Ashley Gilpin"	74	87
+"2020"	20200828	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	99.9	"Ashley Gilpin, Tim Greene, Cheryl Flores"	88	79
+"2020"	20200828	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	94.8	"Dannica Mosher, Tiffany Bird, Isaac Barnett"	80	76
+"2020"	20200828	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	89.9	"Billy Smith, Fatou Cissoko-Stephens, Jeffrey Smith"	72	94
+"2020"	20200829	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	200	93.8	"Byron Jarrett, Maj Forsberg, Amy Bonner"	88	74
+"2020"	20200829	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	97	"Kevin Sparrock, Matt Kallio, Jeffrey Wooten"	82	78
+"2020"	20200829	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	94.3	"Cheryl Flores, Randy Richardson, Tiara Cruse"	63	80
+"2020"	20200830	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	200	97	"Amy Bonner, Jeffrey Smith, Roy Gulbeyan"	79	84
+"2020"	20200830	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	94.1	"Tiara Cruse, Kevin Sparrock, Byron Jarrett"	83	79
+"2020"	20200830	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	88	"Michael Price, Karleena Tobin, Randy Richardson"	76	63
+"2020"	20200831	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	98.3	"Cheryl Flores, Tiffany Bird, Fatou Cissoko-Stephens"	100	77
+"2020"	20200831	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	87.3	"Michael Price, Maj Forsberg, Karleena Tobin"	78	96
+"2020"	20200901	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	95.6	"Byron Jarrett, Maj Forsberg, Dannica Mosher"	90	102
+"2020"	20200901	TRUE	"PHO"	"Phoenix Mercury"	"LVA"	"Las Vegas Aces"	0	200	96.8	"Isaac Barnett, Ashley Gilpin, Jeffrey Wooten"	92	85
+"2020"	20200901	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	96.5	"Kevin Sparrock, Billy Smith, Amy Bonner"	70	65
+"2020"	20200902	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	100.3	"Jeffrey Smith, Roy Gulbeyan, Tim Greene"	86	83
+"2020"	20200902	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	92.8	"Tiara Cruse, Fatou Cissoko-Stephens, Byron Jarrett"	91	83
+"2020"	20200902	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	84.7	"Tiffany Bird, Billy Smith, Kevin Sparrock"	64	71
+"2020"	20200903	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	92.8	"Dannica Mosher, Tiffany Bird, Tiara Cruse"	93	78
+"2020"	20200903	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	200	97.9	"Michael Price, Karleena Tobin, Jeffrey Wooten"	62	56
+"2020"	20200903	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	102.7	"Amy Bonner, Roy Gulbeyan, Randy Richardson"	81	105
+"2020"	20200904	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	91.1	"Isaac Barnett, Billy Smith, Kevin Sparrock"	88	75
+"2020"	20200904	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	94.5	"Matt Kallio, Tim Greene, Cheryl Flores"	90	89
+"2020"	20200904	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	86.6	"Fatou Cissoko-Stephens, Byron Jarrett, Jeffrey Wooten"	69	79
+"2020"	20200905	TRUE	"LVA"	"Las Vegas Aces"	"ATL"	"Atlanta Dream"	3	200	99.4	"Jeffrey Smith, Tiara Cruse, Amy Bonner"	89	79
+"2020"	20200905	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	91.2	"Karleena Tobin, Byron Jarrett, Tim Greene"	96	77
+"2020"	20200905	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	93.1	"Dannica Mosher, Maj Forsberg, Matt Kallio"	67	83
+"2020"	20200906	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	96.5	"Kevin Sparrock, Roy Gulbeyan, Isaac Barnett"	80	86
+"2020"	20200906	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	94.9	"Randy Richardson, Michael Price, Fatou Cissoko-Stephens"	103	88
+"2020"	20200906	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	225	90.8	"Tiara Cruse, Ashley Gilpin, Cheryl Flores"	101	94
+"2020"	20200907	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	92.8	"Cheryl Flores, Isaac Barnett, Fatou Cissoko-Stephens"	85	70
+"2020"	20200908	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	200	95.4	"Dannica Mosher, Billy Smith, Michael Price"	86	92
+"2020"	20200908	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	93.8	"Matt Kallio, Randy Richardson, Tiara Cruse"	96	70
+"2020"	20200908	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	84	"Maj Forsberg, Amy Bonner, Jeffrey Wooten"	86	89
+"2020"	20200909	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	99.7	"Karleena Tobin, Billy Smith, Cheryl Flores"	97	89
+"2020"	20200909	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	225	95.9	"Jeffrey Smith, Matt Kallio, Byron Jarrett"	100	95
+"2020"	20200909	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	103	"Jeffrey Wooten, Kevin Sparrock, Roy Gulbeyan"	95	107
+"2020"	20200910	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	103	"Jeffrey Smith, Cheryl Flores, Byron Jarrett"	75	85
+"2020"	20200910	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	88.4	"Eric Brewton, Michael Price, Karleena Tobin"	80	72
+"2020"	20200910	TRUE	"LVA"	"Las Vegas Aces"	"MIN"	"Minnesota Lynx"	2	200	98	"Roy Gulbeyan, Tiara Cruse, Ashley Gilpin"	104	89
+"2020"	20200911	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	96.7	"Michael Price, Jeffrey Wooten, Kevin Sparrock"	82	75
+"2020"	20200911	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	90.5	"Isaac Barnett, Maj Forsberg, Dannica Mosher"	95	88
+"2020"	20200911	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	90.1	"Ashley Gilpin, Eric Brewton, Billy Smith"	83	60
+"2020"	20200912	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	85.8	"Karleena Tobin, Isaac Barnett, Billy Smith"	98	86
+"2020"	20200912	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	95.7	"Jeffrey Smith, Cheryl Flores, Byron Jarrett"	84	70
+"2020"	20200912	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	91.2	"Roy Gulbeyan, Tim Greene, Matt Kallio"	75	58
+"2020"	20200913	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	84.9	"Fatou Cissoko-Stephens, Tiara Cruse, Byron Jarrett"	85	78
+"2020"	20200913	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	96.9	"Amy Bonner, Eric Brewton, Randy Richardson"	82	79
+"2020"	20200913	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	96.1	"Maj Forsberg, Tim Greene, Matt Kallio"	86	84
+"2021"	20210514	TRUE	"CON"	"Connecticut Sun"	"ATL"	"Atlanta Dream"	3	200	90.8	"Toni Patillo, Michael Price, Karleena Tobin"	78	67
+"2021"	20210514	TRUE	"DAL"	"Dallas Wings"	"LAS"	"Los Angeles Sparks"	0	200	108.3	"Janetta Graham, Tim Greene, Ashley Gilpin"	94	71
+"2021"	20210514	TRUE	"PHO"	"Phoenix Mercury"	"MIN"	"Minnesota Lynx"	2	200	99.1	"Danielle Scott, Roy Gulbeyan, Jeffrey Smith"	77	75
+"2021"	20210514	TRUE	"IND"	"Indiana Fever"	"NYL"	"New York Liberty"	3	200	98.4	"Randy Richardson, Fatou Cissoko-Stephens, Blanca Burns"	87	90
+"2021"	20210515	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	100.3	"Tiara Cruse, Cheryl Flores, Isaac Barnett"	83	97
+"2021"	20210515	TRUE	"CHI"	"Chicago Sky"	"WAS"	"Washington Mystics"	3	200	93.1	"Angelica Suffren, Amy Bonner, Eric Brewton"	70	56
+"2021"	20210516	TRUE	"PHO"	"Phoenix Mercury"	"CON"	"Connecticut Sun"	3	200	91.9	"Randy Richardson, Michael Price, Bianca Burns"	78	86
+"2021"	20210516	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	108.5	"Roy Gulbeyan, Matt Kallio, Danielle Scott"	73	65
+"2021"	20210518	TRUE	"MIN"	"Minnesota Lynx"	"NYL"	"New York Liberty"	3	200	101.3	"Tim Greene, Kevin Sparrock, Billy Smith"	75	86
+"2021"	20210518	TRUE	"LVA"	"Las Vegas Aces"	"SEA"	"Seattle Storm"	0	200	96.2	"Roy Gulbeyan, Maj Forsberg, Danielle Scott"	96	80
+"2021"	20210518	TRUE	"PHO"	"Phoenix Mercury"	"WAS"	"Washington Mystics"	3	200	92.3	"Matt Kallio, Michael Price, Janetta Graham"	91	70
+"2021"	20210519	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	109.6	"Tiara Cruse, Fatou Cissoko-Stephens, John Conley"	85	77
+"2021"	20210519	TRUE	"IND"	"Indiana Fever"	"CON"	"Connecticut Sun"	3	200	84.3	"Isaac Barnett, Kevin Fahy, Jeffrey Smith"	67	88
+"2021"	20210520	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	101.4	"Billy Smith, Angelica Suffren, Jenna Reneau"	90	78
+"2021"	20210521	TRUE	"ATL"	"Atlanta Dream"	"IND"	"Indiana Fever"	3	200	90.3	"Michael Price, Tim Greene, Janetta Graham"	83	79
+"2021"	20210521	TRUE	"LAS"	"Los Angeles Sparks"	"LVA"	"Las Vegas Aces"	0	200	102.4	"Fatou Cissoko-Stephens, Amy Bonner, Toni Patillo"	69	97
+"2021"	20210521	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	83.4	"Maj Forsberg, Roy Gulbeyan, Brandon Schwab"	84	67
+"2021"	20210521	TRUE	"NYL"	"New York Liberty"	"WAS"	"Washington Mystics"	3	200	96.2	"Tiara Cruse, Kevin Sparrock, Jeffrey Smith"	72	101
+"2021"	20210522	TRUE	"SEA"	"Seattle Storm"	"DAL"	"Dallas Wings"	2	225	94.3	"Dannica Mosher, Robert Hussey, Isaac Barnett"	100	97
+"2021"	20210523	TRUE	"NYL"	"New York Liberty"	"CHI"	"Chicago Sky"	2	200	103	"Angelica Suffren, Cheryl Flores, Toni Patillo"	93	85
+"2021"	20210523	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	94	"Tiara Cruse, Maj Forsberg, Karleena Tobin"	77	89
+"2021"	20210523	TRUE	"CON"	"Connecticut Sun"	"LVA"	"Las Vegas Aces"	0	200	89.9	"Kurt Walker, Brandon Schwab, Amy Bonner"	72	65
+"2021"	20210524	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	90.6	"Karleena Tobin, Tim Greene, Robert Hussey"	81	88
+"2021"	20210525	TRUE	"ATL"	"Atlanta Dream"	"CHI"	"Chicago Sky"	2	200	93	"Toni Patillo, Kevin Sparrock, Isaac Barnett"	90	83
+"2021"	20210525	TRUE	"WAS"	"Washington Mystics"	"IND"	"Indiana Fever"	3	200	87.5	"Cheryl Flores, Brandon Schwab, Kevin Fahy"	85	69
+"2021"	20210525	TRUE	"CON"	"Connecticut Sun"	"SEA"	"Seattle Storm"	0	225	91.1	"Matt Kallio, Fatou Cissoko-Stephens, Randy Richardson"	87	90
+"2021"	20210526	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	93.7	"Dannica Mosher, John Conely, Billy Smith"	85	79
+"2021"	20210527	TRUE	"DAL"	"Dallas Wings"	"ATL"	"Atlanta Dream"	3	200	99.1	"Isaac Barnett, Angelica Suffren, Janetta Graham"	95	101
+"2021"	20210528	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	200	95.5	"Kevin Fahy, Dannica Mosher, Cheryl Flores"	76	61
+"2021"	20210528	TRUE	"WAS"	"Washington Mystics"	"CON"	"Connecticut Sun"	3	200	91.5	"Tim Greene, Kevin Sparrock, Fatou Cissoko-Stephens"	81	86
+"2021"	20210528	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	200	104.7	"Matt Kallio, Billy Smith, Roy Gulbeyan"	77	113
+"2021"	20210528	TRUE	"MIN"	"Minnesota Lynx"	"SEA"	"Seattle Storm"	0	200	92.7	"Jeffrey Smith, Eric Brewton, John Conley"	72	82
+"2021"	20210529	TRUE	"PHO"	"Phoenix Mercury"	"DAL"	"Dallas Wings"	2	200	89.5	"Amy Bonner, Angelica Suffren, Brandon Schwab"	89	85
+"2021"	20210529	TRUE	"ATL"	"Atlanta Dream"	"NYL"	"New York Liberty"	3	225	100.3	"Toni Patillo, Tim Greene, Randy Richardson"	90	87
+"2021"	20210530	TRUE	"LAS"	"Los Angeles Sparks"	"CHI"	"Chicago Sky"	2	225	93.5	"John Conley, Michael Price, Tiara Cruse"	82	79
+"2021"	20210530	TRUE	"IND"	"Indiana Fever"	"LVA"	"Las Vegas Aces"	0	200	97.1	"Jeffrey Smith, Eric Brewton, Matt Kallio"	78	101
+"2021"	20210530	TRUE	"CON"	"Connecticut Sun"	"MIN"	"Minnesota Lynx"	2	225	83.9	"Cheryl Flores, Dannica Mosher, Maj Forsberg"	74	79
+"2021"	20210601	TRUE	"PHO"	"Phoenix Mercury"	"CHI"	"Chicago Sky"	2	200	96.5	"John Conley, Maj Forsberg, Eric Brewton"	84	83
+"2021"	20210601	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	90.6	"Michael Price, Toni Patillo, Randy Richardson"	67	74
+"2021"	20210601	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	89.3	"Tiffany Bird, Roy Gulbeyan, Blanca Burns"	69	79
+"2021"	20210601	TRUE	"IND"	"Indiana Fever"	"SEA"	"Seattle Storm"	0	200	93.3	"Cheryl Flores, Kevin Sparrock, Amy Bonner"	73	88
+"2021"	20210603	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	91.8	"Amy Bonner, Tim Greene, Blanca Burns"	63	98
+"2021"	20210603	TRUE	"LVA"	"Las Vegas Aces"	"NYL"	"New York Liberty"	3	200	100.5	"Michael Price, Randy Richardson, Danielle Scott"	94	82
+"2021"	20210603	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	225	88	"Maj Forsberg, Kevin Sparrock, Cheryl Flores"	74	77
+"2021"	20210604	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	101.2	"Robert Hussey, Dannica Mosher, Eric Brewton"	84	86
+"2021"	20210604	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	225	102.2	"Angelica Suffren, Karleena Tobin, Tiffany Bird"	102	105
+"2021"	20210605	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	84.1	"Jeffrey Smith, Cheryl Flores, Danielle Scott"	64	85
+"2021"	20210605	TRUE	"CHI"	"Chicago Sky"	"LAS"	"Los Angeles Sparks"	0	200	90.9	"Roy Gulbeyan, Amy Bonner, Tim Greene"	63	68
+"2021"	20210605	TRUE	"LVA"	"Las Vegas Aces"	"WAS"	"Washington Mystics"	3	200	107.3	"Billy Smith, Tiara Cruse, Fatou Cissoko-Stephens"	96	93
+"2021"	20210606	TRUE	"ATL"	"Atlanta Dream"	"MIN"	"Minnesota Lynx"	2	200	90.7	"Randy Richardson, Tiffany Bird, Jenna Reneau"	80	100
+"2021"	20210606	TRUE	"DAL"	"Dallas Wings"	"SEA"	"Seattle Storm"	0	200	92.2	"Karleena Tobin, Angelica Suffren, Michael Price"	68	67
+"2021"	20210608	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	89	"Isaac Barnett, Jenna Reneau, Michael Price"	85	81
+"2021"	20210608	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	103.4	"Eric Brewton, Billy Smith, Kevin Sparrock"	81	85
+"2021"	20210609	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	94.9	"Danielle Scott, Maj Forsberg, Cheryl Flores"	95	71
+"2021"	20210609	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	93.3	"Karleena Tobin, Amy Bonner, Randy Richardson"	76	92
+"2021"	20210610	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	92.8	"Eric Brewton, Angelica Suffren, Dannica Mosher"	71	89
+"2021"	20210611	TRUE	"SEA"	"Seattle Storm"	"ATL"	"Atlanta Dream"	3	200	90.5	"Kevin Sparrock, Roy Gulbeyan, Maj Forsberg"	86	75
+"2021"	20210611	TRUE	"DAL"	"Dallas Wings"	"PHO"	"Phoenix Mercury"	1	200	89.4	"Kevin Fahy, Billy Smith, Isaac Barnett"	77	59
+"2021"	20210612	TRUE	"CHI"	"Chicago Sky"	"IND"	"Indiana Fever"	3	200	95.2	"Jenna Reneau, Cheryl Flores, Tim Greene"	83	79
+"2021"	20210612	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	91.7	"Robert Hussey, Jeffrey Smith, Tiara Cruse"	64	80
+"2021"	20210613	TRUE	"WAS"	"Washington Mystics"	"ATL"	"Atlanta Dream"	3	200	92.9	"Blanca Burns, Roy Gulbeyan, Angelica Suffren"	78	101
+"2021"	20210613	TRUE	"SEA"	"Seattle Storm"	"CON"	"Connecticut Sun"	3	200	90.1	"Dannica Mosher, Eric Brewton, Brandon Schwab"	89	66
+"2021"	20210613	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	100.4	"Billy Smith, Kevin Fahy, Matt Kallio"	78	85
+"2021"	20210613	TRUE	"NYL"	"New York Liberty"	"PHO"	"Phoenix Mercury"	1	200	100.5	"Kurt Walker, Tiffany Bird, Toni Patillo"	85	83
+"2021"	20210615	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	93.4	"Fatou Cissoko-Stephens, Robert Hussey, Isaac Barnett"	87	70
+"2021"	20210615	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	99.7	"Tiara Cruse, Toni Patillo, Cheryl Flores"	78	100
+"2021"	20210615	TRUE	"CHI"	"Chicago Sky"	"MIN"	"Minnesota Lynx"	2	200	105	"Brandon Schwab, Dannica Mosher, Eric Brewton"	105	89
+"2021"	20210616	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	86.6	"Danielle Scott, Randy Richardson, Matt Kallio"	80	85
+"2021"	20210617	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	93.4	"Kevin Fahy, Michael Price, Tiara Cruse"	75	81
+"2021"	20210617	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	95.5	"Jenna Reneau, Tim Greene, Eric Brewton"	85	73
+"2021"	20210617	TRUE	"SEA"	"Seattle Storm"	"IND"	"Indiana Fever"	3	200	97.2	"Roy Gulbeyan, Angelica Suffren, Kevin Sparrock"	79	69
+"2021"	20210617	TRUE	"NYL"	"New York Liberty"	"LVA"	"Las Vegas Aces"	0	200	104.5	"Isaac Barnett, Jeffrey Smith, Blanca Burns"	76	103
+"2021"	20210617	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	100.2	"John Conley, Billy Smith, Fatou Cissoko-Stephens"	93	96
+"2021"	20210618	TRUE	"PHO"	"Phoenix Mercury"	"LAS"	"Los Angeles Sparks"	0	200	89.8	"Matt Kallio, Cheryl Flores, Toni Patillo"	80	66
+"2021"	20210619	TRUE	"CON"	"Connecticut Sun"	"CHI"	"Chicago Sky"	2	200	95	"Billy Smith, Angelica Suffren, Tiara Cruse"	81	91
+"2021"	20210619	TRUE	"MIN"	"Minnesota Lynx"	"DAL"	"Dallas Wings"	2	200	93	"Tim Greene, Kevin Sparrock, Jeffrey Smith"	77	95
+"2021"	20210619	TRUE	"IND"	"Indiana Fever"	"WAS"	"Washington Mystics"	3	200	93.9	"Isaac Barnett, Jenna Reneau, Roy Gulbeyan"	77	82
+"2021"	20210620	TRUE	"NYL"	"New York Liberty"	"LAS"	"Los Angeles Sparks"	0	200	97.2	"Eric Brewton, Cheryl Flores, Robert Hussey"	76	73
+"2021"	20210622	TRUE	"DAL"	"Dallas Wings"	"CON"	"Connecticut Sun"	3	200	86.8	"Roy Gulbeyan, Isaac Barnett, John Conley"	70	80
+"2021"	20210622	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	102.1	"Billy Smith, Blanca Burns, Angelica Suffren"	92	72
+"2021"	20210622	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	86.5	"Eric Brewton, Matt Kallio, Robert Hussey"	87	83
+"2021"	20210623	TRUE	"MIN"	"Minnesota Lynx"	"ATL"	"Atlanta Dream"	3	200	92.8	"Tiara Cruse, Fatou Cissoko-Stephens, Kevin Sparrock"	87	85
+"2021"	20210624	TRUE	"DAL"	"Dallas Wings"	"IND"	"Indiana Fever"	3	200	91.6	"Toni Patillo, Eric Brewton, Billy Smith"	89	64
+"2021"	20210624	TRUE	"WAS"	"Washington Mystics"	"LAS"	"Los Angeles Sparks"	0	200	97.9	"Michael Price, Randy Richardson, Kevin Fahy"	82	89
+"2021"	20210624	TRUE	"CHI"	"Chicago Sky"	"NYL"	"New York Liberty"	3	200	102.3	"Ashley Gloss, Jeffrey Smith, Roy Gulbeyan"	91	68
+"2021"	20210625	TRUE	"LVA"	"Las Vegas Aces"	"MIN"	"Minnesota Lynx"	2	225	97.2	"Blanca Burns, Fatou Cissoko-Stephens, Angelica Suffren"	89	90
+"2021"	20210626	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	99	"Billy Smith, Jeffrey Smith, John Conley"	101	78
+"2021"	20210626	TRUE	"WAS"	"Washington Mystics"	"DAL"	"Dallas Wings"	2	200	93	"Michael Price, Dannica Mosher, Karleena Tobin"	74	85
+"2021"	20210627	TRUE	"CHI"	"Chicago Sky"	"CON"	"Connecticut Sun"	3	200	87.7	"Tim Greene, Fatou Cissoko-Stephens, Ashley Gloss"	58	74
+"2021"	20210627	TRUE	"SEA"	"Seattle Storm"	"LVA"	"Las Vegas Aces"	0	225	98.3	"Toni Patillo, Kevin Fahy, Roy Gulbeyan"	92	95
+"2021"	20210627	TRUE	"LAS"	"Los Angeles Sparks"	"PHO"	"Phoenix Mercury"	1	200	99.1	"Tiara Cruse, Robert Hussey, Randy Richardson"	79	88
+"2021"	20210629	TRUE	"NYL"	"New York Liberty"	"ATL"	"Atlanta Dream"	3	200	88.1	"Jenna Reneau, Eric Brewton, Ashley Gloss"	69	73
+"2021"	20210629	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	89.2	"Blanca Burns, Tim Greene, Cheryl Flores"	90	71
+"2021"	20210630	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	104	"Roy Gulbeyan, Tiffany Bird, Toni Patillo"	91	81
+"2021"	20210630	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	107.8	"Michael Price, Angelica Suffren, Brandon Schwab"	99	75
+"2021"	20210630	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	89.1	"Isaac Barnett, John Conley, Dannica Mosher"	82	76
+"2021"	20210701	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	91	"Fatou Cissoko-Stephens, Robert Hussey, Eric Brewton"	86	80
+"2021"	20210702	TRUE	"CHI"	"Chicago Sky"	"DAL"	"Dallas Wings"	2	200	89.4	"Tiffany Bird, Kevin Fahy, Cheryl Flores"	91	100
+"2021"	20210702	TRUE	"LVA"	"Las Vegas Aces"	"LAS"	"Los Angeles Sparks"	0	200	89.2	"John Conley, Kurt Walker, Angelica Suffren"	66	58
+"2021"	20210702	TRUE	"ATL"	"Atlanta Dream"	"SEA"	"Seattle Storm"	0	200	96.1	"Roy Gulbeyan, Danielle Scott, Dannica Mosher"	88	91
+"2021"	20210703	TRUE	"CON"	"Connecticut Sun"	"IND"	"Indiana Fever"	3	200	85.3	"Kevin Sparrock, Michael Price, Jeffrey Smith"	67	73
+"2021"	20210703	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	95.9	"Ashley Gloss, Tiara Cruse, Eric Brewton"	79	82
+"2021"	20210703	TRUE	"MIN"	"Minnesota Lynx"	"PHO"	"Phoenix Mercury"	1	200	96.2	"Isaac Barnett, Brandon Schwab, Tim Greene"	99	68
+"2021"	20210704	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	88.8	"Tim Greene, Kurt Walker, Brandon Schwab"	84	74
+"2021"	20210704	TRUE	"ATL"	"Atlanta Dream"	"LVA"	"Las Vegas Aces"	0	200	101.1	"Isaac Barnett, Karleena Tobin, Roy Gulbeyan"	95	118
+"2021"	20210705	TRUE	"DAL"	"Dallas Wings"	"NYL"	"New York Liberty"	3	200	98.1	"Kevin Fahy, Dannica Mosher, Michael Price"	96	99
+"2021"	20210707	TRUE	"PHO"	"Phoenix Mercury"	"LVA"	"Las Vegas Aces"	0	225	92.8	"Danielle Scott, Tiffany Bird, Jeffrey Smith"	99	90
+"2021"	20210707	TRUE	"DAL"	"Dallas Wings"	"MIN"	"Minnesota Lynx"	2	200	92.8	"Randy Richardson, Michael Price, Jenna Reneau"	79	85
+"2021"	20210707	TRUE	"LAS"	"Los Angeles Sparks"	"SEA"	"Seattle Storm"	0	200	88	"Karleena Tobin, Tiara Cruse, Ashley Gloss"	62	71
+"2021"	20210709	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	94.6	"Randy Richardson, Kevin Sparrock, Kurt Walker"	72	84
+"2021"	20210709	TRUE	"NYL"	"New York Liberty"	"IND"	"Indiana Fever"	3	200	94.5	"Toni Patillo, Kevin Fahy, Angelica Suffren"	69	82
+"2021"	20210709	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	92.9	"Michael Price, Ashley Gloss, Fatou Cissoko-Stephens"	77	67
+"2021"	20210709	TRUE	"SEA"	"Seattle Storm"	"PHO"	"Phoenix Mercury"	1	200	93.1	"Cheryl Flores, Jeffrey Smith, Tiara Cruse"	77	85
+"2021"	20210710	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	225	92.5	"Brandon Schwab, Angelica Suffren, John Conley"	89	85
+"2021"	20210711	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	96.4	"Kurt Walker, Karleena Tobin, Tiara Cruse"	79	68
+"2021"	20210711	TRUE	"LVA"	"Las Vegas Aces"	"DAL"	"Dallas Wings"	2	200	94.9	"Danielle Scott, Billy Smith, Jeffrey Smith"	95	79
+"2021"	20210711	TRUE	"MIN"	"Minnesota Lynx"	"LAS"	"Los Angeles Sparks"	0	200	89.6	"Ashley Gloss, Jenna Reneau, Cheryl Flores"	86	61
+"2021"	20210711	TRUE	"CON"	"Connecticut Sun"	"NYL"	"New York Liberty"	3	200	87.3	"Robert Hussey, Randy Richardson, Toni Patillo"	71	54
+"2021"	20210711	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	90.3	"Michael Price, Kevin Fahy, Fatou Cissoko-Stephens"	75	82
+"2021"	20210815	TRUE	"SEA"	"Seattle Storm"	"CHI"	"Chicago Sky"	2	225	94.9	"Cheryl Flores, Dannica Mosher, Fatou Cissoko-Stephens"	85	87
+"2021"	20210815	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	85.1	"Maj Forsberg, Blanca Burns, Tiara Cruse"	80	59
+"2021"	20210815	TRUE	"IND"	"Indiana Fever"	"LAS"	"Los Angeles Sparks"	0	200	93	"Michael Price, Robert Hussey, Ashley Gloss"	70	75
+"2021"	20210815	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	96	"Roy Gulbeyan, Tim Greene, Kevin Fahy"	83	84
+"2021"	20210815	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	90.6	"Jeffrey Smith, Karleena Tobin, Isaac Barnett"	78	88
+"2021"	20210815	TRUE	"ATL"	"Atlanta Dream"	"PHO"	"Phoenix Mercury"	1	200	100.1	"Eric Brewton, Janetta Graham, Angelica Suffren"	81	92
+"2021"	20210817	TRUE	"DAL"	"Dallas Wings"	"CHI"	"Chicago Sky"	2	200	89.5	"Brandon Schwab, Michael Price, Tim Greene"	80	76
+"2021"	20210817	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	91.9	"Danielle Scott, Angelica Suffren, Cheryl Flores"	60	72
+"2021"	20210817	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	225	95.8	"Dannica Mosher, Tiffany Bird, Jenna Reneau"	80	85
+"2021"	20210817	TRUE	"WAS"	"Washington Mystics"	"LVA"	"Las Vegas Aces"	0	200	96.4	"Eric Brewton, Isaac Barnett, Jeffrey Smith"	83	93
+"2021"	20210817	TRUE	"IND"	"Indiana Fever"	"PHO"	"Phoenix Mercury"	1	200	92.8	"Karleena Tobin, Maj Forsberg, Randy Richardson"	80	84
+"2021"	20210818	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	97.5	"Kevin Fahy, Tiara Cruse, Fatou Cissoko-Stephens"	79	83
+"2021"	20210819	TRUE	"MIN"	"Minnesota Lynx"	"CON"	"Connecticut Sun"	3	200	90.8	"Maj Forsberg, Brandon Schwab, Fatou Cissoko-Stephens"	71	82
+"2021"	20210819	TRUE	"ATL"	"Atlanta Dream"	"LAS"	"Los Angeles Sparks"	0	200	88	"Jeffrey Smith, Janetta Graham, Eric Brewton"	64	66
+"2021"	20210819	TRUE	"WAS"	"Washington Mystics"	"PHO"	"Phoenix Mercury"	1	200	91.3	"Toni Patillo, Dannica Mosher, Roy Gulbeyan"	64	77
+"2021"	20210820	TRUE	"IND"	"Indiana Fever"	"DAL"	"Dallas Wings"	2	200	84.4	"Jenna Reneau, Ashley Gloss, Michael Price"	83	81
+"2021"	20210820	TRUE	"SEA"	"Seattle Storm"	"NYL"	"New York Liberty"	3	200	94.7	"John Conley, Cheryl Flores, Isaac Barnett"	99	83
+"2021"	20210821	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	93.2	"Angelica Suffren, Roy Gulbeyan, Tiara Cruse"	84	69
+"2021"	20210821	TRUE	"MIN"	"Minnesota Lynx"	"CHI"	"Chicago Sky"	2	200	101.9	"Fatou Cissoko-Stephens, Matt Kallio, Kurt Walker"	101	95
+"2021"	20210822	TRUE	"LAS"	"Los Angeles Sparks"	"NYL"	"New York Liberty"	3	200	98.9	"Cheryl Flores, Tim Greene, Brandon Schwab"	86	83
+"2021"	20210822	TRUE	"SEA"	"Seattle Storm"	"WAS"	"Washington Mystics"	3	200	102.3	"Isaac Barnett, Blanca Burns, Michael Price"	85	78
+"2021"	20210824	TRUE	"CHI"	"Chicago Sky"	"ATL"	"Atlanta Dream"	3	200	91.8	"Matt Kallio, Tim Greene, Michael Price"	86	79
+"2021"	20210824	TRUE	"LVA"	"Las Vegas Aces"	"CON"	"Connecticut Sun"	3	200	88.4	"Janetta Graham, Dannica Mosher, Roy Gulbeyan"	62	76
+"2021"	20210824	TRUE	"SEA"	"Seattle Storm"	"MIN"	"Minnesota Lynx"	2	200	95.5	"Toni Patillo, Eric Brewton, Tiffany Bird"	70	76
+"2021"	20210824	TRUE	"LAS"	"Los Angeles Sparks"	"WAS"	"Washington Mystics"	3	200	92.3	"Fatou Cissoko-Stephens, Angelica Suffren, Maj Forsberg"	68	78
+"2021"	20210825	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	92.8	"Brandon Schwab, Amy Bonner, Jeffrey Smith"	106	79
+"2021"	20210826	TRUE	"LVA"	"Las Vegas Aces"	"ATL"	"Atlanta Dream"	3	200	95	"Isaac Barnett, Robert Hussey, Amy Bonner"	78	71
+"2021"	20210826	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	87.8	"Billy Smith, Angelica Suffren, John Conley"	72	76
+"2021"	20210826	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	88.2	"Danielle Scott, Maj Forsberg, Tiffany Bird"	82	77
+"2021"	20210827	TRUE	"PHO"	"Phoenix Mercury"	"NYL"	"New York Liberty"	3	200	97.6	"Eric Brewton, Ashley Gloss, Jenna Reneau"	80	64
+"2021"	20210827	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	97.7	"Randy Richardson, Cheryl Flores, Janetta Graham"	73	69
+"2021"	20210828	TRUE	"LAS"	"Los Angeles Sparks"	"CON"	"Connecticut Sun"	3	200	86.7	"Amy Bonner, Isaac Barnett, Karleena Tobin"	61	76
+"2021"	20210828	TRUE	"LVA"	"Las Vegas Aces"	"IND"	"Indiana Fever"	3	200	97.1	"Matt Kallio, Kurt Walker, Danielle Scott"	87	71
+"2021"	20210828	TRUE	"DAL"	"Dallas Wings"	"WAS"	"Washington Mystics"	3	200	93.7	"Kevin Sparrock, Tiara Cruse, Roy Gulbeyan"	75	76
+"2021"	20210829	TRUE	"CHI"	"Chicago Sky"	"SEA"	"Seattle Storm"	0	200	91.4	"Blanca Burns, Maj Forsberg, Tim Greene"	107	75
+"2021"	20210831	TRUE	"LAS"	"Los Angeles Sparks"	"IND"	"Indiana Fever"	3	200	83.8	"Tiffany Bird, Dannica Mosher, Eric Brewton"	72	74
+"2021"	20210831	TRUE	"NYL"	"New York Liberty"	"MIN"	"Minnesota Lynx"	2	200	96.8	"Kevin Sparrock, Tiara Cruse, Roy Gulbeyan"	66	74
+"2021"	20210831	TRUE	"CHI"	"Chicago Sky"	"PHO"	"Phoenix Mercury"	1	200	91.1	"Michael Price, Amy Bonner, Toni Patillo"	83	103
+"2021"	20210831	TRUE	"CON"	"Connecticut Sun"	"WAS"	"Washington Mystics"	3	200	85.8	"Isaac Barnett, Cheryl Flores, Matt Kallio"	85	75
+"2021"	20210902	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	88	"Fatou Cissoko-Stephens, Tiffany Bird, Cheryl Flores"	68	72
+"2021"	20210902	TRUE	"CHI"	"Chicago Sky"	"LVA"	"Las Vegas Aces"	0	200	97	"Tiara Cruse, Karleena Tobin, Randy Richardson"	83	90
+"2021"	20210902	TRUE	"LAS"	"Los Angeles Sparks"	"MIN"	"Minnesota Lynx"	2	200	88.3	"Ashley Gloss, Billy Smith, Amy Bonner"	57	66
+"2021"	20210902	TRUE	"NYL"	"New York Liberty"	"SEA"	"Seattle Storm"	0	200	91.5	"Dannica Mosher, Maj Forsberg, Isaac Barnett"	75	85
+"2021"	20210904	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	92.1	"Kevin Sparrock, Tim Greene, Angelica Suffren"	87	65
+"2021"	20210904	TRUE	"WAS"	"Washington Mystics"	"MIN"	"Minnesota Lynx"	2	200	94.6	"Janetta Graham, Michael Price, Amy Bonner"	75	93
+"2021"	20210905	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	92.2	"Billy Smith, Jenna Reneau, Maj Forsberg"	84	92
+"2021"	20210905	TRUE	"ATL"	"Atlanta Dream"	"DAL"	"Dallas Wings"	2	200	91.6	"Roy Gulbeyan, Matt Kallio, Robert Hussey"	69	64
+"2021"	20210906	TRUE	"PHO"	"Phoenix Mercury"	"IND"	"Indiana Fever"	3	200	82.6	"Kevin Fahy, Billy Smith, Michael Price"	86	81
+"2021"	20210907	TRUE	"CON"	"Connecticut Sun"	"DAL"	"Dallas Wings"	2	200	85.8	"Amy Bonner, Robert Hussey, Eric Brewton"	83	56
+"2021"	20210907	TRUE	"WAS"	"Washington Mystics"	"SEA"	"Seattle Storm"	0	200	96.6	"Tim Greene, Roy Gulbeyan, Jeffrey Smith"	71	105
+"2021"	20210908	TRUE	"PHO"	"Phoenix Mercury"	"ATL"	"Atlanta Dream"	3	200	93.3	"Isaac Barnett, Cheryl Flores, Matt Kallio"	76	75
+"2021"	20210908	TRUE	"MIN"	"Minnesota Lynx"	"LVA"	"Las Vegas Aces"	0	200	100.6	"Randy Richardson, Dannica Mosher, Maj Forsberg"	81	102
+"2021"	20210909	TRUE	"CON"	"Connecticut Sun"	"LAS"	"Los Angeles Sparks"	0	200	84.4	"Karleena Tobin, Fatou Cissoko-Stephens, Roy Gulbeyan"	75	57
+"2021"	20210910	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	91.7	"Eric Brewton, Blanca Burns, Billy Smith"	72	89
+"2021"	20210910	TRUE	"ATL"	"Atlanta Dream"	"WAS"	"Washington Mystics"	3	200	91.4	"Maj Forsberg, John Conley, Dannica Mosher"	74	82
+"2021"	20210911	TRUE	"NYL"	"New York Liberty"	"DAL"	"Dallas Wings"	2	200	87	"Matt Kallio, Kurt Walker, Danielle Scott"	76	77
+"2021"	20210911	TRUE	"CON"	"Connecticut Sun"	"PHO"	"Phoenix Mercury"	1	200	83.8	"Roy Gulbeyan, Karleena Tobin, Ashley Gloss"	76	67
+"2021"	20210912	TRUE	"WAS"	"Washington Mystics"	"CHI"	"Chicago Sky"	2	200	94.5	"Cheryl Flores, Tiara Cruse, Angelica Suffren"	79	71
+"2021"	20210912	TRUE	"SEA"	"Seattle Storm"	"LAS"	"Los Angeles Sparks"	0	200	86.3	"Billy Smith, Janetta Graham, Kurt Walker"	53	81
+"2021"	20210912	TRUE	"IND"	"Indiana Fever"	"MIN"	"Minnesota Lynx"	2	200	88.3	"Michael Price, Toni Patillo, Tim Greene"	80	90
+"2021"	20210913	TRUE	"DAL"	"Dallas Wings"	"LVA"	"Las Vegas Aces"	0	200	92.3	"Eric Brewton, John Conley, Amy Bonner"	75	85
+"2021"	20210914	TRUE	"IND"	"Indiana Fever"	"ATL"	"Atlanta Dream"	3	200	88.9	"Maj Forsberg, Tiffany Bird, Kevin Fahy"	78	85
+"2021"	20210915	TRUE	"NYL"	"New York Liberty"	"CON"	"Connecticut Sun"	3	200	101.4	"Eric Brewton, Angelica Suffren, Ashley Gloss"	69	98
+"2021"	20210916	TRUE	"LAS"	"Los Angeles Sparks"	"ATL"	"Atlanta Dream"	3	200	91.5	"Roy Gulbeyan, Kevin Sparrock, Randy Richardson"	74	68
+"2021"	20210917	TRUE	"LVA"	"Las Vegas Aces"	"CHI"	"Chicago Sky"	2	200	97.3	"Ashley Gloss, Eric Brewton, Jeffrey Smith"	103	70
+"2021"	20210917	TRUE	"MIN"	"Minnesota Lynx"	"IND"	"Indiana Fever"	3	200	97.1	"Tiara Cruse, Isaac Barnett, Cheryl Flores"	92	73
+"2021"	20210917	TRUE	"WAS"	"Washington Mystics"	"NYL"	"New York Liberty"	3	200	92.2	"Maj Forsberg, Dannica Mosher, Billy Smith"	80	91
+"2021"	20210917	TRUE	"PHO"	"Phoenix Mercury"	"SEA"	"Seattle Storm"	0	200	84.9	"Amy Bonner, Tiffany Bird, Matt Kallio"	85	94
+"2021"	20210919	TRUE	"IND"	"Indiana Fever"	"CHI"	"Chicago Sky"	2	200	96.4	"Matt Kallio, Maj Forsberg, Tiffany Bird"	87	98
+"2021"	20210919	TRUE	"ATL"	"Atlanta Dream"	"CON"	"Connecticut Sun"	3	200	86.4	"Kurt Walker, Toni Patillo, Tiara Cruse"	64	84
+"2021"	20210919	TRUE	"LAS"	"Los Angeles Sparks"	"DAL"	"Dallas Wings"	2	200	92	"Eric Brewton, Fatou Cissoko-Stephens, Kevin Fahy"	84	87
+"2021"	20210919	TRUE	"LVA"	"Las Vegas Aces"	"PHO"	"Phoenix Mercury"	1	200	90.1	"Amy Bonner, Tim Greene, Cheryl Flores"	84	83
+"2021"	20210919	TRUE	"MIN"	"Minnesota Lynx"	"WAS"	"Washington Mystics"	3	200	91.2	"Randy Richardson, Billy Smith, Blanca Burns"	83	77
