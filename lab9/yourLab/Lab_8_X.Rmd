@@ -2,13 +2,13 @@
 
 ---
 title: "Lab 8"
-author:  Your Name and UID go here
+author:  Apurva Shah
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
-  bookdown::pdf_document2: default
   pdf_document:
     toc: yes
     toc_depth: 3
+  bookdown::pdf_document2: default
   html_document:
     theme: paper
     toc: yes
@@ -398,6 +398,13 @@ Complete/answer the following.
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
 
+
+# sbdf <- read.table("SuperBowl_coinTosses.tsv", sep="\t", header=TRUE)
+
+print("The P-Value is .394735. As the P value is greater than .005 this is not significant. We accept the null.")
+
+
+
 ```
 
 &nbsp;
@@ -408,7 +415,26 @@ Complete/answer the following.
 
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+sbdf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab9/yourLab/SuperBowl_coinTosses.tsv", sep="\t", header=TRUE)
+left_tail_cutoff <- qnorm(0.025)
+left_tail_cutoff
+right_tail_cutoff <- qnorm(0.975)
+right_tail_cutoff
+n <- nrow(sbdf)
+xheads <- as.integer(sbdf[, "CoinToss"] %in% "Heads")
+p_H0 <- 1/2
+phat <- mean(xheads)
+phat
+### OR
+phat <- sum(xheads) / length(xheads)
+var_phat <- p_H0 * (1 - p_H0)
+SE <- sqrt(var_phat / n)
+z_test <-  (phat - p_H0) / SE
 
+n*phat
+n*(1-phat)
+
+# As phat is from the binomial distribution, and both of these are greater than 10, these have met the requirements listed above
 ```
 
 &nbsp;
@@ -419,18 +445,40 @@ Complete/answer the following.
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
 ### here's a head start
-ydf <- read.table("WNBA_playerGame.tsv", sep="\t", header=TRUE)
-
+ydf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab9/yourLab/WNBA_playerGame.tsv", sep="\t", header=TRUE)
 xmask_bench <- as.integer(ydf[ , "strtr" ]) > 5
 ydf_bench <- ydf[ xmask_bench,  ]
-
 dim(ydf_bench)
-
 set.seed(777)
-
 my_sample_df <- ydf_bench[ sample(1:nrow(ydf_bench), size=144), ]
+xscore <- mean(my_sample_df[ , "pts"] >= 5)
+xtrue_prop <- mean(xscore)
 
-mean(my_sample_df[ , "pts"] >= 5)
+nn <- 144 ### number of simulations
+n <- 100
+
+pH0 <- 1/3
+n <- length(xscore_sample)
+p_hat <- mean(xscore_sample)
+p_hat_var <- pH0 * (1 - pH0)
+SE <- sqrt( p_hat_var / n )
+z_test <- (p_hat - pH0) / SE
+z_test
+
+# Using the normal approximation, our test statistic ztest = 7.353911 falls into our rejection region, so we conclude the occurrence of WNBA starters scoring 5 # or more points is not 33%, but rather more.
+
+
+# 
+# z_test_sim <- numeric(nn)
+# for(ii in 1:nn) {
+#   xrnd_ndx <- sample( I(1:nrow(ydf_bench)), size=n )
+#   ydf_starter_sample <- ydf_bench[ xrnd_ndx, ]
+#   p_hat_sim <- mean(as.integer( ydf_starter_sample[ , "pts"] >= 5 ))
+#   z_test_sim[ ii ] <- (p_hat_sim - xtrue_prop) / sqrt( xtrue_prop * (1 - xtrue_prop) / n )
+# }
+# 
+# xp_in_crit_region <- mean(z_test_sim > right_tail_cutoff)
+# xp_in_crit_region
 
 ## mean(my_sample_df[ , "tpm"] >= 2)
 
@@ -443,6 +491,28 @@ mean(my_sample_df[ , "pts"] >= 5)
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
 
+ydf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab9/yourLab/WNBA_playerGame.tsv", sep="\t", header=TRUE)
+xmask_bench <- as.integer(ydf[ , "strtr" ]) > 5
+ydf_bench <- ydf[ xmask_bench,  ]
+dim(ydf_bench)
+set.seed(777)
+my_sample_df <- ydf_bench[ sample(1:nrow(ydf_bench), size=144), ]
+xscore <- mean(my_sample_df[ , "tpm"] >= 2)
+xtrue_prop <- mean(xscore)
+
+nn <- 144 ### number of simulations
+n <- 100
+
+pH0 <- 1/5
+n <- length(xscore_sample)
+p_hat <- mean(xscore_sample)
+p_hat_var <- pH0 * (1 - pH0)
+SE <- sqrt( p_hat_var / n )
+z_test <- (p_hat-pH0) / SE
+z_test
+
+# Using the normal approximation, our test statistic ztest = 12 falls into our rejection region, so we conclude the occurrence of WNBA starters scoring 5 # or more points is in fact less than 20%.
+
 ```
 
 &nbsp;
@@ -450,6 +520,9 @@ mean(my_sample_df[ , "pts"] >= 5)
 
 5 --- In the Examples above, in the Section "What's Alpha?", we ran a number of simulations where our null was true.  The proportion of times our calculated (simulated) test statistic fell into the critical region was `r round(xp_in_crit_region, 5)`.  Why is this value close to the significance level we set?
 
+The alpha is the level of significance that we are testing. This value is close to the significance level that we set because the significance level determines the bounds of the curve that we are testing for. It would land in that area under the curve at the level of the alpha. 
+
+Furthermore, according to the central limit theorem, if the same size is large enough, the sample mean will follow a normal distribution around our true population, which is why the z score and probability from the test are near to significance level. When the significance level is reflected, we always reject the null, even if it is true; we want the significance level to be small, and the crucial area must be observed.
 
 
 
