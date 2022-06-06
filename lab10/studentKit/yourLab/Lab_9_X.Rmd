@@ -1,0 +1,518 @@
+
+
+---
+title: "Lab 9"
+author:  Your Name and UID go here
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output:
+  bookdown::pdf_document2: default
+  pdf_document:
+    toc: yes
+    toc_depth: 3
+  html_document:
+    theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+\fontsize{10}{11}
+
+&nbsp;&nbsp;
+
+```{r datetime, echo=FALSE, eval=TRUE}
+
+cat("Date last run:", format(Sys.time(), "%Y-%m-%d"))
+cat("\n")
+cat("Hello World!")
+cat("\n")
+
+
+options(width=90)
+
+```
+
+Requires library xtable.
+
+
+
+&nbsp;&nbsp;
+
+# Examples
+
+
+
+&nbsp;&nbsp;
+
+
+## Heavy Skewed Parent Distribution
+
+Let's start with an extreme case.
+
+Image a lottery at a fair or event.  It costs $2 to purchase a ticket.  There's a 1-in-20 chance of winning \$10 (that's an \$8 net), and a 1-in-10,000 chance of winning \$1000 (that's a \$998 net).
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+options(xtable.comment = FALSE)
+
+library(xtable)
+
+xdomain <- c(-2, 8, 998)
+
+p_big <- 1 / 10^4
+p_small <- 1 / 20
+p_lose <- 1 - p_big - p_small
+
+xcprobs <- paste0(10000 * c(p_lose, p_small, p_big), "/", 10000)
+xcprobs
+
+df_ptble <- data.frame("NetWin"=xdomain, "Probability"=xcprobs)
+
+```
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='asis'}
+
+print(xtable(df_ptble, caption="Probability Table for Lottery net winnings."), 
+      include.rownames=FALSE)
+
+```
+
+&nbsp;&nbsp;
+
+What is the sampling distribution of average net winnings for 100 tickets?
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+nn <- 10000 ### number of simulations
+
+N <- 100 ### sample size
+
+xmean_sim <- numeric(nn)
+
+for(ii in 1:nn) {
+    x_sim_win <- sample(xdomain, size=N, prob=c(p_lose, p_small, p_big), replace=TRUE)
+    xmean_sim[ii] <- mean(x_sim_win)
+}
+
+```
+
+&nbsp;&nbsp;
+
+```{r esdLottery, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=4.5, fig.height=3.0, fig.cap=''}
+
+par(cex=0.6)
+hist(xmean_sim, main="Empiric Sampling Distr. Avg Net Win, N=100")
+
+```
+
+&nbsp;&nbsp;
+
+Nowhere close to bell-shaped.
+
+
+&nbsp;&nbsp;
+
+## Moderately Skewed Parent Distribution
+
+&nbsp;&nbsp;
+
+### Women's Super League Team-Game Goals
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+xdf <- read.table( "WomensSuperLeague_teamDate.tsv", header=TRUE, sep="\t" )
+
+```
+
+```{r parentGoals, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=4.5, fig.height=3.0, fig.cap=''}
+
+par(cex=0.6)
+xbrks <- seq( min(xdf[ , "Gls"])-0.5, max(xdf[ , "Gls"])+0.5, by=1 )
+hist(xdf[ , "Gls"], breaks=xbrks, xlab="Team-Game WSL Goals", main="Parent Distribution of WSL Team-Game Goals")
+
+```
+
+
+&nbsp;&nbsp;
+
+Let's imagine our population is an infinite collection of games just like these we have (i.e., sample with replacement) and simulate the sampling distribution of the mean Team-Game Goals for 4 different sample sizes.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+nn <- 40000
+
+xmean_a <- numeric(nn)
+xmean_b <- numeric(nn)
+xmean_c <- numeric(nn)
+xmean_d <- numeric(nn)
+
+for(ii in 1:nn) {
+    xmean_a[ii] <- mean(sample(xdf[ , "Gls"], size=4, replace=TRUE))
+    xmean_b[ii] <- mean(sample(xdf[ , "Gls"], size=16, replace=TRUE))
+    xmean_c[ii] <- mean(sample(xdf[ , "Gls"], size=64, replace=TRUE))
+    xmean_d[ii] <- mean(sample(xdf[ , "Gls"], size=100, replace=TRUE))
+}
+
+```
+
+
+```{r goalsESD, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=7.0, fig.height=7.0, fig.cap='Empiric Sampling Distributions of average WSL Team-Game Goals for 4 different sample sizes.'}
+
+par(mfrow=c(2,2), cex=0.70)
+hist(xmean_a, freq=FALSE, main="ESD Avg Gls, N=4")
+hist(xmean_b, freq=FALSE, main="ESD Avg Gls, N=16")
+hist(xmean_c, freq=FALSE, main="ESD Avg Gls, N=64")
+hist(xmean_d, freq=FALSE, main="ESD Avg Gls, N=100")
+
+```
+
+&nbsp;&nbsp;
+
+Looking at Figure \@ref(fig:goalsESD), we see the simulated empiric sampling distribution when the sample size is 9 is right skewed.
+When 16, the right skewness is reduced, but still visually present.  For sample size 100, the sampling distribution looks fairly symmetrical.
+
+
+&nbsp;&nbsp;
+
+
+Let's repeat the process for the sampling distribution of our T-statistic.
+
+&nbsp;&nbsp;
+
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+nn <- 40000
+
+xmeanT_a <- numeric(nn)
+xmeanT_b <- numeric(nn)
+xmeanT_c <- numeric(nn)
+xmeanT_d <- numeric(nn)
+
+n_a <- 4
+n_b <- 16
+n_c <- 64
+n_d <- 100
+
+xmu <- mean(xdf[ , "Gls"])
+
+for(ii in 1:nn) {
+
+    xa <- sample(xdf[ , "Gls"], size=n_a, replace=TRUE)
+    xmeanT_a[ii] <- (mean(xa) - xmu) / sqrt( var(xa) / n_a )
+    
+    xb <- sample(xdf[ , "Gls"], size=n_b, replace=TRUE)
+    xmeanT_b[ii] <- (mean(xb) - xmu) / sqrt( var(xb) / n_b )
+    
+    xc <- sample(xdf[ , "Gls"], size=n_c, replace=TRUE)
+    xmeanT_c[ii] <- (mean(xc) - xmu) / sqrt( var(xc) / n_c )
+    
+    xd <- sample(xdf[ , "Gls"], size=n_d, replace=TRUE)
+    xmeanT_d[ii] <- (mean(xd) - xmu) / sqrt( var(xd) / n_d )
+    
+}
+
+tdom <- seq(-5, 5, length=300)
+
+tden_a <- dt(tdom, n_a-1)
+tden_b <- dt(tdom, n_b-1)
+tden_c <- dt(tdom, n_c-1)
+tden_d <- dt(tdom, n_d-1)
+
+```
+
+```{r goalsTstatESD, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=7.0, fig.height=7.0, fig.cap='Empiric Sampling Distributions of T-Statistic for average WSL Team-Game Goals for 4 different sample sizes.  Green path shows T-Distribution for N-1 degrees of freedom.'}
+
+par(mfrow=c(2,2), cex=0.70)
+hist(xmeanT_a, freq=FALSE, ylim=c(0, 0.41), main="ESD T-Stat Avg Gls, N=4")
+points(tdom, tden_a, type="l", col="#33BB33", lwd=3)
+
+hist(xmeanT_b, freq=FALSE, ylim=c(0, 0.41), main="ESD T-Stat Avg Gls, N=16")
+points(tdom, tden_b, type="l", col="#33BB33", lwd=3)
+
+hist(xmeanT_c, freq=FALSE, ylim=c(0, 0.41), main="ESD T-Stat Avg Gls, N=64")
+points(tdom, tden_c, type="l", col="#33BB33", lwd=3)
+
+hist(xmeanT_d, freq=FALSE, ylim=c(0, 0.41), main="ESD T-Stat Avg Gls, N=100")
+points(tdom, tden_d, type="l", col="#33BB33", lwd=3)
+
+```
+
+&nbsp;&nbsp;
+
+Looking at Figure \@ref(fig:goalsTstatESD), we see the simulated empiric sampling distributions are poorly approximated by the respective T-Distribution model, except perhaps where the sample size is 100.
+
+
+\clearpage
+
+\newpage
+
+
+
+## Close to Bell-Shaped Parent Distribution
+
+&nbsp;&nbsp;
+
+### NBA Points
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+df_nba <- read.table(file.path("NBA_teamGame.tsv"), sep="\t", header=TRUE)
+tail(df_nba)
+
+```
+
+&nbsp;&nbsp;
+
+```{r parentPoints, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=4.5, fig.height=3.0, fig.cap=''}
+
+xpoints <- df_nba[ , "pts" ]
+xbrks <- seq( min(xpoints)-0.5, max(xpoints)+0.5, by=1 )
+
+par(mfrow=c(1, 1), cex=0.63)
+hist(xpoints, main="Distr. Team-Game NBA Pts")
+
+```
+
+
+&nbsp;&nbsp;
+
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+nn <- 40000
+
+xmeanT_a <- numeric(nn)
+xmeanT_b <- numeric(nn)
+xmeanT_c <- numeric(nn)
+xmeanT_d <- numeric(nn)
+
+n_a <- 9
+n_b <- 16
+n_c <- 64
+n_d <- 100
+
+xmu <- mean(xpoints)
+
+for(ii in 1:nn) {
+
+    xa <- sample(xpoints, size=n_a, replace=FALSE)
+    xmeanT_a[ii] <- (mean(xa) - xmu) / sqrt( var(xa) / n_a )
+    
+    xb <- sample(xpoints, size=n_b, replace=FALSE)
+    xmeanT_b[ii] <- (mean(xb) - xmu) / sqrt( var(xb) / n_b )
+    
+    xc <- sample(xpoints, size=n_c, replace=FALSE)
+    xmeanT_c[ii] <- (mean(xc) - xmu) / sqrt( var(xc) / n_c )
+    
+    xd <- sample(xpoints, size=n_d, replace=FALSE)
+    xmeanT_d[ii] <- (mean(xd) - xmu) / sqrt( var(xd) / n_d )
+    
+}
+
+tdom <- seq(-5, 5, length=300)
+
+tden_a <- dt(tdom, n_a-1)
+tden_b <- dt(tdom, n_b-1)
+tden_c <- dt(tdom, n_c-1)
+tden_d <- dt(tdom, n_d-1)
+
+```
+
+```{r pointsTstatESD, echo=FALSE, message=FALSE, eval=TRUE, results='figure', fig.width=7.0, fig.height=7.0, fig.cap='Empiric Sampling Distributions of T-Statistic for average NBA Team-Game Points for 4 different sample sizes.  Green path shows T-Distribution for N-1 degrees of freedom.'}
+
+par(mfrow=c(2,2), cex=0.70)
+xbrks <- seq(floor(min(xmeanT_a)), ceiling(max(xmeanT_a)), by=1/2)
+hist(xmeanT_a, freq=FALSE, ylim=c(0, 0.41), breaks=xbrks, main="ESD T-Stat Avg Pts, N=9")
+points(tdom, tden_a, type="l", col="#33BB33", lwd=3)
+
+xbrks <- seq(floor(min(xmeanT_b)), ceiling(max(xmeanT_b)), by=1/2)
+hist(xmeanT_b, freq=FALSE, ylim=c(0, 0.41), breaks=xbrks, main="ESD T-Stat Avg Pts, N=16")
+points(tdom, tden_b, type="l", col="#33BB33", lwd=3)
+
+xbrks <- seq(floor(min(xmeanT_c)), ceiling(max(xmeanT_c)), by=1/2)
+hist(xmeanT_c, freq=FALSE, ylim=c(0, 0.41), breaks=xbrks, main="ESD T-Stat Avg Pts, N=64")
+points(tdom, tden_c, type="l", col="#33BB33", lwd=3)
+
+xbrks <- seq(floor(min(xmeanT_d)), ceiling(max(xmeanT_d)), by=1/2)
+hist(xmeanT_d, freq=FALSE, ylim=c(0, 0.41), breaks=xbrks, main="ESD T-Stat Avg Pts, N=100")
+points(tdom, tden_d, type="l", col="#33BB33", lwd=3)
+
+```
+
+&nbsp;&nbsp;
+
+Looking at Figure \@ref(fig:pointsTstatESD), we see that even when the sample size is only 9, it looks like the T-Distribution model closely approximates our simulated empiric sampling distribution.  Recall our parent distribution appears to be close to normal.
+
+
+
+\clearpage
+
+\newpage
+
+
+## Hypothesis Test of Population Mean
+
+&nbsp;&nbsp;
+
+As if we haven't had enough fun already with all these simulations, let's get down to illustrating hypothesis testing of a population mean in \textbf{R}.
+
+We should start with make-believe.  Let's make-believe we don't have access to the full NBA Team-Game data we just looked at.
+
+Suppose someone claims that the average points scored by teams in an NBA game from the 2004-2005 season through the 2020-2021 season is greater than 100 points.
+
+$H_0 : \mu = 100$
+
+$H_a : \mu > 100$
+
+Let's set $\alpha = 0.01$
+
+Here's our sample (randomly obtained):
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+df_nba_sample <- read.table(file.path("NBA_teamGame_sample.tsv"), sep="\t", header=TRUE)
+head(df_nba_sample)
+
+N <- nrow(df_nba_sample)
+N
+
+x_bar <- mean(df_nba_sample[ , "pts"])
+
+SE_est <- sqrt( var(df_nba_sample[ , "pts"]) / N )
+
+t_stat <- (mean(df_nba_sample[ , "pts"]) - 100) / SE_est
+
+#### right tail
+pval <- 1 - pt(t_stat, N-1)
+
+```
+
+&nbsp;&nbsp;
+
+Our sample size is `r N`.
+
+Our critical region is $[ `r round(qt(0.01, N-1, lower.tail = FALSE), 5)`, \infty )$.
+
+Our sample average is $\bar{x} = `r round(x_bar, 5)`$.
+
+Our estimated standard error is $\mathsf{SE}[\bar{x}] = `r round(SE_est, 5)`$.
+
+Our actual observed T test statistic is $t_{299} = `r round(t_stat, 5)`$.
+
+Our p-value is $`r round(pval, 5)`$.
+
+We conclude in favor of the alternative hypothesis, that the true average team-game points is greater than 100.
+
+
+&nbsp;&nbsp;
+
+
+
+
+
+
+
+## Confidence Interval for Population Mean
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+#### 95 %
+
+t_low <- qt(0.025, N-1)
+
+t_high <- qt(0.975, N-1)
+
+
+CI_low <- x_bar + SE_est * t_low
+
+CI_high <- x_bar + SE_est * t_high
+
+```
+
+&nbsp;&nbsp;
+
+We are 95% confident that the true average team-game points resides in $(`r round(CI_low, 3)`, `r round(CI_high, 3)`)$
+
+&nbsp;&nbsp;
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+#### 99 %
+
+t_low <- qt(0.005, N-1)
+
+t_high <- qt(0.995, N-1)
+
+CI_low <- x_bar + SE_est * t_low
+
+CI_high <- x_bar + SE_est * t_high
+
+```
+&nbsp;&nbsp;
+
+We are 99% confident that the true average team-game points resides in $(`r round(CI_low, 3)`, `r round(CI_high, 3)`)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+# Your Work
+
+Make sure to edit the "author" information in the YAML header near the top to include your name and UID.
+
+Complete/answer the following.
+
+
+
+
+1 --- Consider our hypothesis test and confidence intervals in the Examples Section above.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
+
+2 --- Pretend we don't have access to the full NBA Team-Game data.  Use the sample NBA data to test the claim, at $\alpha=0.001$, that the true population average of 3-point shots made by teams per game is greater than 6.  Also construct a 99% confidence interval.  Interpret your findings.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+
+3 --- Consider our Lottery scenario.  How large of a sample size do we need for the sampling distribution of average net winnings to start to look bell-shaped?  Note that your computer may run for a long time.
+
+
+```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+```
+
+&nbsp;
+
+
+
