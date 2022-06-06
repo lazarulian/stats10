@@ -2,7 +2,7 @@
 
 ---
 title: "Lab 9"
-author:  Your Name and UID go here
+author:  Apurva Shah
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   bookdown::pdf_document2: default
@@ -494,10 +494,87 @@ Complete/answer the following.
 
 1 --- Consider our hypothesis test and confidence intervals in the Examples Section above.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
 
+I think the T distribution model does accurately characterize our tstat estimator. 
+
+
+
 2 --- Pretend we don't have access to the full NBA Team-Game data.  Use the sample NBA data to test the claim, at $\alpha=0.001$, that the true population average of 3-point shots made by teams per game is greater than 6.  Also construct a 99% confidence interval.  Interpret your findings.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
 
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+library(tidyverse)
+library(xtable)
+
+# 2 --- Pretend we don't have access to the full NBA Team-Game data.  Use the sample NBA data to test the claim, at 
+# $\alpha=0.001$, that the true population average of 3-point shots made by teams per game is greater than 6.  Also construct a 99% confidence interval.  
+# Interpret your findings.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
+
+
+# H0 :μ=6
+# Ha :μ>6
+# Let’s set α = 0.001
+
+
+xdf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab10/studentKit/yourLab/NBA_teamGame_sample.tsv", header=TRUE, sep="\t" )
+head(xdf)
+N <- nrow(xdf)
+x_bar <- mean(xdf[ , "tpm"])
+SE_est <- sqrt( var(xdf[ , "tpm"]) / N )
+t_stat <- (mean(xdf[ , "tpm"]) - 6) / SE_est
+pval <- 1 - pt(t_stat, N-1)
+
+# // We conclude in the favor of the null hypothesis, that the TPM made per game is not greater than six.
+
+t_low <- qt(0.005, N-1)
+t_high <- qt(0.995, N-1)
+CI_low <- x_bar + SE_est * t_low
+CI_high <- x_bar + SE_est * t_high
+
+paste("We are 99% confident that the true average three point shots made resides in", CI_low, CI_high, sep = " ")
+
+nn <- 40000
+
+xmean_a <- numeric(nn)
+xmean_b <- numeric(nn)
+xmean_c <- numeric(nn)
+xmean_d <- numeric(nn)
+for(ii in 1:nn) {
+  xmean_a[ii] <- mean(sample(xdf[ , "tpm"], size=4, replace=TRUE))
+  xmean_b[ii] <- mean(sample(xdf[ , "tpm"], size=16, replace=TRUE)) 
+  xmean_c[ii] <- mean(sample(xdf[ , "tpm"], size=64, replace=TRUE)) 
+  xmean_d[ii] <- mean(sample(xdf[ , "tpm"], size=100, replace=TRUE))
+}
+
+
+xmeanT_a <- numeric(nn)
+xmeanT_b <- numeric(nn)
+xmeanT_c <- numeric(nn)
+xmeanT_d <- numeric(nn)
+
+n_a <- 4
+n_b <- 16
+n_c <- 64
+n_d <- 100
+xmu <- mean(xdf[ , "tpm"]) 
+for(ii in 1:nn) {
+  xa <- sample(xdf[ , "tpm"], size=n_a, replace=TRUE)
+  xmeanT_a[ii] <- (mean(xa) - xmu) / sqrt( var(xa) / n_a )
+  xb <- sample(xdf[ , "tpm"], size=n_b, replace=TRUE)
+  xmeanT_b[ii] <- (mean(xb) - xmu) / sqrt( var(xb) / n_b )
+  xc <- sample(xdf[ , "tpm"], size=n_c, replace=TRUE)
+  xmeanT_c[ii] <- (mean(xc) - xmu) / sqrt( var(xc) / n_c )
+  xd <- sample(xdf[ , "tpm"], size=n_d, replace=TRUE)
+  xmeanT_d[ii] <- (mean(xd) - xmu) / sqrt( var(xd) / n_d )
+}
+tdom <- seq(-5, 5, length=300)
+
+tden_a <- dt(tdom, n_a-1)
+tden_b <- dt(tdom, n_b-1)
+tden_c <- dt(tdom, n_c-1)
+tden_d <- dt(tdom, n_d-1)
+
 
 ```
 
@@ -509,6 +586,34 @@ Complete/answer the following.
 
 
 ```{r, echo=TRUE, message=FALSE, eval=TRUE, results='show'}
+
+
+xdf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab10/studentKit/yourLab/NBA_teamGame_sample.tsv", header=TRUE, sep="\t" )
+head(xdf)
+
+options(xtable.comment = FALSE)
+table(xdf[, "HA"])
+total<-143+157
+
+xdomain <- c(-1, 1)
+p_big <- 1 / 2
+p_small <- 1 / 2
+p_lose <- 1/2
+p_win <- 157/total
+p_lose <- 143/total
+
+xcprobs <- paste0(10000 * c(p_win, p_lose), "/", 10000)
+xcprobs
+nn <- 1000000 ### number of simulations
+N <- 100 ### sample size
+xmean_sim <- numeric(nn)
+for(ii in 1:nn) {
+  x_sim_win <- sample(xdomain, size=N, prob=c(p_lose, p_win), replace=TRUE) 
+  xmean_sim[ii] <- mean(x_sim_win)
+}
+
+
+## I set the sample size to 1,000,000 and then it looked like a bell curve for me. 
 
 ```
 
