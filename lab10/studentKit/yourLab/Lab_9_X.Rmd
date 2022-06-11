@@ -5,10 +5,10 @@ title: "Lab 9"
 author:  Apurva Shah
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
-  bookdown::pdf_document2: default
   pdf_document:
     toc: yes
     toc_depth: 3
+  bookdown::pdf_document2: default
   html_document:
     theme: paper
     toc: yes
@@ -512,9 +512,9 @@ library(xtable)
 # Interpret your findings.  Do you believe the T-distribution model accurately characterizes our T-stat estimator?  Explain.
 
 
-# H0 :μ=6
-# Ha :μ>6
-# Let’s set α = 0.001
+# H0 :u=6
+# Ha :u>6
+# Let’s set a = 0.001
 
 
 xdf <- read.table("/Users/apurvashah/Documents/GitHub/stats10/lab10/studentKit/yourLab/NBA_teamGame_sample.tsv", header=TRUE, sep="\t" )
@@ -604,7 +604,7 @@ p_lose <- 143/total
 
 xcprobs <- paste0(10000 * c(p_win, p_lose), "/", 10000)
 xcprobs
-nn <- 1000000 ### number of simulations
+nn <- 100000 ### number of simulations
 N <- 100 ### sample size
 xmean_sim <- numeric(nn)
 for(ii in 1:nn) {
